@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classpugi_1_1xml__tree__walker" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>pugi::xml_tree_walker</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classpugi_1_1xml__tree__walker_1a156d917a92815c7b593bd5ef19f6d5fb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class xml_node</definition>
+        <argsstring></argsstring>
+        <name>xml_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="926" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="926" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpugi_1_1xml__tree__walker_1a6726785913628e9388553961bd5feb32" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int pugi::xml_tree_walker::_depth</definition>
+        <argsstring></argsstring>
+        <name>_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="929" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="929" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classpugi_1_1xml__tree__walker_1a8a5490167e3da360f23c02a54f3f7cb6" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int pugi::xml_tree_walker::depth</definition>
+        <argsstring>() const</argsstring>
+        <name>depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="933" column="5"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpugi_1_1xml__tree__walker_1a93c03157cff8f8a0ead30c2d256d061b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pugi::xml_tree_walker::xml_tree_walker</definition>
+        <argsstring>()</argsstring>
+        <name>xml_tree_walker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="936" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xml__tree__walker_1aaa0d4eb42c6518a2a90bc264588ece84" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual pugi::xml_tree_walker::~xml_tree_walker</definition>
+        <argsstring>()</argsstring>
+        <name>~xml_tree_walker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="937" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xml__tree__walker_1add00e8e6ba1b400c02fb3bd48ac8f956" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool pugi::xml_tree_walker::begin</definition>
+        <argsstring>(xml_node &amp;node)</argsstring>
+        <name>begin</name>
+        <param>
+          <type><ref refid="classpugi_1_1xml__node" kindref="compound">xml_node</ref> &amp;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="940" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xml__tree__walker_1a309363c9d17ef3fc8cacc6f71fcbea88" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool pugi::xml_tree_walker::for_each</definition>
+        <argsstring>(xml_node &amp;node)=0</argsstring>
+        <name>for_each</name>
+        <param>
+          <type><ref refid="classpugi_1_1xml__node" kindref="compound">xml_node</ref> &amp;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="943" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xml__tree__walker_1acd868d9bf066afd882cdb99e148896fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool pugi::xml_tree_walker::end</definition>
+        <argsstring>(xml_node &amp;node)</argsstring>
+        <name>end</name>
+        <param>
+          <type><ref refid="classpugi_1_1xml__node" kindref="compound">xml_node</ref> &amp;</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="946" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="925" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="924" bodyend="947"/>
+    <listofallmembers>
+      <member refid="classpugi_1_1xml__tree__walker_1a6726785913628e9388553961bd5feb32" prot="private" virt="non-virtual"><scope>pugi::xml_tree_walker</scope><name>_depth</name></member>
+      <member refid="classpugi_1_1xml__tree__walker_1add00e8e6ba1b400c02fb3bd48ac8f956" prot="public" virt="virtual"><scope>pugi::xml_tree_walker</scope><name>begin</name></member>
+      <member refid="classpugi_1_1xml__tree__walker_1a8a5490167e3da360f23c02a54f3f7cb6" prot="protected" virt="non-virtual"><scope>pugi::xml_tree_walker</scope><name>depth</name></member>
+      <member refid="classpugi_1_1xml__tree__walker_1acd868d9bf066afd882cdb99e148896fb" prot="public" virt="virtual"><scope>pugi::xml_tree_walker</scope><name>end</name></member>
+      <member refid="classpugi_1_1xml__tree__walker_1a309363c9d17ef3fc8cacc6f71fcbea88" prot="public" virt="pure-virtual"><scope>pugi::xml_tree_walker</scope><name>for_each</name></member>
+      <member refid="classpugi_1_1xml__tree__walker_1a156d917a92815c7b593bd5ef19f6d5fb" prot="private" virt="non-virtual"><scope>pugi::xml_tree_walker</scope><name>xml_node</name></member>
+      <member refid="classpugi_1_1xml__tree__walker_1a93c03157cff8f8a0ead30c2d256d061b" prot="public" virt="non-virtual"><scope>pugi::xml_tree_walker</scope><name>xml_tree_walker</name></member>
+      <member refid="classpugi_1_1xml__tree__walker_1aaa0d4eb42c6518a2a90bc264588ece84" prot="public" virt="virtual"><scope>pugi::xml_tree_walker</scope><name>~xml_tree_walker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

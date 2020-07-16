@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_dynamic_parameter" kind="class" language="C++" prot="public">
+    <compoundname>DynamicParameter</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_dynamic_parameter_1abbfcba7b885fc7fe310d4645f1c492a0" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QString</type>
+        <definition>QString DynamicParameter::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="28" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dynamic_parameter_1aa5e199f010107bb3a881a6105c37d2b2" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QString</type>
+        <definition>QString DynamicParameter::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="28" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dynamic_parameter_1aa03e565dc854c8b270e332bc16bdceee" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QVariant</type>
+        <definition>QVariant DynamicParameter::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="28" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dynamic_parameter_1a9be4e013a63971e9dfdec261af7b07ad" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QString</type>
+        <definition>QString DynamicParameter::units</definition>
+        <argsstring></argsstring>
+        <name>units</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="28" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_dynamic_parameter_1ac57d0e7b3f8bdcc9e06c5b0339cc99ca" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QStringList</type>
+        <definition>QStringList DynamicParameter::enum_list</definition>
+        <argsstring></argsstring>
+        <name>enum_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="28" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dynamic_parameter_1a35026318eb783c7e970bbdc699448559" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DynamicParameter::declare_qml</definition>
+        <argsstring>()</argsstring>
+        <name>declare_qml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="49" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dynamic_parameter_1ae630614b3ba94072548e109fdb1fd0c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DynamicParameter::DynamicParameter</definition>
+        <argsstring>()</argsstring>
+        <name>DynamicParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="57" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dynamic_parameter_1a90ba7fa44272304daa83ecc2c28d6b85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DynamicParameter::DynamicParameter</definition>
+        <argsstring>(QJsonObject json)</argsstring>
+        <name>DynamicParameter</name>
+        <param>
+          <type>QJsonObject</type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="63" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dynamic_parameter_1a8adc882d23c6e7f387c37840307fc34a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual DynamicParameter::~DynamicParameter</definition>
+        <argsstring>()</argsstring>
+        <name>~DynamicParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="69" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dynamic_parameter_1aac2600c2445d69099e1bcb4aeeaf9932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DynamicParameter::operator==</definition>
+        <argsstring>(const DynamicParameter &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_dynamic_parameter" kindref="compound">DynamicParameter</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="76" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dynamic_parameter_1af84e986c604235799efc7fd42a019908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DynamicParameter::from_json</definition>
+        <argsstring>(QJsonObject json)</argsstring>
+        <name>from_json</name>
+        <param>
+          <type>QJsonObject</type>
+          <declname>json</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="83" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dynamic_parameter_1a5fe691962fac3ffae6c36bf8f5de6521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QJsonObject</type>
+        <definition>QJsonObject DynamicParameter::to_json</definition>
+        <argsstring>()</argsstring>
+        <name>to_json</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="90" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dynamic_parameter_1ab3c7f88636a31df661d623c05789f1ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classavl_1_1_parameter" kindref="compound">avl::Parameter</ref></type>
+        <definition>avl::Parameter DynamicParameter::to_parameter</definition>
+        <argsstring>()</argsstring>
+        <name>to_parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="97" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dynamic_parameter_1a86ceed2d807b66f380fb16226a1e9da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structavl_1_1_packet_header" kindref="compound">avl::PacketHeader</ref></type>
+        <definition>avl::PacketHeader DynamicParameter::header</definition>
+        <argsstring>()</argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="98" column="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" line="25" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/dynamic_parameter.h" bodystart="24" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_dynamic_parameter_1a35026318eb783c7e970bbdc699448559" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>declare_qml</name></member>
+      <member refid="class_dynamic_parameter_1ae630614b3ba94072548e109fdb1fd0c3" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>DynamicParameter</name></member>
+      <member refid="class_dynamic_parameter_1a90ba7fa44272304daa83ecc2c28d6b85" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>DynamicParameter</name></member>
+      <member refid="class_dynamic_parameter_1ac57d0e7b3f8bdcc9e06c5b0339cc99ca" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>enum_list</name></member>
+      <member refid="class_dynamic_parameter_1af84e986c604235799efc7fd42a019908" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>from_json</name></member>
+      <member refid="class_dynamic_parameter_1a86ceed2d807b66f380fb16226a1e9da5" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>header</name></member>
+      <member refid="class_dynamic_parameter_1abbfcba7b885fc7fe310d4645f1c492a0" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>name</name></member>
+      <member refid="class_dynamic_parameter_1aac2600c2445d69099e1bcb4aeeaf9932" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>operator==</name></member>
+      <member refid="class_dynamic_parameter_1a5fe691962fac3ffae6c36bf8f5de6521" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>to_json</name></member>
+      <member refid="class_dynamic_parameter_1ab3c7f88636a31df661d623c05789f1ea" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>to_parameter</name></member>
+      <member refid="class_dynamic_parameter_1aa5e199f010107bb3a881a6105c37d2b2" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>type</name></member>
+      <member refid="class_dynamic_parameter_1a9be4e013a63971e9dfdec261af7b07ad" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>units</name></member>
+      <member refid="class_dynamic_parameter_1aa03e565dc854c8b270e332bc16bdceee" prot="public" virt="non-virtual"><scope>DynamicParameter</scope><name>value</name></member>
+      <member refid="class_dynamic_parameter_1a8adc882d23c6e7f387c37840307fc34a" prot="public" virt="virtual"><scope>DynamicParameter</scope><name>~DynamicParameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_task_1_1waypoint" kind="struct" language="C++" prot="public">
+    <compoundname>Task::waypoint</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_task_1_1waypoint_1a77f4f62e2632405abc339e2b6ac82cfa" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::waypoint::lat</definition>
+        <argsstring></argsstring>
+        <name>lat</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="250" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1waypoint_1ac4afa80aba5bec5f8c54c6c86a0e7cb0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::waypoint::lon</definition>
+        <argsstring></argsstring>
+        <name>lon</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="251" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1waypoint_1ae0517a1babcca9e8f1a47bc44aa2fe3a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::waypoint::heading</definition>
+        <argsstring></argsstring>
+        <name>heading</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="252" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1waypoint_1ad27cf38e7c4de245bcf530c291fb1949" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::waypoint::ground_speed</definition>
+        <argsstring></argsstring>
+        <name>ground_speed</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="253" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1waypoint_1aa87a64b329add61992cdb48b2563aa95" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::waypoint::water_speed</definition>
+        <argsstring></argsstring>
+        <name>water_speed</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="254" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1waypoint_1a5326e32799f00c5e6fc7407e434ed096" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::waypoint::rpm</definition>
+        <argsstring></argsstring>
+        <name>rpm</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="255" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1waypoint_1a4709129c1854be3038df3e6c834ea4d6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::waypoint::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="256" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1waypoint_1a060d3375a9df8b35846f92b0a1185a79" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::waypoint::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="257" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/task.h" line="247" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="246" bodyend="258"/>
+    <listofallmembers>
+      <member refid="struct_task_1_1waypoint_1a4709129c1854be3038df3e6c834ea4d6" prot="public" virt="non-virtual"><scope>Task::waypoint</scope><name>depth</name></member>
+      <member refid="struct_task_1_1waypoint_1ad27cf38e7c4de245bcf530c291fb1949" prot="public" virt="non-virtual"><scope>Task::waypoint</scope><name>ground_speed</name></member>
+      <member refid="struct_task_1_1waypoint_1ae0517a1babcca9e8f1a47bc44aa2fe3a" prot="public" virt="non-virtual"><scope>Task::waypoint</scope><name>heading</name></member>
+      <member refid="struct_task_1_1waypoint_1a060d3375a9df8b35846f92b0a1185a79" prot="public" virt="non-virtual"><scope>Task::waypoint</scope><name>height</name></member>
+      <member refid="struct_task_1_1waypoint_1a77f4f62e2632405abc339e2b6ac82cfa" prot="public" virt="non-virtual"><scope>Task::waypoint</scope><name>lat</name></member>
+      <member refid="struct_task_1_1waypoint_1ac4afa80aba5bec5f8c54c6c86a0e7cb0" prot="public" virt="non-virtual"><scope>Task::waypoint</scope><name>lon</name></member>
+      <member refid="struct_task_1_1waypoint_1a5326e32799f00c5e6fc7407e434ed096" prot="public" virt="non-virtual"><scope>Task::waypoint</scope><name>rpm</name></member>
+      <member refid="struct_task_1_1waypoint_1aa87a64b329add61992cdb48b2563aa95" prot="public" virt="non-virtual"><scope>Task::waypoint</scope><name>water_speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_vehicle" kind="class" language="C++" prot="public">
+    <compoundname>Vehicle</compoundname>
+    <basecompoundref refid="class_vehicle_connection" prot="public" virt="non-virtual">VehicleConnection</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_vehicle_1a76a13e7a384fd8e0399b208df84a3323" prot="public" static="no" mutable="no">
+        <type><ref refid="class_params" kindref="compound">Params</ref></type>
+        <definition>Params Vehicle::current_params</definition>
+        <argsstring></argsstring>
+        <name>current_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="386" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="386" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_vehicle_1a5c20e910e1132cd8f40982e26a4ccfc1" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Vehicle::ip_address</definition>
+        <argsstring></argsstring>
+        <name>ip_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="411" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1a722a72db4237467205d8cfb85d3cadc4" prot="private" static="no" mutable="no">
+        <type>quint16</type>
+        <definition>quint16 Vehicle::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="412" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1a8f0b26a9dc2ec3ae324d84460e952c4a" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Vehicle::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="413" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1ac1b7371745df82bfb2f6aae76f9757f4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structparam" kindref="compound">param</ref> &gt;</type>
+        <definition>std::vector&lt;param&gt; Vehicle::param_list</definition>
+        <argsstring></argsstring>
+        <name>param_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="414" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1a290ebfd05412ee45125dbc282f724488" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor Vehicle::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <initializer>= Qt::white</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="417" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1ad2c2d78256580616bd5fd45da3bc3496" prot="private" static="no" mutable="no">
+        <type>VehicleType::Value</type>
+        <definition>VehicleType::Value Vehicle::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= VehicleType::VEHICLE_AUV</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="420" column="24" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1a9ec64ad61a136fefdd3b678332998e8c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_vehicle_status" kindref="compound">VehicleStatus</ref></type>
+        <definition>VehicleStatus Vehicle::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="424" column="19" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1aaa26112a725f38a5d2f207f3f2089cda" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mission" kindref="compound">Mission</ref></type>
+        <definition>Mission Vehicle::mission</definition>
+        <argsstring></argsstring>
+        <name>mission</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="428" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1a27384d2c9892f2063624fa05ef9ff4ac" prot="private" static="no" mutable="no">
+        <type><ref refid="class_params" kindref="compound">Params</ref></type>
+        <definition>Params Vehicle::parameters</definition>
+        <argsstring></argsstring>
+        <name>parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="430" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1afcc0292c57b9bdbccaf8f288f8be09da" prot="private" static="no" mutable="no">
+        <type><ref refid="class_geofence" kindref="compound">Geofence</ref></type>
+        <definition>Geofence Vehicle::geofence</definition>
+        <argsstring></argsstring>
+        <name>geofence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="432" column="14" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1abfec3a684a2e36a892359851431d1078" prot="private" static="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* Vehicle::mission_time_timer</definition>
+        <argsstring></argsstring>
+        <name>mission_time_timer</name>
+        <initializer>= new QTimer(this)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="436" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1aa4540336630bf8a2ba5dce0fec2eb5ae" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Vehicle::mission_time</definition>
+        <argsstring></argsstring>
+        <name>mission_time</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="437" column="9" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1aa19ad2c860bc4f44942cf87859ab53ba" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vehicle::mission_distance</definition>
+        <argsstring></argsstring>
+        <name>mission_distance</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="438" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1ae53b83278de765394b45989728004042" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vehicle::mission_duration</definition>
+        <argsstring></argsstring>
+        <name>mission_duration</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="439" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1a3e23b4fbbe449eff4ad5659f8505e7fd" prot="private" static="no" mutable="no">
+        <type>QVector&lt; QString &gt;</type>
+        <definition>QVector&lt;QString&gt; Vehicle::vehicle_responses</definition>
+        <argsstring></argsstring>
+        <name>vehicle_responses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="442" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1afb27615debaf5590bc8f77c0f36df205" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vehicle::distance_from_deckbox</definition>
+        <argsstring></argsstring>
+        <name>distance_from_deckbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="445" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1a5bdd05a1a2323cf61a208a0f3ce29887" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vehicle::heading_from_deckbox</definition>
+        <argsstring></argsstring>
+        <name>heading_from_deckbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="446" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1afb3a5e34c6a2ca416f54084b92d87d44" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Vehicle::MAX_PATH_POINTS</definition>
+        <argsstring></argsstring>
+        <name>MAX_PATH_POINTS</name>
+        <initializer>= 60000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="449" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1a34793e19cb2e3b432f93b0329b5b8bef" prot="private" static="no" mutable="no">
+        <type>QQueue&lt; Point &gt;</type>
+        <definition>QQueue&lt;Point&gt; Vehicle::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="450" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1ae18c534fbd36f55d0f0d4588f0d20bdf" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; GraphicsOverlay &gt;</type>
+        <definition>std::shared_ptr&lt;GraphicsOverlay&gt; Vehicle::path_overlay</definition>
+        <argsstring></argsstring>
+        <name>path_overlay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="454" column="21" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1aaad3495e4ea57a56b9b10e10225fb8c1" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; GraphicsOverlay &gt;</type>
+        <definition>std::shared_ptr&lt;GraphicsOverlay&gt; Vehicle::mission_overlay</definition>
+        <argsstring></argsstring>
+        <name>mission_overlay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="455" column="21" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_1ad55bd6acab379c8e646f3236ac5ba458" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; GraphicsOverlay &gt;</type>
+        <definition>std::shared_ptr&lt;GraphicsOverlay&gt; Vehicle::geofence_overlay</definition>
+        <argsstring></argsstring>
+        <name>geofence_overlay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="456" column="21" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_vehicle_1a95af497384bd8cc0d692d1314ba03af6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vehicle::vehicleTypeChanged</definition>
+        <argsstring>(int vehicle_id, VehicleType::Value new_type)</argsstring>
+        <name>vehicleTypeChanged</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>VehicleType::Value</type>
+          <declname>new_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="53" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_1a9c83c29a90e85578c23f53fb3b7f30fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vehicle::missionTimeChanged</definition>
+        <argsstring>(int vehicle_id, int new_mission_time)</argsstring>
+        <name>missionTimeChanged</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>new_mission_time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_1a189551741404554678fbeba549a578db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vehicle::missionDistanceChanged</definition>
+        <argsstring>(int vehicle_id, double new_mission_distance)</argsstring>
+        <name>missionDistanceChanged</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_mission_distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_1a69628d6c74f8e4b85d0089144263de08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vehicle::missionDurationChanged</definition>
+        <argsstring>(int vehicle_id, double new_mission_duration)</argsstring>
+        <name>missionDurationChanged</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_mission_duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="77" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vehicle_1abd78aeaa70c6ee3d623b2564005d82d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vehicle::Vehicle</definition>
+        <argsstring>(QObject *parent=nullptr)</argsstring>
+        <name>Vehicle</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="88" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1ab99e0e1fb20a7e8967faf6435280f4f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vehicle::Vehicle</definition>
+        <argsstring>(QString ip_address, quint16 port, QObject *parent=nullptr)</argsstring>
+        <name>Vehicle</name>
+        <param>
+          <type>QString</type>
+          <declname>ip_address</declname>
+        </param>
+        <param>
+          <type>quint16</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="96" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a61ab140c755b8e0e824d54117cf4546f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vehicle::~Vehicle</definition>
+        <argsstring>()</argsstring>
+        <name>~Vehicle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="102" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a298575d95aeb9e3d549707d3a6ea712f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::connect_to_vehicle</definition>
+        <argsstring>()</argsstring>
+        <name>connect_to_vehicle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="115" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a90e6aa464fda2cf49ad4d93d5640e2a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::disconnect_from_vehicle</definition>
+        <argsstring>()</argsstring>
+        <name>disconnect_from_vehicle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="121" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1ab14426ee87c5ea742474178ce66bffe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::append_vehicle_response</definition>
+        <argsstring>(QString response)</argsstring>
+        <name>append_vehicle_response</name>
+        <param>
+          <type>QString</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="128" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1ae93d1e3bfabb6bf4bbe3cd1afe0ef760" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::clear_vehicle_responses</definition>
+        <argsstring>()</argsstring>
+        <name>clear_vehicle_responses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="134" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1acdeab9923b726fe37706fc8193b435d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::clear_path</definition>
+        <argsstring>()</argsstring>
+        <name>clear_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="140" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1ae25ae738fcede4db41b91975fa665fe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::start_mission_timer</definition>
+        <argsstring>()</argsstring>
+        <name>start_mission_timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="146" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1adf5bbfbea5de4e8286d657c54a5ab12d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::reset_mission_timer</definition>
+        <argsstring>()</argsstring>
+        <name>reset_mission_timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="152" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1ade32b06472bc133d73fdc86284f4eea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE int</type>
+        <definition>Q_INVOKABLE int Vehicle::get_vehicle_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_vehicle_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="165" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a838c0d72650438eef6af2ec526f1e859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QColor</type>
+        <definition>Q_INVOKABLE QColor Vehicle::get_vehicle_color</definition>
+        <argsstring>()</argsstring>
+        <name>get_vehicle_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="172" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a9612a58193778d3713fa586ca63dcd9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE VehicleType::Value</type>
+        <definition>Q_INVOKABLE VehicleType::Value Vehicle::get_vehicle_type</definition>
+        <argsstring>()</argsstring>
+        <name>get_vehicle_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="179" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1aca9653310903a76a15833a1585fb8a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_vehicle_status" kindref="compound">VehicleStatus</ref></type>
+        <definition>Q_INVOKABLE VehicleStatus Vehicle::get_vehicle_status</definition>
+        <argsstring>()</argsstring>
+        <name>get_vehicle_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="186" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a3f25c7fcbe6813b6328f17412d974aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_mission" kindref="compound">Mission</ref> *</type>
+        <definition>Q_INVOKABLE Mission* Vehicle::get_mission</definition>
+        <argsstring>()</argsstring>
+        <name>get_mission</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="193" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a3c873f1bdec22e4953f0c4049accdc97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_params" kindref="compound">Params</ref> *</type>
+        <definition>Q_INVOKABLE Params* Vehicle::get_params</definition>
+        <argsstring>()</argsstring>
+        <name>get_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="201" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1ae4ef6bc2c45a65a74816b26b1daafad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_geofence" kindref="compound">Geofence</ref> *</type>
+        <definition>Q_INVOKABLE Geofence* Vehicle::get_geofence</definition>
+        <argsstring>()</argsstring>
+        <name>get_geofence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="208" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a958a172e214a5ea62914c4c4f01701ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE int</type>
+        <definition>Q_INVOKABLE int Vehicle::get_mission_time</definition>
+        <argsstring>()</argsstring>
+        <name>get_mission_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="215" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1ac5405e19822c1c436742fef3feeffd45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Vehicle::get_mission_distance</definition>
+        <argsstring>()</argsstring>
+        <name>get_mission_distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="222" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1acf8596a9df179e07e2ac2c8f186779a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Vehicle::get_mission_duration</definition>
+        <argsstring>()</argsstring>
+        <name>get_mission_duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="229" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a6e3a3ff5a92e9dac4fa5ee50a9150d06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QVector&lt; QString &gt;</type>
+        <definition>Q_INVOKABLE QVector&lt;QString&gt; Vehicle::get_vehicle_responses</definition>
+        <argsstring>()</argsstring>
+        <name>get_vehicle_responses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="236" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a6e1d7581669200f9ec54dc89bf7b364d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE std::shared_ptr&lt; GraphicsOverlay &gt;</type>
+        <definition>Q_INVOKABLE std::shared_ptr&lt;GraphicsOverlay&gt; Vehicle::get_path_overlay</definition>
+        <argsstring>()</argsstring>
+        <name>get_path_overlay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="243" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1addb51eff5df1a010f38fad41f5d9a65d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE std::shared_ptr&lt; GraphicsOverlay &gt;</type>
+        <definition>Q_INVOKABLE std::shared_ptr&lt;GraphicsOverlay&gt; Vehicle::get_mission_overlay</definition>
+        <argsstring>()</argsstring>
+        <name>get_mission_overlay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="250" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a644bcbffa3fd8942a607ee8bc96366ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE std::shared_ptr&lt; GraphicsOverlay &gt;</type>
+        <definition>Q_INVOKABLE std::shared_ptr&lt;GraphicsOverlay&gt; Vehicle::get_geofence_overlay</definition>
+        <argsstring>()</argsstring>
+        <name>get_geofence_overlay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="257" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a55b95d847ab488f819c0ddb23538d089" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::set_vehicle_color</definition>
+        <argsstring>(QColor new_color)</argsstring>
+        <name>set_vehicle_color</name>
+        <param>
+          <type>QColor</type>
+          <declname>new_color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="271" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1ad00fe26fa0a51817b5005872646e4f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::set_vehicle_type</definition>
+        <argsstring>(VehicleType::Value new_type)</argsstring>
+        <name>set_vehicle_type</name>
+        <param>
+          <type>VehicleType::Value</type>
+          <declname>new_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="278" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a98a15ed88b9ddc0c34819d91862ace15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::set_vehicle_status</definition>
+        <argsstring>(VehicleStatus new_status)</argsstring>
+        <name>set_vehicle_status</name>
+        <param>
+          <type><ref refid="class_vehicle_status" kindref="compound">VehicleStatus</ref></type>
+          <declname>new_status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="285" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a8b079a02562965064636b4020ccb5338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::set_mission_time</definition>
+        <argsstring>(int time)</argsstring>
+        <name>set_mission_time</name>
+        <param>
+          <type>int</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="292" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a925d0f30724976b7a5c75dd2299707a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::set_mission_distance</definition>
+        <argsstring>(double distance)</argsstring>
+        <name>set_mission_distance</name>
+        <param>
+          <type>double</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="299" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a3e1dd8b038ca9e8522a9cfa4c4eb5ec3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::set_mission_duration</definition>
+        <argsstring>(double duration)</argsstring>
+        <name>set_mission_duration</name>
+        <param>
+          <type>double</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="306" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a83a3948b8b4e93a75768bc8631676c8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::save_mission</definition>
+        <argsstring>(QString filepath)</argsstring>
+        <name>save_mission</name>
+        <param>
+          <type>QString</type>
+          <declname>filepath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="317" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1afa8cac7e765ef42974232c5b80cc4bd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::load_mission</definition>
+        <argsstring>(QString filepath)</argsstring>
+        <name>load_mission</name>
+        <param>
+          <type>QString</type>
+          <declname>filepath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="323" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a95f657dbfe7a8b160d7fae6f3c2b4b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::append_param</definition>
+        <argsstring>(std::string name, std::string type, QVariant value)</argsstring>
+        <name>append_param</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="360" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1afe709905acffa977923c708a643e3b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::clear_param_list</definition>
+        <argsstring>()</argsstring>
+        <name>clear_param_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="367" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a76bddf5ab9538e0fca9ca09e68bb79ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::print_param_list</definition>
+        <argsstring>()</argsstring>
+        <name>print_param_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="373" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a6b219ef310437d61308c6499d0f22a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void Vehicle::parse_populate_mission</definition>
+        <argsstring>(Mission *received_mission)</argsstring>
+        <name>parse_populate_mission</name>
+        <param>
+          <type><ref refid="class_mission" kindref="compound">Mission</ref> *</type>
+          <declname>received_mission</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="380" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1ac490efae523b088ca091fa9c3a73ff08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Vehicle::calculate_distance</definition>
+        <argsstring>(QPointF start, QPointF end)</argsstring>
+        <name>calculate_distance</name>
+        <param>
+          <type>QPointF</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="382" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_1a02fca8aa4e956f8aa3da6769db6fadc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Vehicle::degree2rad</definition>
+        <argsstring>(double deg)</argsstring>
+        <name>degree2rad</name>
+        <param>
+          <type>double</type>
+          <declname>deg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="384" column="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_vehicle_1a6e5902cadac7ab75fce671da45caaa6c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Vehicle::declare_qml</definition>
+        <argsstring>()</argsstring>
+        <name>declare_qml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="108" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_vehicle_1ac8eddba2f655c2faef70738b2e177263" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vehicle::mission_changed</definition>
+        <argsstring>()</argsstring>
+        <name>mission_changed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="396" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_1a745255d8c8e8af83dfb53c9f174d4132" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vehicle::mission_time_timer_timeout</definition>
+        <argsstring>()</argsstring>
+        <name>mission_time_timer_timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="403" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_1a8f3ec4b50a2f42792ee1267537eb10b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vehicle::geofence_changed</definition>
+        <argsstring>(QVector&lt; QPointF &gt; geofencePoints)</argsstring>
+        <name>geofence_changed</name>
+        <param>
+          <type>QVector&lt; QPointF &gt;</type>
+          <declname>geofencePoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="405" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Vehicle</label>
+        <link refid="class_vehicle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VehicleConnection</label>
+        <link refid="class_vehicle_connection"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Vehicle</label>
+        <link refid="class_vehicle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>current_params</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Params</label>
+        <link refid="class_params"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VehicleConnection</label>
+        <link refid="class_vehicle_connection"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/vehicle.h" line="41" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle.h" bodystart="40" bodyend="458"/>
+    <listofallmembers>
+      <member refid="class_vehicle_1a95f657dbfe7a8b160d7fae6f3c2b4b49" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>append_param</name></member>
+      <member refid="class_vehicle_1ab14426ee87c5ea742474178ce66bffe0" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>append_vehicle_response</name></member>
+      <member refid="class_vehicle_1ac490efae523b088ca091fa9c3a73ff08" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>calculate_distance</name></member>
+      <member refid="class_vehicle_1afe709905acffa977923c708a643e3b82" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>clear_param_list</name></member>
+      <member refid="class_vehicle_1acdeab9923b726fe37706fc8193b435d9" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>clear_path</name></member>
+      <member refid="class_vehicle_1ae93d1e3bfabb6bf4bbe3cd1afe0ef760" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>clear_vehicle_responses</name></member>
+      <member refid="class_vehicle_connection_1a1447ad39399d143fee8f5c1e78724c96" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>close</name></member>
+      <member refid="class_vehicle_1a290ebfd05412ee45125dbc282f724488" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>color</name></member>
+      <member refid="class_vehicle_1a298575d95aeb9e3d549707d3a6ea712f" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>connect_to_vehicle</name></member>
+      <member refid="class_vehicle_connection_1a07bd33f51f428da2fe9214f228b5d64f" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>connectionStatusChanged</name></member>
+      <member refid="class_vehicle_1a76a13e7a384fd8e0399b208df84a3323" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>current_params</name></member>
+      <member refid="class_vehicle_1a6e5902cadac7ab75fce671da45caaa6c" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>declare_qml</name></member>
+      <member refid="class_vehicle_1a02fca8aa4e956f8aa3da6769db6fadc4" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>degree2rad</name></member>
+      <member refid="class_vehicle_1a90e6aa464fda2cf49ad4d93d5640e2a8" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>disconnect_from_vehicle</name></member>
+      <member refid="class_vehicle_1afb27615debaf5590bc8f77c0f36df205" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>distance_from_deckbox</name></member>
+      <member refid="class_vehicle_1afcc0292c57b9bdbccaf8f288f8be09da" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>geofence</name></member>
+      <member refid="class_vehicle_1a8f3ec4b50a2f42792ee1267537eb10b6" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>geofence_changed</name></member>
+      <member refid="class_vehicle_1ad55bd6acab379c8e646f3236ac5ba458" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>geofence_overlay</name></member>
+      <member refid="class_vehicle_connection_1aaca6b441933286f5b6f4239a763d9064" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_connection_status</name></member>
+      <member refid="class_vehicle_1ae4ef6bc2c45a65a74816b26b1daafad7" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_geofence</name></member>
+      <member refid="class_vehicle_1a644bcbffa3fd8942a607ee8bc96366ed" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_geofence_overlay</name></member>
+      <member refid="class_vehicle_1a3f25c7fcbe6813b6328f17412d974aee" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_mission</name></member>
+      <member refid="class_vehicle_1ac5405e19822c1c436742fef3feeffd45" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_mission_distance</name></member>
+      <member refid="class_vehicle_1acf8596a9df179e07e2ac2c8f186779a9" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_mission_duration</name></member>
+      <member refid="class_vehicle_1addb51eff5df1a010f38fad41f5d9a65d" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_mission_overlay</name></member>
+      <member refid="class_vehicle_1a958a172e214a5ea62914c4c4f01701ec" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_mission_time</name></member>
+      <member refid="class_vehicle_1a3c873f1bdec22e4953f0c4049accdc97" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_params</name></member>
+      <member refid="class_vehicle_1a6e1d7581669200f9ec54dc89bf7b364d" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_path_overlay</name></member>
+      <member refid="class_vehicle_1a838c0d72650438eef6af2ec526f1e859" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_vehicle_color</name></member>
+      <member refid="class_vehicle_1ade32b06472bc133d73fdc86284f4eea3" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_vehicle_id</name></member>
+      <member refid="class_vehicle_1a6e3a3ff5a92e9dac4fa5ee50a9150d06" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_vehicle_responses</name></member>
+      <member refid="class_vehicle_1aca9653310903a76a15833a1585fb8a9f" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_vehicle_status</name></member>
+      <member refid="class_vehicle_1a9612a58193778d3713fa586ca63dcd9f" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>get_vehicle_type</name></member>
+      <member refid="class_vehicle_1a5bdd05a1a2323cf61a208a0f3ce29887" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>heading_from_deckbox</name></member>
+      <member refid="class_vehicle_1a8f0b26a9dc2ec3ae324d84460e952c4a" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>id</name></member>
+      <member refid="class_vehicle_1a5c20e910e1132cd8f40982e26a4ccfc1" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>ip_address</name></member>
+      <member refid="class_vehicle_connection_1a3bc9a9d5330ba0347555f67b645c73f4" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>is_connected</name></member>
+      <member refid="class_vehicle_1afa8cac7e765ef42974232c5b80cc4bd5" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>load_mission</name></member>
+      <member refid="class_vehicle_1afb3a5e34c6a2ca416f54084b92d87d44" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>MAX_PATH_POINTS</name></member>
+      <member refid="class_vehicle_1aaa26112a725f38a5d2f207f3f2089cda" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>mission</name></member>
+      <member refid="class_vehicle_1ac8eddba2f655c2faef70738b2e177263" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>mission_changed</name></member>
+      <member refid="class_vehicle_1aa19ad2c860bc4f44942cf87859ab53ba" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>mission_distance</name></member>
+      <member refid="class_vehicle_1ae53b83278de765394b45989728004042" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>mission_duration</name></member>
+      <member refid="class_vehicle_1aaad3495e4ea57a56b9b10e10225fb8c1" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>mission_overlay</name></member>
+      <member refid="class_vehicle_1aa4540336630bf8a2ba5dce0fec2eb5ae" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>mission_time</name></member>
+      <member refid="class_vehicle_1abfec3a684a2e36a892359851431d1078" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>mission_time_timer</name></member>
+      <member refid="class_vehicle_1a745255d8c8e8af83dfb53c9f174d4132" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>mission_time_timer_timeout</name></member>
+      <member refid="class_vehicle_1a189551741404554678fbeba549a578db" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>missionDistanceChanged</name></member>
+      <member refid="class_vehicle_1a69628d6c74f8e4b85d0089144263de08" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>missionDurationChanged</name></member>
+      <member refid="class_vehicle_1a9c83c29a90e85578c23f53fb3b7f30fd" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>missionTimeChanged</name></member>
+      <member refid="class_vehicle_connection_1a92a1bd636044e447ad3f6a7e19b97d89" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>open</name></member>
+      <member refid="class_vehicle_connection_1ad38cb1e82b73536bdc311338c02f2b11" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>packet_to_parameter</name></member>
+      <member refid="class_vehicle_1ac1b7371745df82bfb2f6aae76f9757f4" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>param_list</name></member>
+      <member refid="class_vehicle_1a27384d2c9892f2063624fa05ef9ff4ac" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>parameters</name></member>
+      <member refid="class_vehicle_1a6b219ef310437d61308c6499d0f22a97" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>parse_populate_mission</name></member>
+      <member refid="class_vehicle_1a34793e19cb2e3b432f93b0329b5b8bef" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>path</name></member>
+      <member refid="class_vehicle_1ae18c534fbd36f55d0f0d4588f0d20bdf" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>path_overlay</name></member>
+      <member refid="class_vehicle_1a722a72db4237467205d8cfb85d3cadc4" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>port</name></member>
+      <member refid="class_vehicle_1a76bddf5ab9538e0fca9ca09e68bb79ec" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>print_param_list</name></member>
+      <member refid="class_vehicle_1adf5bbfbea5de4e8286d657c54a5ab12d" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>reset_mission_timer</name></member>
+      <member refid="class_vehicle_1a83a3948b8b4e93a75768bc8631676c8f" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>save_mission</name></member>
+      <member refid="class_vehicle_1a925d0f30724976b7a5c75dd2299707a7" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>set_mission_distance</name></member>
+      <member refid="class_vehicle_1a3e1dd8b038ca9e8522a9cfa4c4eb5ec3" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>set_mission_duration</name></member>
+      <member refid="class_vehicle_1a8b079a02562965064636b4020ccb5338" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>set_mission_time</name></member>
+      <member refid="class_vehicle_1a55b95d847ab488f819c0ddb23538d089" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>set_vehicle_color</name></member>
+      <member refid="class_vehicle_1a98a15ed88b9ddc0c34819d91862ace15" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>set_vehicle_status</name></member>
+      <member refid="class_vehicle_1ad00fe26fa0a51817b5005872646e4f65" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>set_vehicle_type</name></member>
+      <member refid="class_vehicle_1ae25ae738fcede4db41b91975fa665fe6" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>start_mission_timer</name></member>
+      <member refid="class_vehicle_1a9ec64ad61a136fefdd3b678332998e8c" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>status</name></member>
+      <member refid="class_vehicle_1ad2c2d78256580616bd5fd45da3bc3496" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>type</name></member>
+      <member refid="class_vehicle_1abd78aeaa70c6ee3d623b2564005d82d9" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>Vehicle</name></member>
+      <member refid="class_vehicle_1ab99e0e1fb20a7e8967faf6435280f4f7" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>Vehicle</name></member>
+      <member refid="class_vehicle_1a3e23b4fbbe449eff4ad5659f8505e7fd" prot="private" virt="non-virtual"><scope>Vehicle</scope><name>vehicle_responses</name></member>
+      <member refid="class_vehicle_connection_1a5b175c8dba6ac8a2287b7ffefee3a819" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>VehicleConnection</name></member>
+      <member refid="class_vehicle_connection_1ae18740b4c4cc013f0ba8666d2ebc0095" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>vehicleMissionReceived</name></member>
+      <member refid="class_vehicle_connection_1aecfc527b94cee3fd4a5e8091737c6c9a" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>vehicleParameterReceived</name></member>
+      <member refid="class_vehicle_connection_1a32820ed0036377a106bdbefb0c67bc7c" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>vehicleParameterRefresh</name></member>
+      <member refid="class_vehicle_connection_1a61d3bb27b5c5d6892411ee9a33963bb7" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>vehicleParametersFullyReceived</name></member>
+      <member refid="class_vehicle_connection_1acd76eac5af0d60142c21863f9c06c895" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>vehicleResponseReceived</name></member>
+      <member refid="class_vehicle_connection_1aeec3d8ddf6d97a8d3e97a6425e4cefa9" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>vehicleStatusReceived</name></member>
+      <member refid="class_vehicle_1a95af497384bd8cc0d692d1314ba03af6" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>vehicleTypeChanged</name></member>
+      <member refid="class_vehicle_1a61ab140c755b8e0e824d54117cf4546f" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>~Vehicle</name></member>
+      <member refid="class_vehicle_connection_1a88facc9149983815b9ab627c2fac4dc9" prot="public" virt="non-virtual"><scope>Vehicle</scope><name>~VehicleConnection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

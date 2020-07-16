@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_task_1_1loiter" kind="struct" language="C++" prot="public">
+    <compoundname>Task::loiter</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_task_1_1loiter_1add343fd7742765fe0287292e92165263" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::loiter::lat</definition>
+        <argsstring></argsstring>
+        <name>lat</name>
+        <initializer>= 26.123</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="295" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1loiter_1ae81668fd8cf119c2eab78b86e502b844" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::loiter::lon</definition>
+        <argsstring></argsstring>
+        <name>lon</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="296" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/task.h" line="294" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="293" bodyend="297"/>
+    <listofallmembers>
+      <member refid="struct_task_1_1loiter_1add343fd7742765fe0287292e92165263" prot="public" virt="non-virtual"><scope>Task::loiter</scope><name>lat</name></member>
+      <member refid="struct_task_1_1loiter_1ae81668fd8cf119c2eab78b86e502b844" prot="public" virt="non-virtual"><scope>Task::loiter</scope><name>lon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

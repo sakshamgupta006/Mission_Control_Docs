@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_586ad3c2f85d776b984733890d824e3e" kind="dir">
+    <compoundname>/home/cooper/test/avl_gui_new/include/util</compoundname>
+    <innerfile refid="byte_8h">byte.h</innerfile>
+    <innerfile refid="file_8h">file.h</innerfile>
+    <innerfile refid="geo_8h">geo.h</innerfile>
+    <innerfile refid="logic_8h">logic.h</innerfile>
+    <innerfile refid="math_8h">math.h</innerfile>
+    <innerfile refid="matrix_8h">matrix.h</innerfile>
+    <innerfile refid="misc_8h">misc.h</innerfile>
+    <innerfile refid="string_8h">string.h</innerfile>
+    <innerfile refid="vector_8h">vector.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/util/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1694 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_task" kind="class" language="C++" prot="public">
+    <compoundname>Task</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <innerclass refid="struct_task_1_1dive" prot="public">Task::dive</innerclass>
+    <innerclass refid="struct_task_1_1line" prot="public">Task::line</innerclass>
+    <innerclass refid="struct_task_1_1loiter" prot="public">Task::loiter</innerclass>
+    <innerclass refid="struct_task_1_1primitive" prot="public">Task::primitive</innerclass>
+    <innerclass refid="struct_task_1_1waypoint" prot="public">Task::waypoint</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_task_1a03bd777d680a8082767e5e7c9ca4ff53" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::duration</definition>
+        <argsstring></argsstring>
+        <name>duration</name>
+        <read>get_duration</read>
+        <write>set_duration</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a7e43baefd9b616ae5c87f019eaf42f7d" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::roll</definition>
+        <argsstring></argsstring>
+        <name>roll</name>
+        <read>get_roll</read>
+        <write>set_roll</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a57b5e4a2fdee9d84a416e8906ac5eba1" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <read>get_pitch</read>
+        <write>set_pitch</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a2641f95111047a251c99944fa81b2cc1" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::yaw</definition>
+        <argsstring></argsstring>
+        <name>yaw</name>
+        <read>get_yaw</read>
+        <write>set_yaw</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a1cce1b5ede6c9ec8359538b050f746f7" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::vx</definition>
+        <argsstring></argsstring>
+        <name>vx</name>
+        <read>get_vx</read>
+        <write>set_vx</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a85ba58b9af5e73c0f6ac45d3f6b3f441" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::vy</definition>
+        <argsstring></argsstring>
+        <name>vy</name>
+        <read>get_vy</read>
+        <write>set_vy</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a60dbe7dd1d315a7c13d5fc2d3281cc70" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::vz</definition>
+        <argsstring></argsstring>
+        <name>vz</name>
+        <read>get_vz</read>
+        <write>set_vz</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1abe096dd0f7f98b5993ec36cd92b36775" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <read>get_depth</read>
+        <write>set_depth</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a1bccb1849467d7d10beaf168bc9a5e03" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <read>get_height</read>
+        <write>set_height</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a6bcc9a5f666ee0b0fb503cfb3fd37295" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::rpm</definition>
+        <argsstring></argsstring>
+        <name>rpm</name>
+        <read>get_rpm</read>
+        <write>set_rpm</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a1648cc2c567f11c2521f2db8aaa63db2" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::swath</definition>
+        <argsstring></argsstring>
+        <name>swath</name>
+        <read>get_swath</read>
+        <write>set_swath</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1a72cc4f26668f1c595c159f1cbcc4f6d3" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Task::angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <read>get_angle</read>
+        <write>set_angle</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_task_1ac428eb9bd743bdbdd14b8b4f111a9c26" prot="public" static="no" readable="yes" writable="yes" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Task::dive</definition>
+        <argsstring></argsstring>
+        <name>dive</name>
+        <read>get_dive</read>
+        <write>set_dive</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_task_1aac11e26f8414f7e3f4daae1829ea51e0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_duration</definition>
+        <argsstring></argsstring>
+        <name>m_duration</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="82" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1afa11ca11db89767aa7f71e17072d1aff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_roll</definition>
+        <argsstring></argsstring>
+        <name>m_roll</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="83" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a80111cf90e3310c31cc490f811aaba2e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_pitch</definition>
+        <argsstring></argsstring>
+        <name>m_pitch</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="84" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1ae7f150d31fa4fd234692ddd6ab97d791" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_yaw</definition>
+        <argsstring></argsstring>
+        <name>m_yaw</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="85" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1ad3b0abf23a386e69e6a706c8c29a2ccc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_vx</definition>
+        <argsstring></argsstring>
+        <name>m_vx</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="86" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1af02f49d9f60c3039046c253fab5dc719" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_vy</definition>
+        <argsstring></argsstring>
+        <name>m_vy</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="87" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a020f82afcc7b4bac195615ec0a21d833" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_vz</definition>
+        <argsstring></argsstring>
+        <name>m_vz</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="88" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1abba4e1402c9b063f8022170a6eb46eba" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_depth</definition>
+        <argsstring></argsstring>
+        <name>m_depth</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="89" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1aad51da46a9822e33902f08cb37e3a673" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_height</definition>
+        <argsstring></argsstring>
+        <name>m_height</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="90" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a7580799b6b7944dfb6aa000bfa5da17a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_rpm</definition>
+        <argsstring></argsstring>
+        <name>m_rpm</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="91" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a0a2ef2112696c9c53b9c84e4d7e02cac" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_swath</definition>
+        <argsstring></argsstring>
+        <name>m_swath</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="92" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a97f749db2fc8d501e78e37172bd2904b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::m_angle</definition>
+        <argsstring></argsstring>
+        <name>m_angle</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="93" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a54fe0caf798eb2a147ac7bd3f1c8906f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Task::m_dive</definition>
+        <argsstring></argsstring>
+        <name>m_dive</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="94" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1ab5926cebb6bb30343677b79a3f144cf6" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_task_1_1primitive" kindref="compound">Task::primitive</ref></type>
+        <definition>struct Task::primitive Task::prim</definition>
+        <argsstring></argsstring>
+        <name>prim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="229" column="9"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a752d571a062ec494dc39ef4fb119bc58" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_task_1_1waypoint" kindref="compound">Task::waypoint</ref></type>
+        <definition>struct Task::waypoint Task::wp</definition>
+        <argsstring></argsstring>
+        <name>wp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="258" column="7"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1adea9bf85834e6e8d8ca2d2b2f9401c20" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_task_1_1line" kindref="compound">Task::line</ref></type>
+        <definition>struct Task::line Task::mainLine</definition>
+        <argsstring></argsstring>
+        <name>mainLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="284" column="13"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a17712008c017a48f2b67ec8ae81ff7cf" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_task_1_1loiter" kindref="compound">Task::loiter</ref></type>
+        <definition>struct Task::loiter Task::mainLoiter</definition>
+        <argsstring></argsstring>
+        <name>mainLoiter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="297" column="15"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1aa18f10af3d4d2e01d172d401df0b082b" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_task_1_1dive" kindref="compound">Task::dive</ref></type>
+        <definition>struct Task::dive Task::mainDive</definition>
+        <argsstring></argsstring>
+        <name>mainDive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="307" column="13"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a7535c6b4d1e8b99d952960cc00b1c995" prot="public" static="no" mutable="no">
+        <type>TaskType::Value</type>
+        <definition>TaskType::Value Task::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= TaskType::TASK_PRIMITIVE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="328" column="21" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a4a0ce9d9939746236315119099ac6649" prot="public" static="no" mutable="no">
+        <type>avl::ActionMode</type>
+        <definition>avl::ActionMode Task::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <initializer>= avl::ActionMode::ACTION_MODE_APPEND</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="331" column="21" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1a65ef7324428eb221662871d155f99ed4" prot="public" static="no" mutable="no">
+        <type>ActionType::Value</type>
+        <definition>ActionType::Value Task::action</definition>
+        <argsstring></argsstring>
+        <name>action</name>
+        <initializer>= ActionType::ACTION_NO_ACTION</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="334" column="23" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_task_1ab2a5d4287791ee43621a8b4ef4eb0e31" prot="public" static="no" mutable="no">
+        <type>QVector&lt; std::pair&lt; QPointF, ActionType::Value &gt; &gt;</type>
+        <definition>QVector&lt;std::pair&lt;QPointF, ActionType::Value&gt; &gt; Task::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="337" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_task_1a5bf678d98efe9b3178a6d392862f2791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::taskChanged</definition>
+        <argsstring>()</argsstring>
+        <name>taskChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="56" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_task_1a0a07037e0e23c51dea55f257eb7b8f9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::taskTypeChanged</definition>
+        <argsstring>()</argsstring>
+        <name>taskTypeChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="58" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_task_1a2d4bca7a12167509a999612b3c47cd81" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Task::declare_qml</definition>
+        <argsstring>()</argsstring>
+        <name>declare_qml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="110" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1af224047bdaaf4a528be57ff43363a436" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_task" kindref="compound">Task</ref> *</type>
+        <definition>static Task* Task::packet_to_task</definition>
+        <argsstring>(avl::Packet task_packet)</argsstring>
+        <name>packet_to_task</name>
+        <param>
+          <type><ref refid="classavl_1_1_packet" kindref="compound">avl::Packet</ref></type>
+          <declname>task_packet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="147" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_task_1a14c504e1e0ecef1a22429d6bf80771ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Task::Task</definition>
+        <argsstring>(QObject *parent=nullptr)</argsstring>
+        <name>Task</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="118" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a7bff79cc05fa4511c72048d33591503b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Task::~Task</definition>
+        <argsstring>()</argsstring>
+        <name>~Task</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="124" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a0adddb9d30bbe522f98d06740d6d96e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TaskType::Value</type>
+        <definition>TaskType::Value Task::get_type</definition>
+        <argsstring>()</argsstring>
+        <name>get_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="126" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1ae686cff18041a0b2840f060a65fe6e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_type</definition>
+        <argsstring>(TaskType::Value new_type)</argsstring>
+        <name>set_type</name>
+        <param>
+          <type>TaskType::Value</type>
+          <declname>new_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="127" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a46bc4ce72dd1b6ecbda5607ab6c28565" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_type</definition>
+        <argsstring>(int new_type)</argsstring>
+        <name>set_type</name>
+        <param>
+          <type>int</type>
+          <declname>new_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="128" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a86e9aff5cb05bb69a1f47a6bfbc6ab2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ActionType::Value</type>
+        <definition>ActionType::Value Task::get_command</definition>
+        <argsstring>()</argsstring>
+        <name>get_command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="130" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a0bff2e0661b891a528aa6678aa774c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_command</definition>
+        <argsstring>(ActionType::Value new_command)</argsstring>
+        <name>set_command</name>
+        <param>
+          <type>ActionType::Value</type>
+          <declname>new_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="131" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1aff502225edde0cca5e66aa0b7563615c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_command</definition>
+        <argsstring>(int new_command)</argsstring>
+        <name>set_command</name>
+        <param>
+          <type>int</type>
+          <declname>new_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="132" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1abedf8aa40766f82709dcba37e362a6aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVector&lt; std::pair&lt; QPointF, ActionType::Value &gt; &gt;</type>
+        <definition>QVector&lt;std::pair&lt;QPointF, ActionType::Value&gt; &gt; Task::get_points</definition>
+        <argsstring>()</argsstring>
+        <name>get_points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="134" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1aacbca1947e52b9f3c2e2b680461a6821" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::add_point</definition>
+        <argsstring>(QPointF new_point, ActionType::Value command=ActionType::ACTION_NO_ACTION)</argsstring>
+        <name>add_point</name>
+        <param>
+          <type>QPointF</type>
+          <declname>new_point</declname>
+        </param>
+        <param>
+          <type>ActionType::Value</type>
+          <declname>command</declname>
+          <defval>ActionType::ACTION_NO_ACTION</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="135" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a997434261ba49eb7503068e753f9800a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::add_point_silent</definition>
+        <argsstring>(QPointF new_point)</argsstring>
+        <name>add_point_silent</name>
+        <param>
+          <type>QPointF</type>
+          <declname>new_point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="136" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a8be99d8906d0cba23ab747d7c206ff54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::edit_point</definition>
+        <argsstring>(int index, QPointF new_point)</argsstring>
+        <name>edit_point</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>new_point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="137" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1ae35adf583fb813b37d582845f3d07e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_point_lat</definition>
+        <argsstring>(int index, double lat)</argsstring>
+        <name>set_point_lat</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="138" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a170b6d2e7b97aee2c46e32a8e6f7722c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_point_lon</definition>
+        <argsstring>(int index, double lon)</argsstring>
+        <name>set_point_lon</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="139" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a8ba5e78cd2c57e8d3ce27eba8000c6f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_point_command</definition>
+        <argsstring>(int index, ActionType::Value new_command)</argsstring>
+        <name>set_point_command</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>ActionType::Value</type>
+          <declname>new_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="140" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1aa0b37b0a79db04cef28d5506c46210e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::move_point_up</definition>
+        <argsstring>(int index)</argsstring>
+        <name>move_point_up</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="141" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a991d0942b05d7f769ad1c353ef0d6240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::move_point_down</definition>
+        <argsstring>(int index)</argsstring>
+        <name>move_point_down</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="142" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a74d57b3ba184c95479f7a083f3bd959a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::remove_point</definition>
+        <argsstring>(int index)</argsstring>
+        <name>remove_point</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="143" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1aa62b8834744ee0fc145aeb9dd633e890" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::clear_points</definition>
+        <argsstring>()</argsstring>
+        <name>clear_points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="144" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a63466e92a916b7c58282a56624936a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::clear_points_silent</definition>
+        <argsstring>()</argsstring>
+        <name>clear_points_silent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="145" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a8c752dfd3f5dc9b58923e552a4b5b3a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classavl_1_1_packet" kindref="compound">avl::Packet</ref></type>
+        <definition>avl::Packet Task::get_packet</definition>
+        <argsstring>()</argsstring>
+        <name>get_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="146" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a800df9e523b8bec88242678128d3e6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_duration</definition>
+        <argsstring>()</argsstring>
+        <name>get_duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="154" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1ae51ffa24f5e64ec91ebdc284d100d460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_roll</definition>
+        <argsstring>()</argsstring>
+        <name>get_roll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="155" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a5247c8bcfc99b682b14aebb1afe94c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_pitch</definition>
+        <argsstring>()</argsstring>
+        <name>get_pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="156" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a0cfb4d4fbed6bbce132fa2578c29cb28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_yaw</definition>
+        <argsstring>()</argsstring>
+        <name>get_yaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="157" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a231d1d3d846ed8c8d3dd326e8cf34249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_vx</definition>
+        <argsstring>()</argsstring>
+        <name>get_vx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="158" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a11c8295b6d70529d365fb7c3f8eda930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_vy</definition>
+        <argsstring>()</argsstring>
+        <name>get_vy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="159" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a0f709320e963f568e2d174406bc11c07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_vz</definition>
+        <argsstring>()</argsstring>
+        <name>get_vz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="160" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a868595fba5019c2f0a991dff1fea91fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_depth</definition>
+        <argsstring>()</argsstring>
+        <name>get_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="161" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a1040548b63c93683878000f4084fa2dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_height</definition>
+        <argsstring>()</argsstring>
+        <name>get_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="162" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a96db72eba01dbc001991d3041a296d85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_rpm</definition>
+        <argsstring>()</argsstring>
+        <name>get_rpm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="163" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a9b9db98965ef710a32f068cc9ef15698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_dive</definition>
+        <argsstring>()</argsstring>
+        <name>get_dive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="164" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a37e9319b1000d6ab8e20be1875a8c77e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_swath</definition>
+        <argsstring>()</argsstring>
+        <name>get_swath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="165" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a53838c8db49abfc8436a72a78e80060f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_angle</definition>
+        <argsstring>()</argsstring>
+        <name>get_angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="166" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1ae5288a8fd10f8b67878bd79d0d18ff6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_primitive</definition>
+        <argsstring>(const int value)</argsstring>
+        <name>get_primitive</name>
+        <param>
+          <type>const int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="168" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1aa99bfd8a521cf266f29fdc284193882c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_waypoint</definition>
+        <argsstring>(const int value)</argsstring>
+        <name>get_waypoint</name>
+        <param>
+          <type>const int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="169" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1adda387f5b4bb3910c1030e36903eab3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_line</definition>
+        <argsstring>(const int value)</argsstring>
+        <name>get_line</name>
+        <param>
+          <type>const int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="170" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1ab28570dc6dc4e26ec2e847a985462cb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_loiter</definition>
+        <argsstring>(const int value)</argsstring>
+        <name>get_loiter</name>
+        <param>
+          <type>const int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="171" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1aebe80a460a963ff840c013686526cfe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double Task::get_dive</definition>
+        <argsstring>(const int value)</argsstring>
+        <name>get_dive</name>
+        <param>
+          <type>const int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="172" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a345c8a82a16be547585e95d46077135c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QString</type>
+        <definition>Q_INVOKABLE QString Task::get_type_string</definition>
+        <argsstring>()</argsstring>
+        <name>get_type_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="173" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a867c9c2090aca031e1f8087103e0c365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_duration</definition>
+        <argsstring>(double duration)</argsstring>
+        <name>set_duration</name>
+        <param>
+          <type>double</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="181" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a2930a8e7d2c6d4a1c18cf7715450d97a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_roll</definition>
+        <argsstring>(double roll)</argsstring>
+        <name>set_roll</name>
+        <param>
+          <type>double</type>
+          <declname>roll</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="182" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1ab4d88a6f1a2cdb3b09fa713735e66666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_pitch</definition>
+        <argsstring>(double pitch)</argsstring>
+        <name>set_pitch</name>
+        <param>
+          <type>double</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="183" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1af7d9715eac6ce7e9c1f4e27850290da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_yaw</definition>
+        <argsstring>(double yaw)</argsstring>
+        <name>set_yaw</name>
+        <param>
+          <type>double</type>
+          <declname>yaw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="184" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a9d7335d2cc86a8d4b2dc2240dd35d89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_vx</definition>
+        <argsstring>(double vx)</argsstring>
+        <name>set_vx</name>
+        <param>
+          <type>double</type>
+          <declname>vx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="185" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a1337aa672d90d48824fe924f472ea346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_vy</definition>
+        <argsstring>(double vy)</argsstring>
+        <name>set_vy</name>
+        <param>
+          <type>double</type>
+          <declname>vy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="186" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1ad4097f3df685fed91f08253b31821827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_vz</definition>
+        <argsstring>(double vz)</argsstring>
+        <name>set_vz</name>
+        <param>
+          <type>double</type>
+          <declname>vz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="187" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1af2df1fa6d7893cd3c89a946a302b2e39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_depth</definition>
+        <argsstring>(double depth)</argsstring>
+        <name>set_depth</name>
+        <param>
+          <type>double</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="188" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a96c6e7cb1656f36f4c731c7b65816db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_height</definition>
+        <argsstring>(double height)</argsstring>
+        <name>set_height</name>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="189" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1ae0438020905548f6b041649abe9f2ce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_rpm</definition>
+        <argsstring>(double rpm)</argsstring>
+        <name>set_rpm</name>
+        <param>
+          <type>double</type>
+          <declname>rpm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="190" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1afddfd2ff4c0a0545c2bb3d701dd68d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_dive</definition>
+        <argsstring>(bool dive)</argsstring>
+        <name>set_dive</name>
+        <param>
+          <type>bool</type>
+          <declname>dive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="191" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1aff9b1947fd71a2ac5332d7cd517a8c86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_swath</definition>
+        <argsstring>(double swath)</argsstring>
+        <name>set_swath</name>
+        <param>
+          <type>double</type>
+          <declname>swath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="192" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a99f9db93cd8999067f35c290efdd4258" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_angle</definition>
+        <argsstring>(double angle)</argsstring>
+        <name>set_angle</name>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="193" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a28d38e903d6702267acab3e91b74fd96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_primitive</definition>
+        <argsstring>(const int variable, double value)</argsstring>
+        <name>set_primitive</name>
+        <param>
+          <type>const int</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="195" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a29a059183786142f03db065652abaaed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_waypoint</definition>
+        <argsstring>(const int variable, double value)</argsstring>
+        <name>set_waypoint</name>
+        <param>
+          <type>const int</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="196" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a8d2eed3a368868472fc5930beb54d8a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_line</definition>
+        <argsstring>(const int variable, double value)</argsstring>
+        <name>set_line</name>
+        <param>
+          <type>const int</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="197" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1ab2f0247d6e0a92e3f03ec6bced590e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_loiter</definition>
+        <argsstring>(const int variable, double value)</argsstring>
+        <name>set_loiter</name>
+        <param>
+          <type>const int</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="198" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1a0ca4c5fdd9ebfb8c7475b0ffd9b66cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::set_dive</definition>
+        <argsstring>(const int variable, double value)</argsstring>
+        <name>set_dive</name>
+        <param>
+          <type>const int</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="199" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_1af22a0185f297ab019ff7168567154adb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Task::reset_task_structs</definition>
+        <argsstring>()</argsstring>
+        <name>reset_task_structs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="200" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Task</label>
+        <link refid="class_task"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Task::dive</label>
+        <link refid="struct_task_1_1dive"/>
+      </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="4">
+        <label>Task::loiter</label>
+        <link refid="struct_task_1_1loiter"/>
+      </node>
+      <node id="6">
+        <label>Task::line</label>
+        <link refid="struct_task_1_1line"/>
+      </node>
+      <node id="1">
+        <label>Task</label>
+        <link refid="class_task"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>wp</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>mainLoiter</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>mainDive</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>mainLine</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>prim</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Task::primitive</label>
+        <link refid="struct_task_1_1primitive"/>
+      </node>
+      <node id="3">
+        <label>Task::waypoint</label>
+        <link refid="struct_task_1_1waypoint"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/task.h" line="37" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="36" bodyend="339"/>
+    <listofallmembers>
+      <member refid="class_task_1a65ef7324428eb221662871d155f99ed4" prot="public" virt="non-virtual"><scope>Task</scope><name>action</name></member>
+      <member refid="class_task_1aacbca1947e52b9f3c2e2b680461a6821" prot="public" virt="non-virtual"><scope>Task</scope><name>add_point</name></member>
+      <member refid="class_task_1a997434261ba49eb7503068e753f9800a" prot="public" virt="non-virtual"><scope>Task</scope><name>add_point_silent</name></member>
+      <member refid="class_task_1a72cc4f26668f1c595c159f1cbcc4f6d3" prot="public" virt="non-virtual"><scope>Task</scope><name>angle</name></member>
+      <member refid="class_task_1aa62b8834744ee0fc145aeb9dd633e890" prot="public" virt="non-virtual"><scope>Task</scope><name>clear_points</name></member>
+      <member refid="class_task_1a63466e92a916b7c58282a56624936a2d" prot="public" virt="non-virtual"><scope>Task</scope><name>clear_points_silent</name></member>
+      <member refid="class_task_1a2d4bca7a12167509a999612b3c47cd81" prot="public" virt="non-virtual"><scope>Task</scope><name>declare_qml</name></member>
+      <member refid="class_task_1abe096dd0f7f98b5993ec36cd92b36775" prot="public" virt="non-virtual"><scope>Task</scope><name>depth</name></member>
+      <member refid="class_task_1ac428eb9bd743bdbdd14b8b4f111a9c26" prot="public" virt="non-virtual"><scope>Task</scope><name>dive</name></member>
+      <member refid="class_task_1a03bd777d680a8082767e5e7c9ca4ff53" prot="public" virt="non-virtual"><scope>Task</scope><name>duration</name></member>
+      <member refid="class_task_1a8be99d8906d0cba23ab747d7c206ff54" prot="public" virt="non-virtual"><scope>Task</scope><name>edit_point</name></member>
+      <member refid="class_task_1a53838c8db49abfc8436a72a78e80060f" prot="public" virt="non-virtual"><scope>Task</scope><name>get_angle</name></member>
+      <member refid="class_task_1a86e9aff5cb05bb69a1f47a6bfbc6ab2f" prot="public" virt="non-virtual"><scope>Task</scope><name>get_command</name></member>
+      <member refid="class_task_1a868595fba5019c2f0a991dff1fea91fd" prot="public" virt="non-virtual"><scope>Task</scope><name>get_depth</name></member>
+      <member refid="class_task_1a9b9db98965ef710a32f068cc9ef15698" prot="public" virt="non-virtual"><scope>Task</scope><name>get_dive</name></member>
+      <member refid="class_task_1aebe80a460a963ff840c013686526cfe0" prot="public" virt="non-virtual"><scope>Task</scope><name>get_dive</name></member>
+      <member refid="class_task_1a800df9e523b8bec88242678128d3e6d8" prot="public" virt="non-virtual"><scope>Task</scope><name>get_duration</name></member>
+      <member refid="class_task_1a1040548b63c93683878000f4084fa2dc" prot="public" virt="non-virtual"><scope>Task</scope><name>get_height</name></member>
+      <member refid="class_task_1adda387f5b4bb3910c1030e36903eab3f" prot="public" virt="non-virtual"><scope>Task</scope><name>get_line</name></member>
+      <member refid="class_task_1ab28570dc6dc4e26ec2e847a985462cb2" prot="public" virt="non-virtual"><scope>Task</scope><name>get_loiter</name></member>
+      <member refid="class_task_1a8c752dfd3f5dc9b58923e552a4b5b3a6" prot="public" virt="non-virtual"><scope>Task</scope><name>get_packet</name></member>
+      <member refid="class_task_1a5247c8bcfc99b682b14aebb1afe94c1d" prot="public" virt="non-virtual"><scope>Task</scope><name>get_pitch</name></member>
+      <member refid="class_task_1abedf8aa40766f82709dcba37e362a6aa" prot="public" virt="non-virtual"><scope>Task</scope><name>get_points</name></member>
+      <member refid="class_task_1ae5288a8fd10f8b67878bd79d0d18ff6f" prot="public" virt="non-virtual"><scope>Task</scope><name>get_primitive</name></member>
+      <member refid="class_task_1ae51ffa24f5e64ec91ebdc284d100d460" prot="public" virt="non-virtual"><scope>Task</scope><name>get_roll</name></member>
+      <member refid="class_task_1a96db72eba01dbc001991d3041a296d85" prot="public" virt="non-virtual"><scope>Task</scope><name>get_rpm</name></member>
+      <member refid="class_task_1a37e9319b1000d6ab8e20be1875a8c77e" prot="public" virt="non-virtual"><scope>Task</scope><name>get_swath</name></member>
+      <member refid="class_task_1a0adddb9d30bbe522f98d06740d6d96e4" prot="public" virt="non-virtual"><scope>Task</scope><name>get_type</name></member>
+      <member refid="class_task_1a345c8a82a16be547585e95d46077135c" prot="public" virt="non-virtual"><scope>Task</scope><name>get_type_string</name></member>
+      <member refid="class_task_1a231d1d3d846ed8c8d3dd326e8cf34249" prot="public" virt="non-virtual"><scope>Task</scope><name>get_vx</name></member>
+      <member refid="class_task_1a11c8295b6d70529d365fb7c3f8eda930" prot="public" virt="non-virtual"><scope>Task</scope><name>get_vy</name></member>
+      <member refid="class_task_1a0f709320e963f568e2d174406bc11c07" prot="public" virt="non-virtual"><scope>Task</scope><name>get_vz</name></member>
+      <member refid="class_task_1aa99bfd8a521cf266f29fdc284193882c" prot="public" virt="non-virtual"><scope>Task</scope><name>get_waypoint</name></member>
+      <member refid="class_task_1a0cfb4d4fbed6bbce132fa2578c29cb28" prot="public" virt="non-virtual"><scope>Task</scope><name>get_yaw</name></member>
+      <member refid="class_task_1a1bccb1849467d7d10beaf168bc9a5e03" prot="public" virt="non-virtual"><scope>Task</scope><name>height</name></member>
+      <member refid="class_task_1a97f749db2fc8d501e78e37172bd2904b" prot="public" virt="non-virtual"><scope>Task</scope><name>m_angle</name></member>
+      <member refid="class_task_1abba4e1402c9b063f8022170a6eb46eba" prot="public" virt="non-virtual"><scope>Task</scope><name>m_depth</name></member>
+      <member refid="class_task_1a54fe0caf798eb2a147ac7bd3f1c8906f" prot="public" virt="non-virtual"><scope>Task</scope><name>m_dive</name></member>
+      <member refid="class_task_1aac11e26f8414f7e3f4daae1829ea51e0" prot="public" virt="non-virtual"><scope>Task</scope><name>m_duration</name></member>
+      <member refid="class_task_1aad51da46a9822e33902f08cb37e3a673" prot="public" virt="non-virtual"><scope>Task</scope><name>m_height</name></member>
+      <member refid="class_task_1a80111cf90e3310c31cc490f811aaba2e" prot="public" virt="non-virtual"><scope>Task</scope><name>m_pitch</name></member>
+      <member refid="class_task_1afa11ca11db89767aa7f71e17072d1aff" prot="public" virt="non-virtual"><scope>Task</scope><name>m_roll</name></member>
+      <member refid="class_task_1a7580799b6b7944dfb6aa000bfa5da17a" prot="public" virt="non-virtual"><scope>Task</scope><name>m_rpm</name></member>
+      <member refid="class_task_1a0a2ef2112696c9c53b9c84e4d7e02cac" prot="public" virt="non-virtual"><scope>Task</scope><name>m_swath</name></member>
+      <member refid="class_task_1ad3b0abf23a386e69e6a706c8c29a2ccc" prot="public" virt="non-virtual"><scope>Task</scope><name>m_vx</name></member>
+      <member refid="class_task_1af02f49d9f60c3039046c253fab5dc719" prot="public" virt="non-virtual"><scope>Task</scope><name>m_vy</name></member>
+      <member refid="class_task_1a020f82afcc7b4bac195615ec0a21d833" prot="public" virt="non-virtual"><scope>Task</scope><name>m_vz</name></member>
+      <member refid="class_task_1ae7f150d31fa4fd234692ddd6ab97d791" prot="public" virt="non-virtual"><scope>Task</scope><name>m_yaw</name></member>
+      <member refid="class_task_1aa18f10af3d4d2e01d172d401df0b082b" prot="public" virt="non-virtual"><scope>Task</scope><name>mainDive</name></member>
+      <member refid="class_task_1adea9bf85834e6e8d8ca2d2b2f9401c20" prot="public" virt="non-virtual"><scope>Task</scope><name>mainLine</name></member>
+      <member refid="class_task_1a17712008c017a48f2b67ec8ae81ff7cf" prot="public" virt="non-virtual"><scope>Task</scope><name>mainLoiter</name></member>
+      <member refid="class_task_1a4a0ce9d9939746236315119099ac6649" prot="public" virt="non-virtual"><scope>Task</scope><name>mode</name></member>
+      <member refid="class_task_1a991d0942b05d7f769ad1c353ef0d6240" prot="public" virt="non-virtual"><scope>Task</scope><name>move_point_down</name></member>
+      <member refid="class_task_1aa0b37b0a79db04cef28d5506c46210e6" prot="public" virt="non-virtual"><scope>Task</scope><name>move_point_up</name></member>
+      <member refid="class_task_1af224047bdaaf4a528be57ff43363a436" prot="public" virt="non-virtual"><scope>Task</scope><name>packet_to_task</name></member>
+      <member refid="class_task_1a57b5e4a2fdee9d84a416e8906ac5eba1" prot="public" virt="non-virtual"><scope>Task</scope><name>pitch</name></member>
+      <member refid="class_task_1ab2a5d4287791ee43621a8b4ef4eb0e31" prot="public" virt="non-virtual"><scope>Task</scope><name>points</name></member>
+      <member refid="class_task_1ab5926cebb6bb30343677b79a3f144cf6" prot="public" virt="non-virtual"><scope>Task</scope><name>prim</name></member>
+      <member refid="class_task_1a74d57b3ba184c95479f7a083f3bd959a" prot="public" virt="non-virtual"><scope>Task</scope><name>remove_point</name></member>
+      <member refid="class_task_1af22a0185f297ab019ff7168567154adb" prot="public" virt="non-virtual"><scope>Task</scope><name>reset_task_structs</name></member>
+      <member refid="class_task_1a7e43baefd9b616ae5c87f019eaf42f7d" prot="public" virt="non-virtual"><scope>Task</scope><name>roll</name></member>
+      <member refid="class_task_1a6bcc9a5f666ee0b0fb503cfb3fd37295" prot="public" virt="non-virtual"><scope>Task</scope><name>rpm</name></member>
+      <member refid="class_task_1a99f9db93cd8999067f35c290efdd4258" prot="public" virt="non-virtual"><scope>Task</scope><name>set_angle</name></member>
+      <member refid="class_task_1a0bff2e0661b891a528aa6678aa774c59" prot="public" virt="non-virtual"><scope>Task</scope><name>set_command</name></member>
+      <member refid="class_task_1aff502225edde0cca5e66aa0b7563615c" prot="public" virt="non-virtual"><scope>Task</scope><name>set_command</name></member>
+      <member refid="class_task_1af2df1fa6d7893cd3c89a946a302b2e39" prot="public" virt="non-virtual"><scope>Task</scope><name>set_depth</name></member>
+      <member refid="class_task_1afddfd2ff4c0a0545c2bb3d701dd68d6b" prot="public" virt="non-virtual"><scope>Task</scope><name>set_dive</name></member>
+      <member refid="class_task_1a0ca4c5fdd9ebfb8c7475b0ffd9b66cda" prot="public" virt="non-virtual"><scope>Task</scope><name>set_dive</name></member>
+      <member refid="class_task_1a867c9c2090aca031e1f8087103e0c365" prot="public" virt="non-virtual"><scope>Task</scope><name>set_duration</name></member>
+      <member refid="class_task_1a96c6e7cb1656f36f4c731c7b65816db5" prot="public" virt="non-virtual"><scope>Task</scope><name>set_height</name></member>
+      <member refid="class_task_1a8d2eed3a368868472fc5930beb54d8a7" prot="public" virt="non-virtual"><scope>Task</scope><name>set_line</name></member>
+      <member refid="class_task_1ab2f0247d6e0a92e3f03ec6bced590e81" prot="public" virt="non-virtual"><scope>Task</scope><name>set_loiter</name></member>
+      <member refid="class_task_1ab4d88a6f1a2cdb3b09fa713735e66666" prot="public" virt="non-virtual"><scope>Task</scope><name>set_pitch</name></member>
+      <member refid="class_task_1a8ba5e78cd2c57e8d3ce27eba8000c6f0" prot="public" virt="non-virtual"><scope>Task</scope><name>set_point_command</name></member>
+      <member refid="class_task_1ae35adf583fb813b37d582845f3d07e8e" prot="public" virt="non-virtual"><scope>Task</scope><name>set_point_lat</name></member>
+      <member refid="class_task_1a170b6d2e7b97aee2c46e32a8e6f7722c" prot="public" virt="non-virtual"><scope>Task</scope><name>set_point_lon</name></member>
+      <member refid="class_task_1a28d38e903d6702267acab3e91b74fd96" prot="public" virt="non-virtual"><scope>Task</scope><name>set_primitive</name></member>
+      <member refid="class_task_1a2930a8e7d2c6d4a1c18cf7715450d97a" prot="public" virt="non-virtual"><scope>Task</scope><name>set_roll</name></member>
+      <member refid="class_task_1ae0438020905548f6b041649abe9f2ce6" prot="public" virt="non-virtual"><scope>Task</scope><name>set_rpm</name></member>
+      <member refid="class_task_1aff9b1947fd71a2ac5332d7cd517a8c86" prot="public" virt="non-virtual"><scope>Task</scope><name>set_swath</name></member>
+      <member refid="class_task_1ae686cff18041a0b2840f060a65fe6e72" prot="public" virt="non-virtual"><scope>Task</scope><name>set_type</name></member>
+      <member refid="class_task_1a46bc4ce72dd1b6ecbda5607ab6c28565" prot="public" virt="non-virtual"><scope>Task</scope><name>set_type</name></member>
+      <member refid="class_task_1a9d7335d2cc86a8d4b2dc2240dd35d89a" prot="public" virt="non-virtual"><scope>Task</scope><name>set_vx</name></member>
+      <member refid="class_task_1a1337aa672d90d48824fe924f472ea346" prot="public" virt="non-virtual"><scope>Task</scope><name>set_vy</name></member>
+      <member refid="class_task_1ad4097f3df685fed91f08253b31821827" prot="public" virt="non-virtual"><scope>Task</scope><name>set_vz</name></member>
+      <member refid="class_task_1a29a059183786142f03db065652abaaed" prot="public" virt="non-virtual"><scope>Task</scope><name>set_waypoint</name></member>
+      <member refid="class_task_1af7d9715eac6ce7e9c1f4e27850290da5" prot="public" virt="non-virtual"><scope>Task</scope><name>set_yaw</name></member>
+      <member refid="class_task_1a1648cc2c567f11c2521f2db8aaa63db2" prot="public" virt="non-virtual"><scope>Task</scope><name>swath</name></member>
+      <member refid="class_task_1a14c504e1e0ecef1a22429d6bf80771ac" prot="public" virt="non-virtual"><scope>Task</scope><name>Task</name></member>
+      <member refid="class_task_1a5bf678d98efe9b3178a6d392862f2791" prot="public" virt="non-virtual"><scope>Task</scope><name>taskChanged</name></member>
+      <member refid="class_task_1a0a07037e0e23c51dea55f257eb7b8f9e" prot="public" virt="non-virtual"><scope>Task</scope><name>taskTypeChanged</name></member>
+      <member refid="class_task_1a7535c6b4d1e8b99d952960cc00b1c995" prot="public" virt="non-virtual"><scope>Task</scope><name>type</name></member>
+      <member refid="class_task_1a1cce1b5ede6c9ec8359538b050f746f7" prot="public" virt="non-virtual"><scope>Task</scope><name>vx</name></member>
+      <member refid="class_task_1a85ba58b9af5e73c0f6ac45d3f6b3f441" prot="public" virt="non-virtual"><scope>Task</scope><name>vy</name></member>
+      <member refid="class_task_1a60dbe7dd1d315a7c13d5fc2d3281cc70" prot="public" virt="non-virtual"><scope>Task</scope><name>vz</name></member>
+      <member refid="class_task_1a752d571a062ec494dc39ef4fb119bc58" prot="public" virt="non-virtual"><scope>Task</scope><name>wp</name></member>
+      <member refid="class_task_1a2641f95111047a251c99944fa81b2cc1" prot="public" virt="non-virtual"><scope>Task</scope><name>yaw</name></member>
+      <member refid="class_task_1a7bff79cc05fa4511c72048d33591503b" prot="public" virt="virtual"><scope>Task</scope><name>~Task</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structavl_1_1_packet_header" kind="struct" language="C++" prot="public">
+    <compoundname>avl::PacketHeader</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structavl_1_1_packet_header_1a6e13dc146e766d4b144b3bc3d281d0bd" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t avl::PacketHeader::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="47" column="14" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/packet.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_packet_header_1a975abd3b324a12b5e7adc1b7040885b0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t avl::PacketHeader::timeout</definition>
+        <argsstring></argsstring>
+        <name>timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="48" column="14" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/packet.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_packet_header_1a5423cdeac46e96e607362483c8a5f6b1" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::PacketHeader::source_id</definition>
+        <argsstring></argsstring>
+        <name>source_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="49" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/packet.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_packet_header_1a9635ada59e5dea06f5eb89fce80e6a6a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::PacketHeader::destination_id</definition>
+        <argsstring></argsstring>
+        <name>destination_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="50" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/packet.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="45" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/packet.h" bodystart="44" bodyend="52"/>
+    <listofallmembers>
+      <member refid="structavl_1_1_packet_header_1a9635ada59e5dea06f5eb89fce80e6a6a" prot="public" virt="non-virtual"><scope>avl::PacketHeader</scope><name>destination_id</name></member>
+      <member refid="structavl_1_1_packet_header_1a5423cdeac46e96e607362483c8a5f6b1" prot="public" virt="non-virtual"><scope>avl::PacketHeader</scope><name>source_id</name></member>
+      <member refid="structavl_1_1_packet_header_1a975abd3b324a12b5e7adc1b7040885b0" prot="public" virt="non-virtual"><scope>avl::PacketHeader</scope><name>timeout</name></member>
+      <member refid="structavl_1_1_packet_header_1a6e13dc146e766d4b144b3bc3d281d0bd" prot="public" virt="non-virtual"><scope>avl::PacketHeader</scope><name>timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

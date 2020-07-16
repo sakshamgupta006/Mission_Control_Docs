@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classavl_1_1_heartbeat_packet" kind="class" language="C++" prot="public">
+    <compoundname>avl::HeartbeatPacket</compoundname>
+    <basecompoundref refid="classavl_1_1_packet" prot="public" virt="non-virtual">avl::Packet</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classavl_1_1_heartbeat_packet_1ad04b4facf83d7434bd385d912d70a00d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>avl::HeartbeatPacket::HeartbeatPacket</definition>
+        <argsstring>(PacketHeader header, Heartbeat heartbeat)</argsstring>
+        <name>HeartbeatPacket</name>
+        <param>
+          <type><ref refid="structavl_1_1_packet_header" kindref="compound">PacketHeader</ref></type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type><ref refid="structavl_1_1_heartbeat" kindref="compound">Heartbeat</ref></type>
+          <declname>heartbeat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="151" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="151" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_heartbeat_packet_1a9f7df269be00d79d423a617e64e1446d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>avl::HeartbeatPacket::HeartbeatPacket</definition>
+        <argsstring>(PacketHeader header, HeartbeatMinimal heartbeat)</argsstring>
+        <name>HeartbeatPacket</name>
+        <param>
+          <type><ref refid="structavl_1_1_packet_header" kindref="compound">PacketHeader</ref></type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type><ref refid="structavl_1_1_heartbeat_minimal" kindref="compound">HeartbeatMinimal</ref></type>
+          <declname>heartbeat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="189" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="189" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_heartbeat_packet_1a6abe20e0386db4eac70f56ae04399d71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>avl::HeartbeatPacket::HeartbeatPacket</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; bytes)</argsstring>
+        <name>HeartbeatPacket</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="205" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="205" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_heartbeat_packet_1a7b1e723863c0b0d09b65e2b8967e1762" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structavl_1_1_heartbeat" kindref="compound">Heartbeat</ref></type>
+        <definition>Heartbeat avl::HeartbeatPacket::get_heartbeat</definition>
+        <argsstring>()</argsstring>
+        <name>get_heartbeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="223" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="223" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_heartbeat_packet_1a1f91328f4371f1010425d8b1b4b23dda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structavl_1_1_heartbeat_minimal" kindref="compound">HeartbeatMinimal</ref></type>
+        <definition>HeartbeatMinimal avl::HeartbeatPacket::get_heartbeat_minimal</definition>
+        <argsstring>()</argsstring>
+        <name>get_heartbeat_minimal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="342" column="22" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="342" bodyend="361"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>avl::Packet</label>
+        <link refid="classavl_1_1_packet"/>
+      </node>
+      <node id="1">
+        <label>avl::HeartbeatPacket</label>
+        <link refid="classavl_1_1_heartbeat_packet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>avl::PacketHeader</label>
+        <link refid="structavl_1_1_packet_header"/>
+      </node>
+      <node id="2">
+        <label>avl::Packet</label>
+        <link refid="classavl_1_1_packet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>avl::HeartbeatPacket</label>
+        <link refid="classavl_1_1_heartbeat_packet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="140" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="139" bodyend="363"/>
+    <listofallmembers>
+      <member refid="classavl_1_1_packet_1a0de1c14bc2fc57578ba6dcbbf37e8469" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>add_field</name></member>
+      <member refid="classavl_1_1_packet_1ada8558c0870883c6f0039ef6a242ba57" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>add_field</name></member>
+      <member refid="classavl_1_1_packet_1adc7df79bdc5eef9ca2a39ba1ded6ca80" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>add_field</name></member>
+      <member refid="classavl_1_1_packet_1a54da1cedfc7275a7b7cda6dcc429ea80" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>add_fields</name></member>
+      <member refid="classavl_1_1_packet_1a11c93836a9183f4da52879bbeb5dc5f5" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>clear_fields</name></member>
+      <member refid="classavl_1_1_packet_1ae941ffc4c5306a9a24a7491def7f17cc" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>contains_packet</name></member>
+      <member refid="classavl_1_1_packet_1a8f82581be40ae8b73b1af4461358f123" prot="protected" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>descriptor</name></member>
+      <member refid="classavl_1_1_packet_1a389141cd29acdb5b01e07e73173d9105" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_bytes</name></member>
+      <member refid="classavl_1_1_packet_1a46a373843b573b04b35db03e0204a1dc" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_descriptor</name></member>
+      <member refid="classavl_1_1_packet_1a3d74eb2b7d676dff2fb4b2afd5457dd9" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_field</name></member>
+      <member refid="classavl_1_1_packet_1ac56f045380af79d0c4b8d9fe5a9a03be" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_field_index</name></member>
+      <member refid="classavl_1_1_packet_1a1a25836cc5cf596f92e94512056053ef" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_fields</name></member>
+      <member refid="classavl_1_1_packet_1a8efccee799cae013c6b6afc8f4f429e9" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_header</name></member>
+      <member refid="classavl_1_1_heartbeat_packet_1a7b1e723863c0b0d09b65e2b8967e1762" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_heartbeat</name></member>
+      <member refid="classavl_1_1_heartbeat_packet_1a1f91328f4371f1010425d8b1b4b23dda" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_heartbeat_minimal</name></member>
+      <member refid="classavl_1_1_packet_1ab25982e33cee0623570d01934d659851" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_num_fields</name></member>
+      <member refid="classavl_1_1_packet_1a3f6e7d5a1f7c67d4e9914ef9f139b7c7" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>get_string</name></member>
+      <member refid="classavl_1_1_packet_1aca0d10e67091029f6ae5b3e4757d98f3" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>has_field</name></member>
+      <member refid="classavl_1_1_packet_1a0a45923d1dbae5c8c4d742565997916a" prot="protected" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>header</name></member>
+      <member refid="classavl_1_1_heartbeat_packet_1ad04b4facf83d7434bd385d912d70a00d" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>HeartbeatPacket</name></member>
+      <member refid="classavl_1_1_heartbeat_packet_1a9f7df269be00d79d423a617e64e1446d" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>HeartbeatPacket</name></member>
+      <member refid="classavl_1_1_heartbeat_packet_1a6abe20e0386db4eac70f56ae04399d71" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>HeartbeatPacket</name></member>
+      <member refid="classavl_1_1_packet_1af7669972acdeacd0e2d00d5b3918d72e" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>Packet</name></member>
+      <member refid="classavl_1_1_packet_1ae4bbd34f9cdbf03e92b623af032eda9a" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>Packet</name></member>
+      <member refid="classavl_1_1_packet_1ac801fa0b3f1bb3c56979354c97d62aef" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>parse_multiple</name></member>
+      <member refid="classavl_1_1_packet_1af0d9673caf2d2cb5af7e581e9723a95e" prot="protected" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>payload</name></member>
+      <member refid="classavl_1_1_packet_1a777e95d61b83773f0dd47e1e9919c9fd" prot="public" virt="non-virtual"><scope>avl::HeartbeatPacket</scope><name>set_bytes</name></member>
+      <member refid="classavl_1_1_packet_1aad1fd5d929ac3d9aae359c6e167a8f42" prot="public" virt="virtual"><scope>avl::HeartbeatPacket</scope><name>~Packet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

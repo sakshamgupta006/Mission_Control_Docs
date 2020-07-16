@@ -1,0 +1,2528 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceavl" kind="namespace" language="C++">
+    <compoundname>avl</compoundname>
+    <innerclass refid="structavl_1_1_action" prot="public">avl::Action</innerclass>
+    <innerclass refid="classavl_1_1_action_packet" prot="public">avl::ActionPacket</innerclass>
+    <innerclass refid="structavl_1_1_command" prot="public">avl::Command</innerclass>
+    <innerclass refid="classavl_1_1_command_packet" prot="public">avl::CommandPacket</innerclass>
+    <innerclass refid="structavl_1_1_device_info" prot="public">avl::DeviceInfo</innerclass>
+    <innerclass refid="classavl_1_1_device_packet" prot="public">avl::DevicePacket</innerclass>
+    <innerclass refid="classavl_1_1_field" prot="public">avl::Field</innerclass>
+    <innerclass refid="structavl_1_1_heartbeat" prot="public">avl::Heartbeat</innerclass>
+    <innerclass refid="structavl_1_1_heartbeat_minimal" prot="public">avl::HeartbeatMinimal</innerclass>
+    <innerclass refid="classavl_1_1_heartbeat_packet" prot="public">avl::HeartbeatPacket</innerclass>
+    <innerclass refid="classavl_1_1_packet" prot="public">avl::Packet</innerclass>
+    <innerclass refid="structavl_1_1_packet_header" prot="public">avl::PacketHeader</innerclass>
+    <innerclass refid="classavl_1_1_parameter" prot="public">avl::Parameter</innerclass>
+    <innerclass refid="classavl_1_1_parameter_list" prot="public">avl::ParameterList</innerclass>
+    <innerclass refid="structavl_1_1_passthrough_message" prot="public">avl::PassthroughMessage</innerclass>
+    <innerclass refid="classavl_1_1_passthrough_packet" prot="public">avl::PassthroughPacket</innerclass>
+    <innerclass refid="structavl_1_1_response" prot="public">avl::Response</innerclass>
+    <innerclass refid="classavl_1_1_response_packet" prot="public">avl::ResponsePacket</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="action__packet_8h_1acb9fe62943d2b1a7f009216062782125" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ActionField</name>
+        <enumvalue id="action__packet_8h_1acb9fe62943d2b1a7f009216062782125a332b1d6f3b39e13240ef1ef1451e2fbd" prot="public">
+          <name>ACTION_TYPE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="action__packet_8h_1acb9fe62943d2b1a7f009216062782125a45d4ab1d1760905195147760978f79fb" prot="public">
+          <name>ACTION_MODE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="action__packet_8h_1acb9fe62943d2b1a7f009216062782125a9b5bb859e1108994fecb20278164a939" prot="public">
+          <name>ACTION_PARAMS_START</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/action_packet.h" line="27" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/action_packet.h" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="enum" id="action__packet_8h_1a456a3bca0fcc701daf3a9034962b4883" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ActionMode</name>
+        <enumvalue id="action__packet_8h_1a456a3bca0fcc701daf3a9034962b4883a64d3e74c2181acba8523c600d685b6e2" prot="public">
+          <name>ACTION_MODE_SET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="action__packet_8h_1a456a3bca0fcc701daf3a9034962b4883ad42d7c46df1aac5c27b390275f7d0d62" prot="public">
+          <name>ACTION_MODE_APPEND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/action_packet.h" line="39" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/action_packet.h" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="enum" id="command__packet_8h_1ad837a7fed46c331c38dd8de0c9757baa" prot="public" static="no" strong="no">
+        <type></type>
+        <name>CommandField</name>
+        <enumvalue id="command__packet_8h_1ad837a7fed46c331c38dd8de0c9757baaa53de9f2fae8355b7767f5d1a8cf47644" prot="public">
+          <name>COMMAND_NAME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="command__packet_8h_1ad837a7fed46c331c38dd8de0c9757baaa12a1955c9b51eb985ecf19d7a27814b3" prot="public">
+          <name>COMMAND_PARAMS_START</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/command_packet.h" line="27" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/command_packet.h" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="enum" id="device__packet_8h_1a3e57211f3f7489b7efdf3ae4e8fc9f9e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>DeviceField</name>
+        <enumvalue id="device__packet_8h_1a3e57211f3f7489b7efdf3ae4e8fc9f9ea07747fce752c3140a2e7e2703481ef1e" prot="public">
+          <name>DEVICE_NAME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="device__packet_8h_1a3e57211f3f7489b7efdf3ae4e8fc9f9ea607f889e37fc86bf9f75d4750b3a3b10" prot="public">
+          <name>DEVICE_PARAMS_START</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" line="27" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="enum" id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632" prot="public" static="no" strong="no">
+        <type></type>
+        <name>HeartbeatField</name>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632ac4303c6a7cf0696a003d6a366529695c" prot="public">
+          <name>HEARTBEAT_MODE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a8eed9a470ef21fb029417b40d63d9561" prot="public">
+          <name>HEARTBEAT_STATUS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632aac805e79dd60f0c6273f8bec5695b44d" prot="public">
+          <name>HEARTBEAT_POS_SOURCE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632aa22109a681e077675770fde09cb3d7ad" prot="public">
+          <name>HEARTBEAT_ROLL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a0bcdc59f664288b35e12fcc065166c05" prot="public">
+          <name>HEARTBEAT_PITCH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632ac7d077b2629ef7247f18b61e05ff5786" prot="public">
+          <name>HEARTBEAT_YAW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632afedabe58988dbb36d2464a44185d1fb2" prot="public">
+          <name>HEARTBEAT_VX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632af997bc256cfef4ff5298423960325a56" prot="public">
+          <name>HEARTBEAT_VY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632af576967fdedbe563830337ec2901a23a" prot="public">
+          <name>HEARTBEAT_VZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a11912225802821e4bc43ad4edd35d5a8" prot="public">
+          <name>HEARTBEAT_LAT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632ad8f1690ef9666f3de4793787f64e7f27" prot="public">
+          <name>HEARTBEAT_LON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a3a74c7e4ef07e2e23a78fccd7465e7fb" prot="public">
+          <name>HEARTBEAT_ALT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632ac34baa77d479978159d4eb144e54255c" prot="public">
+          <name>HEARTBEAT_DEPTH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632ac0dfb60959dd24c8705e7feb1b208213" prot="public">
+          <name>HEARTBEAT_HEIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a88bfa50972937a8b5082066f330f1dc8" prot="public">
+          <name>HEARTBEAT_RPM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a4412b037c90a5953d0d675fe8edd1539" prot="public">
+          <name>HEARTBEAT_VOLTAGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a7f86a5e67f62520a5c7b922ff3c1cc3f" prot="public">
+          <name>HEARTBEAT_UMODEM_SYNC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632aab1f97ccef52f3a73abd237e9c5c2912" prot="public">
+          <name>HEARTBEAT_GPS_SATS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632acb1edce802a7ea1c4f768ae2f3d5da18" prot="public">
+          <name>HEARTBEAT_IRIDIUM_STR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a45101ee7e22857c5df1a7ef4ae313b71" prot="public">
+          <name>HEARTBEAT_FSD_CURRENT_ACTION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632ab0ab3fa8aa010c4714fc79d2eb3bb412" prot="public">
+          <name>HEARTBEAT_FSD_TOTAL_ACTIONS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a1ef8ab0790d341f92dbada9540515ff5" prot="public">
+          <name>HEARTBEAT_FSD_ACTION_PERCENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632ace214d0839015358b74408799c92899d" prot="public">
+          <name>HEARTBEAT_BSD_CURRENT_ACTION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632a48e4e81222af3d0038e4b29470472e78" prot="public">
+          <name>HEARTBEAT_BSD_TOTAL_ACTIONS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a7b570161ee5d8fb4acbf4f4245cd7632af32deb3b29a2f99231cd889abd416952" prot="public">
+          <name>HEARTBEAT_BSD_ACTION_PERCENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="27" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="26" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="enum" id="heartbeat__packet_8h_1ae5ec84b6454d1d028b17144d06f510c3" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MissionMode</name>
+        <enumvalue id="heartbeat__packet_8h_1ae5ec84b6454d1d028b17144d06f510c3a366caf31f4ddb0099dea2e5ae43df158" prot="public">
+          <name>MISSION_MODE_UNKNOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1ae5ec84b6454d1d028b17144d06f510c3ad1fee7d8e9a20d677a1f36fd127299bf" prot="public">
+          <name>MISSION_MODE_DISABLED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1ae5ec84b6454d1d028b17144d06f510c3abb282926454c5b0453de6781934b15e5" prot="public">
+          <name>MISSION_MODE_FSD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1ae5ec84b6454d1d028b17144d06f510c3af4249ab583be8ec652c82c0d094683eb" prot="public">
+          <name>MISSION_MODE_BSD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1ae5ec84b6454d1d028b17144d06f510c3a3060d5f14dc96013cfc8a2baf7900f32" prot="public">
+          <name>MISSION_MODE_MANUAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="61" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="enum" id="heartbeat__packet_8h_1aee3f53c98ea9499eb9042ce78dccf353" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SafetyStatus</name>
+        <enumvalue id="heartbeat__packet_8h_1aee3f53c98ea9499eb9042ce78dccf353a695fb17b955e1669ad512de226de0666" prot="public">
+          <name>SAFETY_STATUS_UNKNOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1aee3f53c98ea9499eb9042ce78dccf353a5624626b32ff2e00d502caac683547dd" prot="public">
+          <name>SAFETY_STATUS_READY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1aee3f53c98ea9499eb9042ce78dccf353a8e45019e6da81bdcb14b6f42bad58a09" prot="public">
+          <name>SAFETY_STATUS_FAULT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="71" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="enum" id="heartbeat__packet_8h_1a05e5fc9afd7e28ff0990f9368dc6d242" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Sync</name>
+        <enumvalue id="heartbeat__packet_8h_1a05e5fc9afd7e28ff0990f9368dc6d242a0845be64809d53eecead726b0e7d4f50" prot="public">
+          <name>SYNC_UNKNOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a05e5fc9afd7e28ff0990f9368dc6d242af53be1a2d0556ea91860c6be8f076d11" prot="public">
+          <name>SYNC_UNSYNCED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1a05e5fc9afd7e28ff0990f9368dc6d242a81465ca0d187ac9b3669054aea2a89b7" prot="public">
+          <name>SYNC_SYNCED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="79" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="78" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="enum" id="heartbeat__packet_8h_1ab383363bd761360e34baf459795e3bf4" prot="public" static="no" strong="no">
+        <type></type>
+        <name>PosSource</name>
+        <enumvalue id="heartbeat__packet_8h_1ab383363bd761360e34baf459795e3bf4a5178aa1ba76130c2b1dcaf388741708f" prot="public">
+          <name>POS_SOURCE_UNKNOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1ab383363bd761360e34baf459795e3bf4a8bcc6a06fe33fc4df1bf37d011ca97eb" prot="public">
+          <name>POS_SOURCE_GPS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="heartbeat__packet_8h_1ab383363bd761360e34baf459795e3bf4aaace5ec01a109cb9202be331e423239d" prot="public">
+          <name>POS_SOURCE_NAV</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="87" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="86" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="enum" id="packet_8h_1a667b153baa1038b0e4579bf1f2360660" prot="public" static="no" strong="no">
+        <type></type>
+        <name>PacketDescriptor</name>
+        <enumvalue id="packet_8h_1a667b153baa1038b0e4579bf1f2360660a366dd65cb75adf7c858cffd9d2ccc239" prot="public">
+          <name>RESPONSE_PACKET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packet_8h_1a667b153baa1038b0e4579bf1f2360660adffba81ba6238b5dfc1e7ffbf4e73015" prot="public">
+          <name>HEARTBEAT_PACKET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packet_8h_1a667b153baa1038b0e4579bf1f2360660a686ed1cc76b38f36c142d29aef475db6" prot="public">
+          <name>DEVICE_PACKET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packet_8h_1a667b153baa1038b0e4579bf1f2360660a41e7a29232005b5f392901a4a1187a79" prot="public">
+          <name>COMMAND_PACKET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packet_8h_1a667b153baa1038b0e4579bf1f2360660a935d50ddf1a65f60dda990b2766c2962" prot="public">
+          <name>ACTION_PACKET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="packet_8h_1a667b153baa1038b0e4579bf1f2360660a4c8e0391cd1efb7ba8176ca920e54ef0" prot="public">
+          <name>PASSTHROUGH_PACKET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="26" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/packet.h" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="enum" id="parameter_8h_1ad8ab350fbdd22a8f154e516e73701ee7" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Type</name>
+        <enumvalue id="parameter_8h_1ad8ab350fbdd22a8f154e516e73701ee7a3aa2c3f027ce99936c8406dd9acc6c0d" prot="public">
+          <name>TYPE_BOOL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="parameter_8h_1ad8ab350fbdd22a8f154e516e73701ee7a27d8bb9061572342ad3a6369eb3e523a" prot="public">
+          <name>TYPE_INT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="parameter_8h_1ad8ab350fbdd22a8f154e516e73701ee7a19bd3bf0947ce1f0bf0e8ceb2c35cd4c" prot="public">
+          <name>TYPE_DOUBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="parameter_8h_1ad8ab350fbdd22a8f154e516e73701ee7aa91fb05f8806a7a2bd056afd9ecdae86" prot="public">
+          <name>TYPE_STRING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="parameter_8h_1ad8ab350fbdd22a8f154e516e73701ee7ae3cde231740e4333b1177f45476ea747" prot="public">
+          <name>TYPE_VECTOR_BOOL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="parameter_8h_1ad8ab350fbdd22a8f154e516e73701ee7ac45d06f9b869f5702ab05d8e9b09ed94" prot="public">
+          <name>TYPE_VECTOR_INT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="parameter_8h_1ad8ab350fbdd22a8f154e516e73701ee7a016344d12c53992b65f673013b276b15" prot="public">
+          <name>TYPE_VECTOR_DOUBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter.h" line="24" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter.h" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="enum" id="passthrough__packet_8h_1a52f15cec7b91b75e5cf0695163e5bdcf" prot="public" static="no" strong="no">
+        <type></type>
+        <name>PassthroughField</name>
+        <enumvalue id="passthrough__packet_8h_1a52f15cec7b91b75e5cf0695163e5bdcfadb5f2ca8818f91c57a6ffb64f6800181" prot="public">
+          <name>PASSTHROUGH_DESTINATION_ID</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="passthrough__packet_8h_1a52f15cec7b91b75e5cf0695163e5bdcfa94a9de51fa78ba41444ad51db603003d" prot="public">
+          <name>PASSTHROUGH_CHANNEL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="passthrough__packet_8h_1a52f15cec7b91b75e5cf0695163e5bdcfa570efdd7118d06c9f092e606bec918ca" prot="public">
+          <name>PASSTHROUGH_INTERFACE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="passthrough__packet_8h_1a52f15cec7b91b75e5cf0695163e5bdcfa8b9ce467197e1c39c4c7588d51955507" prot="public">
+          <name>PASSTHROUGH_DATA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" line="24" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="response__packet_8h_1a01a7afc0af224aec0e6b1b615b7d98da" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ResponseField</name>
+        <enumvalue id="response__packet_8h_1a01a7afc0af224aec0e6b1b615b7d98daaadaa094faf0eb96cba4c4d8aaeb1231c" prot="public">
+          <name>RESPONSE_SOURCE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="response__packet_8h_1a01a7afc0af224aec0e6b1b615b7d98daa5cdc10139ca20af1e5caf801c44ecb93" prot="public">
+          <name>RESPONSE_RESULT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="response__packet_8h_1a01a7afc0af224aec0e6b1b615b7d98daacfeafc6d513c58b823435c31f48be603" prot="public">
+          <name>RESPONSE_DATA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" line="24" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" bodystart="23" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="heartbeat__packet_8h_1af9eb89004f029ca859894327eb3cfe14" prot="public" static="no">
+        <type>enum avl::MissionMode</type>
+        <definition>typedef enum avl::MissionMode avl::MissionMode</definition>
+        <argsstring></argsstring>
+        <name>MissionMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="67" column="13"/>
+      </memberdef>
+      <memberdef kind="typedef" id="heartbeat__packet_8h_1a8703a6cce1bc5780304b3033e097f2cd" prot="public" static="no">
+        <type>enum avl::SafetyStatus</type>
+        <definition>typedef enum avl::SafetyStatus avl::SafetyStatus</definition>
+        <argsstring></argsstring>
+        <name>SafetyStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="75" column="14"/>
+      </memberdef>
+      <memberdef kind="typedef" id="heartbeat__packet_8h_1a810e496aeeafe0d8c884780a71732a4c" prot="public" static="no">
+        <type>enum avl::Sync</type>
+        <definition>typedef enum avl::Sync avl::Sync</definition>
+        <argsstring></argsstring>
+        <name>Sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="83" column="6"/>
+      </memberdef>
+      <memberdef kind="typedef" id="heartbeat__packet_8h_1a2befce794877e34902947dfd26d9e1f2" prot="public" static="no">
+        <type>enum avl::PosSource</type>
+        <definition>typedef enum avl::PosSource avl::PosSource</definition>
+        <argsstring></argsstring>
+        <name>PosSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="91" column="11"/>
+      </memberdef>
+      <memberdef kind="typedef" id="heartbeat__packet_8h_1ad0dd271c8379b5da796f5e88d89f7434" prot="public" static="no">
+        <type>struct <ref refid="structavl_1_1_heartbeat" kindref="compound">avl::Heartbeat</ref></type>
+        <definition>typedef struct avl::Heartbeat avl::Heartbeat</definition>
+        <argsstring></argsstring>
+        <name>Heartbeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="125" column="11"/>
+      </memberdef>
+      <memberdef kind="typedef" id="heartbeat__packet_8h_1ab10e723916320a7035c43d50f919daaa" prot="public" static="no">
+        <type>struct <ref refid="structavl_1_1_heartbeat_minimal" kindref="compound">avl::HeartbeatMinimal</ref></type>
+        <definition>typedef struct avl::HeartbeatMinimal avl::HeartbeatMinimal</definition>
+        <argsstring></argsstring>
+        <name>HeartbeatMinimal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="133" column="18"/>
+      </memberdef>
+      <memberdef kind="typedef" id="packet_8h_1af6635ca9f0710727f1990de30a5e3d2a" prot="public" static="no">
+        <type>struct <ref refid="structavl_1_1_packet_header" kindref="compound">avl::PacketHeader</ref></type>
+        <definition>typedef struct avl::PacketHeader avl::PacketHeader</definition>
+        <argsstring></argsstring>
+        <name>PacketHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="52" column="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="packet_8h_1ac776fec387d4f35eb34a6f98217ddf46" prot="public" static="no" mutable="no">
+        <type>const std::vector&lt; uint8_t &gt;</type>
+        <definition>const std::vector&lt;uint8_t&gt; avl::PACKET_SOF</definition>
+        <argsstring></argsstring>
+        <name>PACKET_SOF</name>
+        <initializer>= {0x75, 0x65}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="40" column="19" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/packet.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet_8h_1a8d932600bbf033a5a7d3e6751d9ed50f" prot="public" static="no" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t avl::NUM_HEADER_BYTES</definition>
+        <argsstring></argsstring>
+        <name>NUM_HEADER_BYTES</name>
+        <initializer>= 2 + 14 + 1 + 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="59" column="14" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/packet.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="packet_8h_1a291a123eec8f844832f995a811c42863" prot="public" static="no" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t avl::MIN_PACKET_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>MIN_PACKET_LENGTH</name>
+        <initializer>= NUM_HEADER_BYTES + 0 + 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/packet.h" line="66" column="14" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/packet.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="byte_8h_1a0defe3d1b3b5ae151e2c64a63f7cc64c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool avl::system_is_big_endian</definition>
+        <argsstring>()</argsstring>
+        <name>system_is_big_endian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/byte.h" line="31" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/byte.h" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="byte_8h_1a22c7b8ab04063989b8f338281275dfe6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string avl::byte_to_hex</definition>
+        <argsstring>(uint8_t byte)</argsstring>
+        <name>byte_to_hex</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>byte</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/byte.h" line="46" column="20" bodyfile="/home/cooper/test/avl_gui_new/include/util/byte.h" bodystart="46" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="byte_8h_1ab65f21cbfb6ab817da9e2653c250e1ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string avl::byte_to_hex</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; bytes)</argsstring>
+        <name>byte_to_hex</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/byte.h" line="66" column="20" bodyfile="/home/cooper/test/avl_gui_new/include/util/byte.h" bodystart="66" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="byte_8h_1a37be67463f51cc49b873abaecb6cbc31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T avl::from_bytes</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; bytes, bool little_endian=false)</argsstring>
+        <name>from_bytes</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>little_endian</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/byte.h" line="90" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/byte.h" bodystart="90" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="byte_8h_1acd1145fb25ebf777478ce7591ab89889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; T &gt;</type>
+        <definition>std::vector&lt;T&gt; avl::vector_from_bytes</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; bytes, bool little_endian=false)</argsstring>
+        <name>vector_from_bytes</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>little_endian</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/byte.h" line="122" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/byte.h" bodystart="122" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="byte_8h_1a8542362a03bacadc6a575d49a94be56f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; avl::to_bytes</definition>
+        <argsstring>(T var, bool little_endian=false)</argsstring>
+        <name>to_bytes</name>
+        <param>
+          <type>T</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>little_endian</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/byte.h" line="153" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/byte.h" bodystart="153" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="byte_8h_1adcb65671a6274561b7795afae69f3586" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; avl::to_bytes</definition>
+        <argsstring>(std::string string)</argsstring>
+        <name>to_bytes</name>
+        <param>
+          <type>std::string</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/byte.h" line="178" column="20" bodyfile="/home/cooper/test/avl_gui_new/include/util/byte.h" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="file_8h_1ab0c2becc6916482b16fee8fc18a16e88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool avl::fexists</definition>
+        <argsstring>(const std::string &amp;filename)</argsstring>
+        <name>fexists</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/file.h" line="27" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/file.h" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="geo_8h_1a2bb4749d3cba29759eeb9b3bd3859020" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void avl::geo_to_ned</definition>
+        <argsstring>(double lat0, double lon0, double alt0, double lat, double lon, double alt, double &amp;N, double &amp;E, double &amp;D)</argsstring>
+        <name>geo_to_ned</name>
+        <param>
+          <type>double</type>
+          <declname>lat0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alt0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alt</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>E</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/geo.h" line="37" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/geo.h" bodystart="37" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="geo_8h_1a532f1ef93703c3590f28dad08efef3f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void avl::ned_to_geo</definition>
+        <argsstring>(double lat0, double lon0, double alt0, double N, double E, double D, double &amp;lat, double &amp;lon, double &amp;alt)</argsstring>
+        <name>ned_to_geo</name>
+        <param>
+          <type>double</type>
+          <declname>lat0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alt0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>E</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>D</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>alt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/geo.h" line="60" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/geo.h" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="geo_8h_1aac37c049b48fa27fe0d6ab5712a4c245" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::initial_bearing</definition>
+        <argsstring>(double lat_start, double lon_start, double lat_end, double lon_end)</argsstring>
+        <name>initial_bearing</name>
+        <param>
+          <type>double</type>
+          <declname>lat_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/geo.h" line="79" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/util/geo.h" bodystart="79" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="geo_8h_1a5d107da4e8ffd2ce6d634d6af227c85e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::final_bearing</definition>
+        <argsstring>(double lat_start, double lon_start, double lat_end, double lon_end)</argsstring>
+        <name>final_bearing</name>
+        <param>
+          <type>double</type>
+          <declname>lat_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/geo.h" line="108" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/util/geo.h" bodystart="108" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="geo_8h_1a837c723e266c2290c16ce07a541602d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::angular_distance</definition>
+        <argsstring>(double lat_start, double lon_start, double lat_end, double lon_end)</argsstring>
+        <name>angular_distance</name>
+        <param>
+          <type>double</type>
+          <declname>lat_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/geo.h" line="125" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/util/geo.h" bodystart="125" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="geo_8h_1af7d467d1425f8e05c0a0138e49b38e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::cross_track_error</definition>
+        <argsstring>(double lat_start, double lon_start, double lat_end, double lon_end, double lat, double lon)</argsstring>
+        <name>cross_track_error</name>
+        <param>
+          <type>double</type>
+          <declname>lat_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/geo.h" line="153" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/util/geo.h" bodystart="153" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="geo_8h_1a2049c4037ab21fd68eb89626c95f0fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::distance</definition>
+        <argsstring>(double lat_start, double lon_start, double lat_end, double lon_end)</argsstring>
+        <name>distance</name>
+        <param>
+          <type>double</type>
+          <declname>lat_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/geo.h" line="184" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/util/geo.h" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="geo_8h_1acf1a4b136dd05ea5c04d3decde00554c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool avl::in_radius</definition>
+        <argsstring>(double lat1, double lon1, double radius, double lat2, double lon2)</argsstring>
+        <name>in_radius</name>
+        <param>
+          <type>double</type>
+          <declname>lat1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/geo.h" line="204" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/geo.h" bodystart="204" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="geo_8h_1a47874ebd6fa28dafe1160a45921ab9f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool avl::crossed_half_plane</definition>
+        <argsstring>(double lat_start, double lon_start, double lat_end, double lon_end, double lat, double lon)</argsstring>
+        <name>crossed_half_plane</name>
+        <param>
+          <type>double</type>
+          <declname>lat_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/geo.h" line="223" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/geo.h" bodystart="223" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="logic_8h_1a36c47eb775fd1a1723c82671ce1b73d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *const</type>
+        <definition>const char* const avl::bool_to_string</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>bool_to_string</name>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/logic.h" line="28" column="25" bodyfile="/home/cooper/test/avl_gui_new/include/util/logic.h" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="logic_8h_1a40f9e8a0fd759eb3521017f58a176bd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::any_true</definition>
+        <argsstring>(const std::vector&lt; bool &gt; &amp;flags)</argsstring>
+        <name>any_true</name>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/logic.h" line="40" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/logic.h" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="logic_8h_1a85511f71f136c12d5a0ee2db206185b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::any_false</definition>
+        <argsstring>(const std::vector&lt; bool &gt; &amp;flags)</argsstring>
+        <name>any_false</name>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/logic.h" line="53" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/logic.h" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="logic_8h_1a8bf95950e75df7c09b5a5d5a8d8f86ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::all_true</definition>
+        <argsstring>(const std::vector&lt; bool &gt; &amp;flags)</argsstring>
+        <name>all_true</name>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/logic.h" line="66" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/logic.h" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="logic_8h_1aeb83d3efe2046fbdd7383a976714749d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::all_false</definition>
+        <argsstring>(const std::vector&lt; bool &gt; &amp;flags)</argsstring>
+        <name>all_false</name>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/logic.h" line="79" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/logic.h" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="logic_8h_1ae85d5ec377ddc2a442090461b6afcd85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double avl::all_nan</definition>
+        <argsstring>(const std::vector&lt; T &gt; &amp;vec)</argsstring>
+        <name>all_nan</name>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/logic.h" line="92" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/util/logic.h" bodystart="92" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="logic_8h_1a5df9659df7ab3b65c3c21405c9648b2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double avl::any_nan</definition>
+        <argsstring>(const std::vector&lt; T &gt; &amp;vec)</argsstring>
+        <name>any_nan</name>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/logic.h" line="105" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/util/logic.h" bodystart="105" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="logic_8h_1a3969b303915e9816fb9822199fc15fbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool avl::has_both</definition>
+        <argsstring>(double var1, double var2)</argsstring>
+        <name>has_both</name>
+        <param>
+          <type>double</type>
+          <declname>var1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>var2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/logic.h" line="118" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/logic.h" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1af3b043e24354d07b79ff7c4922c663f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T avl::sec</definition>
+        <argsstring>(T angle)</argsstring>
+        <name>sec</name>
+        <param>
+          <type>T</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="29" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a62fc355e76fafbf329fdf7d8b8cd1337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T avl::deg_to_rad</definition>
+        <argsstring>(T angle)</argsstring>
+        <name>deg_to_rad</name>
+        <param>
+          <type>T</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="41" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a2ac98916a7706aa58c888d049c5a12ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T avl::rad_to_deg</definition>
+        <argsstring>(T angle)</argsstring>
+        <name>rad_to_deg</name>
+        <param>
+          <type>T</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="53" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a4aabaf555e6fd0d766684582b4dc2527" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::wrap_to_pi</definition>
+        <argsstring>(double angle)</argsstring>
+        <name>wrap_to_pi</name>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="64" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="64" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a2b083e5e84dd9f6c5f800833b783b3cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::wrap_to_2pi</definition>
+        <argsstring>(double angle)</argsstring>
+        <name>wrap_to_2pi</name>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="78" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="78" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a6326a64fea8fb83c860f6cbdc9a3380c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::wrap_to_180</definition>
+        <argsstring>(double angle)</argsstring>
+        <name>wrap_to_180</name>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="92" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="92" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a407238736ec68bc1230e4bc7cdbd9377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::wrap_to_360</definition>
+        <argsstring>(double angle)</argsstring>
+        <name>wrap_to_360</name>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="106" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="106" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a3eee7a16c501911dad05b5b9aa4e22d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T avl::arc_angle</definition>
+        <argsstring>(T theta1, T theta2, bool clockwise, bool radians=true)</argsstring>
+        <name>arc_angle</name>
+        <param>
+          <type>T</type>
+          <declname>theta1</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>theta2</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>clockwise</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>radians</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="126" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="126" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a1f479690a35a94a170233b91e265fd6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T avl::wrap_cw</definition>
+        <argsstring>(T theta_1, T theta_2, bool radians=true)</argsstring>
+        <name>wrap_cw</name>
+        <param>
+          <type>T</type>
+          <declname>theta_1</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>theta_2</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>radians</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="147" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="147" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1abe12bdcd0d852359c92295da6ee651a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T avl::wrap_ccw</definition>
+        <argsstring>(T theta_1, T theta_2, bool radians=true)</argsstring>
+        <name>wrap_ccw</name>
+        <param>
+          <type>T</type>
+          <declname>theta_1</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>theta_2</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>radians</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="174" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="174" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1ae99413938d1537d1a15c5be348fd2c02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::clamp</definition>
+        <argsstring>(double input, double min, double max)</argsstring>
+        <name>clamp</name>
+        <param>
+          <type>double</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="198" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="198" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a86d71a20dc986bd7c578297a4ffede91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool avl::in_range</definition>
+        <argsstring>(T value, T min, T max)</argsstring>
+        <name>in_range</name>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="212" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="212" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a190c8a51af83b27cb86b1ad3c270fef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::linear_scale</definition>
+        <argsstring>(double input, double in_min, double in_max, double out_min, double out_max)</argsstring>
+        <name>linear_scale</name>
+        <param>
+          <type>double</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>in_min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>in_max</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>out_min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>out_max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="229" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="229" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a898a3e57ed4dabcf0c658a26c9cf563b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool avl::point_in_poly</definition>
+        <argsstring>(const double lat, const double lon, const std::vector&lt; double &gt; poly_lats, const std::vector&lt; double &gt; poly_lons)</argsstring>
+        <name>point_in_poly</name>
+        <param>
+          <type>const double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt;</type>
+          <declname>poly_lats</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt;</type>
+          <declname>poly_lons</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="261" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="261" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="math_8h_1a7063d736f50dc73bc8a446ae70288dde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T avl::wrap</definition>
+        <argsstring>(T angle, bool radians=true)</argsstring>
+        <name>wrap</name>
+        <param>
+          <type>T</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>radians</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/math.h" line="296" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/math.h" bodystart="296" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8h_1a30070d1f0de181ca0e5791ab1f96b50e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Matrix&lt; T, 3, 3 &gt;</type>
+        <definition>Matrix&lt;T, 3, 3&gt; avl::skew</definition>
+        <argsstring>(Matrix&lt; T, 3, 1 &gt; x)</argsstring>
+        <name>skew</name>
+        <param>
+          <type>Matrix&lt; T, 3, 1 &gt;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/matrix.h" line="36" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/util/matrix.h" bodystart="36" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8h_1a381f4e03ea6366ea02805e21f61236e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 3, 3 &gt;</type>
+        <definition>Eigen::Matrix&lt;T, 3, 3&gt; avl::euler_to_matrix</definition>
+        <argsstring>(std::vector&lt; T &gt; theta, bool degrees=false)</argsstring>
+        <name>euler_to_matrix</name>
+        <param>
+          <type>std::vector&lt; T &gt;</type>
+          <declname>theta</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>degrees</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/matrix.h" line="59" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/matrix.h" bodystart="59" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8h_1a803712514374b438f21670307a9682ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 3, 3 &gt;</type>
+        <definition>Eigen::Matrix&lt;T, 3, 3&gt; avl::euler_to_matrix</definition>
+        <argsstring>(T roll, T pitch, T yaw, bool degrees=false)</argsstring>
+        <name>euler_to_matrix</name>
+        <param>
+          <type>T</type>
+          <declname>roll</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>yaw</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>degrees</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/matrix.h" line="109" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/matrix.h" bodystart="109" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8h_1ab1a35ac867ff768f46aa11b3512401a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 3, 3 &gt;</type>
+        <definition>Eigen::Matrix&lt;T, 3, 3&gt; avl::euler_to_matrix</definition>
+        <argsstring>(Matrix&lt; T, 3, 1 &gt; theta, bool degrees=false)</argsstring>
+        <name>euler_to_matrix</name>
+        <param>
+          <type>Matrix&lt; T, 3, 1 &gt;</type>
+          <declname>theta</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>degrees</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/matrix.h" line="131" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/matrix.h" bodystart="131" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8h_1a0e3184442d59c700aed1c5c289c10d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Matrix&lt; T, 3, 1 &gt;</type>
+        <definition>Matrix&lt;T, 3, 1&gt; avl::matrix_to_euler</definition>
+        <argsstring>(Matrix&lt; T, 3, 3 &gt; R, bool degrees=false)</argsstring>
+        <name>matrix_to_euler</name>
+        <param>
+          <type>Matrix&lt; T, 3, 3 &gt;</type>
+          <declname>R</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>degrees</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/matrix.h" line="150" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/util/matrix.h" bodystart="150" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8h_1a9d24789a32aff7ebe447a74b9df481b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>rows</declname>
+            <defname>rows</defname>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>cols</declname>
+            <defname>cols</defname>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, rows, cols &gt;</type>
+        <definition>Eigen::Matrix&lt;T, rows, cols&gt; avl::from_bytes</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; bytes)</argsstring>
+        <name>from_bytes</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/matrix.h" line="183" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/matrix.h" bodystart="183" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8h_1aaa3f8c718791ad73d3908fb8955ac353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>rows</declname>
+            <defname>rows</defname>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>cols</declname>
+            <defname>cols</defname>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; avl::to_bytes</definition>
+        <argsstring>(Eigen::Matrix&lt; T, rows, cols &gt; matrix, bool little_endian=false)</argsstring>
+        <name>to_bytes</name>
+        <param>
+          <type>Eigen::Matrix&lt; T, rows, cols &gt;</type>
+          <declname>matrix</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>little_endian</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/matrix.h" line="219" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/matrix.h" bodystart="219" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="matrix_8h_1acf2091ae521aaeb50f69e888a431fbbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>M</type>
+        <definition>M avl::csv_to_matrix</definition>
+        <argsstring>(const std::string &amp;file_path, const char &amp;delim=&apos;,&apos;, size_t start_row=0)</argsstring>
+        <name>csv_to_matrix</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>file_path</declname>
+        </param>
+        <param>
+          <type>const char &amp;</type>
+          <declname>delim</declname>
+          <defval>&apos;,&apos;</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>start_row</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/matrix.h" line="254" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/matrix.h" bodystart="254" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a3e5edbda665ae2b15916a7ad3d7ac8d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool avl::check_param</definition>
+        <argsstring>(const std::string key)</argsstring>
+        <name>check_param</name>
+        <param>
+          <type>const std::string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="49" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="49" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a8321a571c7748f04fff8c642d2474846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T avl::get_param</definition>
+        <argsstring>(const std::string key)</argsstring>
+        <name>get_param</name>
+        <param>
+          <type>const std::string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="70" column="3" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="70" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a016e4f6023af96210968d3209d311999" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool avl::set_param</definition>
+        <argsstring>(const std::string key, T value)</argsstring>
+        <name>set_param</name>
+        <param>
+          <type>const std::string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="97" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="97" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a1dec93dc57d3a9078a20ab392bc9ba17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string avl::id_to_address</definition>
+        <argsstring>(uint32_t id)</argsstring>
+        <name>id_to_address</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="118" column="20" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="118" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a6ca9a5562ad2b91c94de82481e1780ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t avl::address_to_id</definition>
+        <argsstring>(std::string address)</argsstring>
+        <name>address_to_id</name>
+        <param>
+          <type>std::string</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="135" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="135" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a1f3a775c086a062432a53324b16ec45a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string avl::get_local_ip_address</definition>
+        <argsstring>()</argsstring>
+        <name>get_local_ip_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="153" column="20" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="153" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a818ce199146fac21206757eeee5e1051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::get_vehicle_id</definition>
+        <argsstring>()</argsstring>
+        <name>get_vehicle_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="211" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1acdf88fe032191bd3f786026022fc72a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::get_epoch_time</definition>
+        <argsstring>()</argsstring>
+        <name>get_epoch_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="221" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="221" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a0940ef607ba3cb3f0b26efef6b7afa5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t avl::get_epoch_time_nanoseconds</definition>
+        <argsstring>()</argsstring>
+        <name>get_epoch_time_nanoseconds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="233" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="233" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a0e02e028926647d409fed14be21c688d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string avl::get_nmea_checksum</definition>
+        <argsstring>(std::string message)</argsstring>
+        <name>get_nmea_checksum</name>
+        <param>
+          <type>std::string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="248" column="20" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="248" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1ad7a5ca84745504b30ced172447c54e8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float avl::dms_to_deg</definition>
+        <argsstring>(const std::string &amp;dms, std::string &amp;dir)</argsstring>
+        <name>dms_to_deg</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>dms</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="290" column="14" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="290" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="misc_8h_1a4562c097373d96ea19d6d8d26d37d890" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double avl::hms_to_seconds</definition>
+        <argsstring>(const std::string &amp;hms)</argsstring>
+        <name>hms_to_seconds</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>hms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/misc.h" line="321" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/util/misc.h" bodystart="321" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="string_8h_1a1087314e4fceba12dca0bd892dbcbb3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; avl::split</definition>
+        <argsstring>(const std::string &amp;str, const std::string &amp;delim)</argsstring>
+        <name>split</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>delim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/string.h" line="29" column="20" bodyfile="/home/cooper/test/avl_gui_new/include/util/string.h" bodystart="29" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="string_8h_1a1b461b2c0f22e5994aa6eb040cf81936" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool avl::contains</definition>
+        <argsstring>(std::string string, std::string substring)</argsstring>
+        <name>contains</name>
+        <param>
+          <type>std::string</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>substring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/string.h" line="66" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/string.h" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="string_8h_1aa3ca1b828390a9f94925403eeb355668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool avl::starts_with</definition>
+        <argsstring>(std::string string, std::string substring)</argsstring>
+        <name>starts_with</name>
+        <param>
+          <type>std::string</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>substring</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/string.h" line="78" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/string.h" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="string_8h_1aefce77c054f966aad6cdcf909bc31bb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void avl::strip</definition>
+        <argsstring>(std::string &amp;string, char character)</argsstring>
+        <name>strip</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>character</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/string.h" line="89" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/string.h" bodystart="89" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="string_8h_1a6b7e0131b18266a475c23022d765a509" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void avl::to_upper</definition>
+        <argsstring>(std::string &amp;string)</argsstring>
+        <name>to_upper</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/string.h" line="100" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/string.h" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="string_8h_1a8ab528853525421be16f3d1f0f3edb3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void avl::to_lower</definition>
+        <argsstring>(std::string &amp;string)</argsstring>
+        <name>to_lower</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/string.h" line="110" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/string.h" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="vector_8h_1aa993dec3d4fa781d9976484f1ffc5347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; T &gt;</type>
+        <definition>std::vector&lt;T&gt; avl::subvector</definition>
+        <argsstring>(std::vector&lt; T &gt; vect, int start, int num)</argsstring>
+        <name>subvector</name>
+        <param>
+          <type>std::vector&lt; T &gt;</type>
+          <declname>vect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/vector.h" line="32" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/vector.h" bodystart="32" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="vector_8h_1a2a091dcbfd77b2899ac6819f1e8751ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void avl::append</definition>
+        <argsstring>(std::vector&lt; T &gt; &amp;vector0, std::vector&lt; T &gt; vector1)</argsstring>
+        <name>append</name>
+        <param>
+          <type>std::vector&lt; T &gt; &amp;</type>
+          <declname>vector0</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; T &gt;</type>
+          <declname>vector1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/vector.h" line="59" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/vector.h" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="vector_8h_1aa3bac8528f2b707be594b1c649701592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void avl::remove</definition>
+        <argsstring>(std::vector&lt; T &gt; &amp;vector, int start, int num)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>std::vector&lt; T &gt; &amp;</type>
+          <declname>vector</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/vector.h" line="74" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/vector.h" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="vector_8h_1a27804dcc28b8a8594e3da7de47c5681d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void avl::remove_elements</definition>
+        <argsstring>(std::vector&lt; T &gt; &amp;vec, T elem)</argsstring>
+        <name>remove_elements</name>
+        <param>
+          <type>std::vector&lt; T &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/vector.h" line="87" column="6" bodyfile="/home/cooper/test/avl_gui_new/include/util/vector.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="vector_8h_1a35e4da3779d8bbc982695b42d1449616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; size_t &gt;</type>
+        <definition>std::vector&lt;size_t&gt; avl::find_subvector</definition>
+        <argsstring>(const std::vector&lt; T &gt; &amp;vec, const std::vector&lt; T &gt; &amp;sub)</argsstring>
+        <name>find_subvector</name>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>sub</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/vector.h" line="101" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/vector.h" bodystart="101" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="vector_8h_1acfc40efaa34bcd422800e0de4686ab55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T1</type>
+          </param>
+          <param>
+            <type>typename T2</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; T2 &gt;</type>
+        <definition>std::vector&lt;T2&gt; avl::cast_all</definition>
+        <argsstring>(std::vector&lt; T1 &gt; v1)</argsstring>
+        <name>cast_all</name>
+        <param>
+          <type>std::vector&lt; T1 &gt;</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/util/vector.h" line="118" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/util/vector.h" bodystart="118" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/action_packet.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

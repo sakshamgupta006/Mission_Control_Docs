@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structavl_1_1_passthrough_message" kind="struct" language="C++" prot="public">
+    <compoundname>avl::PassthroughMessage</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structavl_1_1_passthrough_message_1af35075751bbcf24b8f52879211db239a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::PassthroughMessage::destination_id</definition>
+        <argsstring></argsstring>
+        <name>destination_id</name>
+        <initializer>= 0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" line="37" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_passthrough_message_1a71ce46b6cd1cfc1bafe4b227b2f70c70" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::PassthroughMessage::channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <initializer>= 0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" line="38" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_passthrough_message_1af333b4b6b42211aabadf9dd40806feb2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::PassthroughMessage::interface</definition>
+        <argsstring></argsstring>
+        <name>interface</name>
+        <initializer>= 0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" line="39" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_passthrough_message_1a6d331f550783fa14895d699825588f6a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; avl::PassthroughMessage::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" line="40" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" line="36" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/passthrough_packet.h" bodystart="35" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structavl_1_1_passthrough_message_1a71ce46b6cd1cfc1bafe4b227b2f70c70" prot="public" virt="non-virtual"><scope>avl::PassthroughMessage</scope><name>channel</name></member>
+      <member refid="structavl_1_1_passthrough_message_1a6d331f550783fa14895d699825588f6a" prot="public" virt="non-virtual"><scope>avl::PassthroughMessage</scope><name>data</name></member>
+      <member refid="structavl_1_1_passthrough_message_1af35075751bbcf24b8f52879211db239a" prot="public" virt="non-virtual"><scope>avl::PassthroughMessage</scope><name>destination_id</name></member>
+      <member refid="structavl_1_1_passthrough_message_1af333b4b6b42211aabadf9dd40806feb2" prot="public" virt="non-virtual"><scope>avl::PassthroughMessage</scope><name>interface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_task_1_1dive" kind="struct" language="C++" prot="public">
+    <compoundname>Task::dive</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_task_1_1dive_1a29da728c33674b2b04aae550cf56212a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::dive::heading</definition>
+        <argsstring></argsstring>
+        <name>heading</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="306" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/task.h" line="305" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="304" bodyend="307"/>
+    <listofallmembers>
+      <member refid="struct_task_1_1dive_1a29da728c33674b2b04aae550cf56212a" prot="public" virt="non-virtual"><scope>Task::dive</scope><name>heading</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

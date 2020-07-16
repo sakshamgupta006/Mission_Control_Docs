@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classpugi_1_1xpath__node__set" kind="class" language="C++" prot="public">
+    <compoundname>pugi::xpath_node_set</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classpugi_1_1xpath__node__set_1a6c6899c8ecfbce9e42ec85540907080e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>type_t</name>
+        <enumvalue id="classpugi_1_1xpath__node__set_1a6c6899c8ecfbce9e42ec85540907080ea7636fa164710ab9b069850ea3b3e4924" prot="public">
+          <name>type_unsorted</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classpugi_1_1xpath__node__set_1a6c6899c8ecfbce9e42ec85540907080ea9d5ce5e6194ac2003da0d86d9af87437" prot="public">
+          <name>type_sorted</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classpugi_1_1xpath__node__set_1a6c6899c8ecfbce9e42ec85540907080ea7035df3be16759292de59850d6c0b9be" prot="public">
+          <name>type_sorted_reverse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1334" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="1333" bodyend="1338"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classpugi_1_1xpath__node__set_1a0de50a38b3369baf033e272ebd4eec39" prot="public" static="no" mutable="no">
+        <type>const typedef <ref refid="classpugi_1_1xpath__node" kindref="compound">xpath_node</ref> *</type>
+        <definition>const typedef xpath_node* pugi::xpath_node_set::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1341" column="26" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="1341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpugi_1_1xpath__node__set_1ad5b3d76e58b4c5b513e48eaec1acaf8a" prot="public" static="no" mutable="no">
+        <type>const typedef <ref refid="classpugi_1_1xpath__node" kindref="compound">xpath_node</ref> *</type>
+        <definition>const typedef xpath_node* pugi::xpath_node_set::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1344" column="26" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="1344" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpugi_1_1xpath__node__set_1a1697de0286a6d6de55e4c96f1a5ebc0b" prot="private" static="no" mutable="no">
+        <type>type_t</type>
+        <definition>type_t pugi::xpath_node_set::_type</definition>
+        <argsstring></argsstring>
+        <name>_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1388" column="8" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="1388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpugi_1_1xpath__node__set_1abd2b39d3cfaf58e0a39c09c8090b1da8" prot="private" static="no" mutable="no">
+        <type><ref refid="classpugi_1_1xpath__node" kindref="compound">xpath_node</ref></type>
+        <definition>xpath_node pugi::xpath_node_set::_storage[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>_storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1390" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="1390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpugi_1_1xpath__node__set_1ab392b2e446d87f998998526d7ec4e2cf" prot="private" static="no" mutable="no">
+        <type><ref refid="classpugi_1_1xpath__node" kindref="compound">xpath_node</ref> *</type>
+        <definition>xpath_node* pugi::xpath_node_set::_begin</definition>
+        <argsstring></argsstring>
+        <name>_begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1392" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="1392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpugi_1_1xpath__node__set_1ada2ff69224aee219433c90734c904cf9" prot="private" static="no" mutable="no">
+        <type><ref refid="classpugi_1_1xpath__node" kindref="compound">xpath_node</ref> *</type>
+        <definition>xpath_node* pugi::xpath_node_set::_end</definition>
+        <argsstring></argsstring>
+        <name>_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1393" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="1393" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a3e102821157e43d83f6623996709127d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pugi::xpath_node_set::xpath_node_set</definition>
+        <argsstring>()</argsstring>
+        <name>xpath_node_set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1347" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a4af17267195e48361e11c1dc8b9fda19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pugi::xpath_node_set::xpath_node_set</definition>
+        <argsstring>(const_iterator begin, const_iterator end, type_t type=type_unsorted)</argsstring>
+        <name>xpath_node_set</name>
+        <param>
+          <type>const_iterator</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>const_iterator</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>type_t</type>
+          <declname>type</declname>
+          <defval>type_unsorted</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1350" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a6ca44658aa0126e12f9fc3e3f8017376" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pugi::xpath_node_set::~xpath_node_set</definition>
+        <argsstring>()</argsstring>
+        <name>~xpath_node_set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1353" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a59f1f078606bb6c4f1a081bb82bcf901" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pugi::xpath_node_set::xpath_node_set</definition>
+        <argsstring>(const xpath_node_set &amp;ns)</argsstring>
+        <name>xpath_node_set</name>
+        <param>
+          <type>const <ref refid="classpugi_1_1xpath__node__set" kindref="compound">xpath_node_set</ref> &amp;</type>
+          <declname>ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1356" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a2dda399273322331ad99409319baa75a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classpugi_1_1xpath__node__set" kindref="compound">xpath_node_set</ref> &amp;</type>
+        <definition>xpath_node_set&amp; pugi::xpath_node_set::operator=</definition>
+        <argsstring>(const xpath_node_set &amp;ns)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classpugi_1_1xpath__node__set" kindref="compound">xpath_node_set</ref> &amp;</type>
+          <declname>ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1357" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1ad363cf80a01993933681bb31b82abdbd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>type_t</type>
+        <definition>type_t pugi::xpath_node_set::type</definition>
+        <argsstring>() const</argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1366" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1ac4092c3ab60b9a6e43e2f44e6d50b934" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t pugi::xpath_node_set::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1369" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a592dc97989c9cf69aa3b9f0345acc0af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classpugi_1_1xpath__node" kindref="compound">xpath_node</ref> &amp;</type>
+        <definition>const xpath_node&amp; pugi::xpath_node_set::operator[]</definition>
+        <argsstring>(size_t index) const</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1372" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a3035d270a15817ce5f3b7d445172e214" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator pugi::xpath_node_set::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1375" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a6b284ea95af339369ab9610d7b59b0f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator pugi::xpath_node_set::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1376" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a53b4915362d3c73100d3b73ac40ab8f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pugi::xpath_node_set::sort</definition>
+        <argsstring>(bool reverse=false)</argsstring>
+        <name>sort</name>
+        <param>
+          <type>bool</type>
+          <declname>reverse</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1379" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a6b74439d2d6aa51a7155a40fa9fb0f21" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classpugi_1_1xpath__node" kindref="compound">xpath_node</ref></type>
+        <definition>xpath_node pugi::xpath_node_set::first</definition>
+        <argsstring>() const</argsstring>
+        <name>first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1382" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a796cb28a2e31b0cfc781e6d2e52e2313" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool pugi::xpath_node_set::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1385" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1a89dc758643759da115d6698bb174a740" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pugi::xpath_node_set::_assign</definition>
+        <argsstring>(const_iterator begin, const_iterator end, type_t type)</argsstring>
+        <name>_assign</name>
+        <param>
+          <type>const_iterator</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>const_iterator</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>type_t</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1395" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classpugi_1_1xpath__node__set_1acd90708deecb42e6934c90dd8d1d9f5f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void pugi::xpath_node_set::_move</definition>
+        <argsstring>(xpath_node_set &amp;rhs)</argsstring>
+        <name>_move</name>
+        <param>
+          <type><ref refid="classpugi_1_1xpath__node__set" kindref="compound">xpath_node_set</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1396" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>pugi::xpath_node</label>
+        <link refid="classpugi_1_1xpath__node"/>
+      </node>
+      <node id="1">
+        <label>pugi::xpath_node_set</label>
+        <link refid="classpugi_1_1xpath__node__set"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>iterator</edgelabel>
+          <edgelabel>const_iterator</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="1330" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="1329" bodyend="1397"/>
+    <listofallmembers>
+      <member refid="classpugi_1_1xpath__node__set_1a89dc758643759da115d6698bb174a740" prot="private" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>_assign</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1ab392b2e446d87f998998526d7ec4e2cf" prot="private" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>_begin</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1ada2ff69224aee219433c90734c904cf9" prot="private" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>_end</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1acd90708deecb42e6934c90dd8d1d9f5f" prot="private" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>_move</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1abd2b39d3cfaf58e0a39c09c8090b1da8" prot="private" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>_storage</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a1697de0286a6d6de55e4c96f1a5ebc0b" prot="private" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>_type</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a3035d270a15817ce5f3b7d445172e214" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>begin</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a0de50a38b3369baf033e272ebd4eec39" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>const_iterator</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a796cb28a2e31b0cfc781e6d2e52e2313" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>empty</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a6b284ea95af339369ab9610d7b59b0f1" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>end</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a6b74439d2d6aa51a7155a40fa9fb0f21" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>first</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1ad5b3d76e58b4c5b513e48eaec1acaf8a" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>iterator</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a2dda399273322331ad99409319baa75a" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>operator=</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a592dc97989c9cf69aa3b9f0345acc0af" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>operator[]</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1ac4092c3ab60b9a6e43e2f44e6d50b934" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>size</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a53b4915362d3c73100d3b73ac40ab8f2" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>sort</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1ad363cf80a01993933681bb31b82abdbd" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>type</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a6c6899c8ecfbce9e42ec85540907080ea9d5ce5e6194ac2003da0d86d9af87437" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>type_sorted</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a6c6899c8ecfbce9e42ec85540907080ea7035df3be16759292de59850d6c0b9be" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>type_sorted_reverse</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a6c6899c8ecfbce9e42ec85540907080e" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>type_t</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a6c6899c8ecfbce9e42ec85540907080ea7636fa164710ab9b069850ea3b3e4924" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>type_unsorted</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a3e102821157e43d83f6623996709127d" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>xpath_node_set</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a4af17267195e48361e11c1dc8b9fda19" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>xpath_node_set</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a59f1f078606bb6c4f1a081bb82bcf901" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>xpath_node_set</name></member>
+      <member refid="classpugi_1_1xpath__node__set_1a6ca44658aa0126e12f9fc3e3f8017376" prot="public" virt="non-virtual"><scope>pugi::xpath_node_set</scope><name>~xpath_node_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

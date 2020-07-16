@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structpugi_1_1xml__parse__result" kind="struct" language="C++" prot="public">
+    <compoundname>pugi::xml_parse_result</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structpugi_1_1xml__parse__result_1af8b3e6badea671931017695c8a9dd1af" prot="public" static="no" mutable="no">
+        <type>xml_parse_status</type>
+        <definition>xml_parse_status pugi::xml_parse_result::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="980" column="18" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="980" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpugi_1_1xml__parse__result_1adb61df40459ba6fb1083d22467983086" prot="public" static="no" mutable="no">
+        <type>ptrdiff_t</type>
+        <definition>ptrdiff_t pugi::xml_parse_result::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="983" column="11" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpugi_1_1xml__parse__result_1ad11f279dfce644dfe297e24dc5f72c01" prot="public" static="no" mutable="no">
+        <type>xml_encoding</type>
+        <definition>xml_encoding pugi::xml_parse_result::encoding</definition>
+        <argsstring></argsstring>
+        <name>encoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="986" column="14" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="986" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structpugi_1_1xml__parse__result_1a9d08458f0fc47468712c79ac86d1403b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pugi::xml_parse_result::xml_parse_result</definition>
+        <argsstring>()</argsstring>
+        <name>xml_parse_result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="989" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structpugi_1_1xml__parse__result_1aedfccb259c0fdfd32e38988ad87c0536" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>pugi::xml_parse_result::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="992" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structpugi_1_1xml__parse__result_1af7385932d90f60bfeacd07e128178920" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* pugi::xml_parse_result::description</definition>
+        <argsstring>() const</argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="995" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/pugixml.hpp" line="978" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/pugixml.hpp" bodystart="977" bodyend="996"/>
+    <listofallmembers>
+      <member refid="structpugi_1_1xml__parse__result_1af7385932d90f60bfeacd07e128178920" prot="public" virt="non-virtual"><scope>pugi::xml_parse_result</scope><name>description</name></member>
+      <member refid="structpugi_1_1xml__parse__result_1ad11f279dfce644dfe297e24dc5f72c01" prot="public" virt="non-virtual"><scope>pugi::xml_parse_result</scope><name>encoding</name></member>
+      <member refid="structpugi_1_1xml__parse__result_1adb61df40459ba6fb1083d22467983086" prot="public" virt="non-virtual"><scope>pugi::xml_parse_result</scope><name>offset</name></member>
+      <member refid="structpugi_1_1xml__parse__result_1aedfccb259c0fdfd32e38988ad87c0536" prot="public" virt="non-virtual"><scope>pugi::xml_parse_result</scope><name>operator bool</name></member>
+      <member refid="structpugi_1_1xml__parse__result_1af8b3e6badea671931017695c8a9dd1af" prot="public" virt="non-virtual"><scope>pugi::xml_parse_result</scope><name>status</name></member>
+      <member refid="structpugi_1_1xml__parse__result_1a9d08458f0fc47468712c79ac86d1403b" prot="public" virt="non-virtual"><scope>pugi::xml_parse_result</scope><name>xml_parse_result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

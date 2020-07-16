@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structavl_1_1_command" kind="struct" language="C++" prot="public">
+    <compoundname>avl::Command</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structavl_1_1_command_1ae6446f2ffb10031347aed3b592cf837d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string avl::Command::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/command_packet.h" line="39" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/command_packet.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_command_1ab5be08ae1916e1117e1d51d2a0c80023" prot="public" static="no" mutable="no">
+        <type><ref refid="classavl_1_1_parameter_list" kindref="compound">ParameterList</ref></type>
+        <definition>ParameterList avl::Command::parameters</definition>
+        <argsstring></argsstring>
+        <name>parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/command_packet.h" line="40" column="19" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/command_packet.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>avl::Command</label>
+        <link refid="structavl_1_1_command"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>parameters</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>avl::ParameterList</label>
+        <link refid="classavl_1_1_parameter_list"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/command_packet.h" line="38" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/command_packet.h" bodystart="37" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structavl_1_1_command_1ae6446f2ffb10031347aed3b592cf837d" prot="public" virt="non-virtual"><scope>avl::Command</scope><name>name</name></member>
+      <member refid="structavl_1_1_command_1ab5be08ae1916e1117e1d51d2a0c80023" prot="public" virt="non-virtual"><scope>avl::Command</scope><name>parameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

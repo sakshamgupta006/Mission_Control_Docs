@@ -1,0 +1,247 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Offline Maps &mdash; Mission Control  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/goatcounter.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/main_stylesheet.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Nautical Charts" href="nautical_charts.html" />
+    <link rel="prev" title="Getting Started" href="getting_started.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Mission Control
+          
+
+          
+            
+            <img src="_static/vt_marine_autonomy_logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">INSTALLATION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">USAGE</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MAP FEATURES</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Offline Maps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#generating-an-offline-map-tpk">Generating an Offline Map(.tpk)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#loading-the-offline-map-tpk">Loading the Offline Map(.tpk)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nautical_charts.html">Nautical Charts</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MISCELLANEOUS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="generating_and_plotting_logs.html">Generating and Plotting AVL Logs</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mission Control</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Offline Maps</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/offline_maps.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <img alt="_images/vt_marine_autonomy_logo.png" src="_images/vt_marine_autonomy_logo.png" />
+<div class="section" id="offline-maps">
+<h1>Offline Maps<a class="headerlink" href="#offline-maps" title="Permalink to this headline">¶</a></h1>
+<p>The Mission Control sofware is capable of loading offline maps of types <strong>.tpk</strong> and
+<strong>.mmpk</strong>. This feature is highly desirable when operating in limited internet connectivity regions.
+The operators can download the maps before the mission and load time at the time of the mission.</p>
+<div class="section" id="generating-an-offline-map-tpk">
+<h2>Generating an Offline Map(.tpk)<a class="headerlink" href="#generating-an-offline-map-tpk" title="Permalink to this headline">¶</a></h2>
+<p>To generate an offline map of a region navigate to <a class="reference external" href="https://nixta.github.io/tpk-creator/#">The TPK Show Website</a>.
+Then sign-in with your ArcGIS credentials. Now you can search for a place in the search bar provided or can drag the
+map to the appropriate location.</p>
+<img alt="_images/generate_offline_map.png" src="_images/generate_offline_map.png" />
+<p>Here you can Create a TPK file by specifying the level of detail you want in the map. More levels means that the map
+will have better resolution as you try to zoom in from the current view. The current view of the map is the view you
+will start with when you load the map in the Mission Control Software.</p>
+<p>Once you have finalized all of the parameters click <strong>Create TPK</strong>, to download the tpk file.</p>
+</div>
+<div class="section" id="loading-the-offline-map-tpk">
+<h2>Loading the Offline Map(.tpk)<a class="headerlink" href="#loading-the-offline-map-tpk" title="Permalink to this headline">¶</a></h2>
+<p>The generated .tpk file can now be loaded in the Mission Control Software. To load the press View in the Map window
+and select Load offline Maps (tpk) option, next select the downloaded tpk file. Now you have the offline map in the
+map window which will provide all the functionalities of the previous map.</p>
+<img alt="_images/load_offline_map.png" src="_images/load_offline_map.png" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="nautical_charts.html" class="btn btn-neutral float-right" title="Nautical Charts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="getting_started.html" class="btn btn-neutral float-left" title="Getting Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Center for Marine Autonomy and Robotics
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_vehicle_type" kind="class" language="C++" prot="public">
+    <compoundname>VehicleType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_vehicle_type_1ad741d8f173a56935228fb72d9c511db6" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Value</name>
+        <enumvalue id="class_vehicle_type_1ad741d8f173a56935228fb72d9c511db6ae244215fab79fca18c66b38ec466e9fc" prot="public">
+          <name>VEHICLE_AUV</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_vehicle_type_1ad741d8f173a56935228fb72d9c511db6aa028ece637de29eb65b1249abd7b3bba" prot="public">
+          <name>VEHICLE_DECKBOX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_type.h" line="29" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_type.h" bodystart="28" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vehicle_type_1aa8a491185c5774d572fae6ba4d2bcb79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>VehicleType::VehicleType</definition>
+        <argsstring>()</argsstring>
+        <name>VehicleType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_type.h" line="41" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_type.h" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_vehicle_type_1a6ef69192878eafb785fa6f30444a8164" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VehicleType::declare_qml</definition>
+        <argsstring>()</argsstring>
+        <name>declare_qml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_type.h" line="50" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_type.h" bodystart="50" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>VehicleType</label>
+        <link refid="class_vehicle_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>VehicleType</label>
+        <link refid="class_vehicle_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/vehicle_type.h" line="21" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_type.h" bodystart="20" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_vehicle_type_1a6ef69192878eafb785fa6f30444a8164" prot="public" virt="non-virtual"><scope>VehicleType</scope><name>declare_qml</name></member>
+      <member refid="class_vehicle_type_1ad741d8f173a56935228fb72d9c511db6" prot="public" virt="non-virtual"><scope>VehicleType</scope><name>Value</name></member>
+      <member refid="class_vehicle_type_1ad741d8f173a56935228fb72d9c511db6ae244215fab79fca18c66b38ec466e9fc" prot="public" virt="non-virtual"><scope>VehicleType</scope><name>VEHICLE_AUV</name></member>
+      <member refid="class_vehicle_type_1ad741d8f173a56935228fb72d9c511db6aa028ece637de29eb65b1249abd7b3bba" prot="public" virt="non-virtual"><scope>VehicleType</scope><name>VEHICLE_DECKBOX</name></member>
+      <member refid="class_vehicle_type_1aa8a491185c5774d572fae6ba4d2bcb79" prot="public" virt="non-virtual"><scope>VehicleType</scope><name>VehicleType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

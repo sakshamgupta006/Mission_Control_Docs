@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structavl_1_1_heartbeat_minimal" kind="struct" language="C++" prot="public">
+    <compoundname>avl::HeartbeatMinimal</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_minimal_1ad162a21781a0f88b0ea11373bd37e7ed" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::HeartbeatMinimal::lat</definition>
+        <argsstring></argsstring>
+        <name>lat</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="130" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_minimal_1aa7073f35c2274785b42abe1d723b2bc3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::HeartbeatMinimal::lon</definition>
+        <argsstring></argsstring>
+        <name>lon</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="131" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_minimal_1a6ce0a151e3034b186198b7fac89fac97" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::HeartbeatMinimal::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="132" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="129" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="128" bodyend="133"/>
+    <listofallmembers>
+      <member refid="structavl_1_1_heartbeat_minimal_1a6ce0a151e3034b186198b7fac89fac97" prot="public" virt="non-virtual"><scope>avl::HeartbeatMinimal</scope><name>depth</name></member>
+      <member refid="structavl_1_1_heartbeat_minimal_1ad162a21781a0f88b0ea11373bd37e7ed" prot="public" virt="non-virtual"><scope>avl::HeartbeatMinimal</scope><name>lat</name></member>
+      <member refid="structavl_1_1_heartbeat_minimal_1aa7073f35c2274785b42abe1d723b2bc3" prot="public" virt="non-virtual"><scope>avl::HeartbeatMinimal</scope><name>lon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

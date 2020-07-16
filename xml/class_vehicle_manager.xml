@@ -1,0 +1,1122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_vehicle_manager" kind="class" language="C++" prot="public">
+    <compoundname>VehicleManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_vehicle_manager_1aa9bd011b5bd34cb4640d9ef4e0de7d36" prot="private" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="class_vehicle" kindref="compound">Vehicle</ref> * &gt;</type>
+        <definition>QVector&lt;Vehicle*&gt; VehicleManager::vehicle_list</definition>
+        <argsstring></argsstring>
+        <name>vehicle_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="347" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_manager_1acbd52e6ab13cbe601377849ea960d0d9" prot="private" static="no" mutable="no">
+        <type>QVector&lt; int &gt;</type>
+        <definition>QVector&lt;int&gt; VehicleManager::selected_vehicles</definition>
+        <argsstring></argsstring>
+        <name>selected_vehicles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="350" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_manager_1a8e0cdb07395371a1f19c74d72c88e391" prot="private" static="no" mutable="no">
+        <type>QUdpSocket</type>
+        <definition>QUdpSocket VehicleManager::udp_socket</definition>
+        <argsstring></argsstring>
+        <name>udp_socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="356" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_manager_1aa622cba361d669049a9c493585113caf" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString VehicleManager::multicast_address</definition>
+        <argsstring></argsstring>
+        <name>multicast_address</name>
+        <initializer>= &quot;224.0.0.138&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="359" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_manager_1a1e96349f7980be9e54805c3c43bd5716" prot="private" static="no" mutable="no">
+        <type>quint16</type>
+        <definition>quint16 VehicleManager::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <initializer>= 1338</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="360" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_manager_1a3fd67d5efaabe2d03d572e14b5ef5678" prot="private" static="no" mutable="no">
+        <type><ref refid="class_vehicle_data_model" kindref="compound">VehicleDataModel</ref> *</type>
+        <definition>VehicleDataModel* VehicleManager::vehicle_data_model</definition>
+        <argsstring></argsstring>
+        <name>vehicle_data_model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="363" column="22" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_manager_1a6e42b3d7de6356d561b12979bf9f61ef" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mission_data_model" kindref="compound">MissionDataModel</ref> *</type>
+        <definition>MissionDataModel* VehicleManager::mission_data_model</definition>
+        <argsstring></argsstring>
+        <name>mission_data_model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="367" column="22" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_manager_1aff3ae468370bf3f13e69292ebef6f889" prot="private" static="no" mutable="no">
+        <type><ref refid="class_param_data_model" kindref="compound">ParamDataModel</ref> *</type>
+        <definition>ParamDataModel* VehicleManager::param_data_model</definition>
+        <argsstring></argsstring>
+        <name>param_data_model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="372" column="20" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_manager_1abeef97c3315c87b7322ee21a1fa3cc11" prot="private" static="no" mutable="no">
+        <type><ref refid="class_geofence_data_model" kindref="compound">GeofenceDataModel</ref> *</type>
+        <definition>GeofenceDataModel* VehicleManager::geofence_data_model</definition>
+        <argsstring></argsstring>
+        <name>geofence_data_model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="374" column="23" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_vehicle_manager_1abe5f2ae189c2ac2ffba6d1529d301953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleAdded</definition>
+        <argsstring>(int vehicle_id, Vehicle *vehicle)</argsstring>
+        <name>vehicleAdded</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_vehicle" kindref="compound">Vehicle</ref> *</type>
+          <declname>vehicle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="55" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1a4113649a151828985283ee3df2d37175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleConnectionStatusChanged</definition>
+        <argsstring>(int vehicle_id, QString new_connection_status, bool can_send)</argsstring>
+        <name>vehicleConnectionStatusChanged</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>new_connection_status</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>can_send</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1a1eddbb42c3aa6528be252763ff133d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleTypeChanged</definition>
+        <argsstring>(int vehicle_id, VehicleType::Value new_type)</argsstring>
+        <name>vehicleTypeChanged</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>VehicleType::Value</type>
+          <declname>new_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="77" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1accfe85603f05a20b13902d08cadac15d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleStatusUpdated</definition>
+        <argsstring>(int vehicle_id, VehicleStatus new_status)</argsstring>
+        <name>vehicleStatusUpdated</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_vehicle_status" kindref="compound">VehicleStatus</ref></type>
+          <declname>new_status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="85" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1a526e49eeddf252e3725884148f558a5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleSelectionChanged</definition>
+        <argsstring>(QVector&lt; int &gt; selected_vehicles)</argsstring>
+        <name>vehicleSelectionChanged</name>
+        <param>
+          <type>QVector&lt; int &gt;</type>
+          <declname>selected_vehicles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="93" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1aba49250b6645e6025518edf4b9b252bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleResponseReceived</definition>
+        <argsstring>(int origin_vehicle_id, QString response)</argsstring>
+        <name>vehicleResponseReceived</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="102" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1adace6391e3884bacfcf6164ee62c7803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleZoomTriggered</definition>
+        <argsstring>(double lat, double lon, double side_length)</argsstring>
+        <name>vehicleZoomTriggered</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>side_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="112" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1ac070c53ec7156aff312de6d5a7230047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleMissionTimeChanged</definition>
+        <argsstring>(int vehicle_id, int new_mission_time)</argsstring>
+        <name>vehicleMissionTimeChanged</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>new_mission_time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="121" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1a2ad1163c91a76fe837ecee4787cac133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleMissionDistanceChanged</definition>
+        <argsstring>(int vehicle_id, double new_mission_distance)</argsstring>
+        <name>vehicleMissionDistanceChanged</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_mission_distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="130" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1a8c4f31e94f56be9f5fefeb04b61c01bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleMissionDurationChanged</definition>
+        <argsstring>(int vehicle_id, double new_mission_duration)</argsstring>
+        <name>vehicleMissionDurationChanged</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_mission_duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="139" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1af568c4e3b02279f814f329ae484f6fb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleMissionReceived</definition>
+        <argsstring>(int origin_vehicle_id, Mission *mission)</argsstring>
+        <name>vehicleMissionReceived</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mission" kindref="compound">Mission</ref> *</type>
+          <declname>mission</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="149" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1a1bc8312cac0cd17e0993b8559fd25184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleParameterReceived</definition>
+        <argsstring>(int origin_vehicle_id, std::string name, std::string type, QVariant value)</argsstring>
+        <name>vehicleParameterReceived</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="158" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1a6e0eaff8386aa49ef37a8f37bc964776" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleParameterRefresh</definition>
+        <argsstring>(int origin_vehicle_id)</argsstring>
+        <name>vehicleParameterRefresh</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="161" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_manager_1ab8d3e5a696569c06679b87d8b62bebc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicleParametersFullyReceived</definition>
+        <argsstring>(int origin_vehicle_id)</argsstring>
+        <name>vehicleParametersFullyReceived</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="163" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vehicle_manager_1a4bdf36cac188ea944aff8d2d42761f03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VehicleManager::VehicleManager</definition>
+        <argsstring>(VehicleDataModel *vehicle_data_model, MissionDataModel *mission_data_model, ParamDataModel *param_data_model, GeofenceDataModel *geofence_data_model)</argsstring>
+        <name>VehicleManager</name>
+        <param>
+          <type><ref refid="class_vehicle_data_model" kindref="compound">VehicleDataModel</ref> *</type>
+          <declname>vehicle_data_model</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mission_data_model" kindref="compound">MissionDataModel</ref> *</type>
+          <declname>mission_data_model</declname>
+        </param>
+        <param>
+          <type><ref refid="class_param_data_model" kindref="compound">ParamDataModel</ref> *</type>
+          <declname>param_data_model</declname>
+        </param>
+        <param>
+          <type><ref refid="class_geofence_data_model" kindref="compound">GeofenceDataModel</ref> *</type>
+          <declname>geofence_data_model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="174" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a7bdc56a0f73dcb9ae88ed1bf3bbd9a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VehicleManager::~VehicleManager</definition>
+        <argsstring>()</argsstring>
+        <name>~VehicleManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="183" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a5c55b03a4df32752aaf07d8eacdcb1e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE int</type>
+        <definition>Q_INVOKABLE int VehicleManager::num_vehicles</definition>
+        <argsstring>()</argsstring>
+        <name>num_vehicles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="190" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1aaf0363177e4cf6e9a9c019d2d0c3527b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE int</type>
+        <definition>Q_INVOKABLE int VehicleManager::has_vehicle</definition>
+        <argsstring>(int vehicle_id)</argsstring>
+        <name>has_vehicle</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="199" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1aef5b3e9e909b160cccccf23aa48d0697" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>Q_INVOKABLE bool VehicleManager::has_deckbox</definition>
+        <argsstring>()</argsstring>
+        <name>has_deckbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="208" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a0536c181b65bd3ec91be0160b24ce119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE int</type>
+        <definition>Q_INVOKABLE int VehicleManager::get_vehicle_index</definition>
+        <argsstring>(int vehicle_id)</argsstring>
+        <name>get_vehicle_index</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="217" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a38d21a562a62077d258e9918d3bc992a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>Q_INVOKABLE bool VehicleManager::get_deckbox_index</definition>
+        <argsstring>(int &amp;deckbox_index)</argsstring>
+        <name>get_deckbox_index</name>
+        <param>
+          <type>int &amp;</type>
+          <declname>deckbox_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="227" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a27111aa5710fb85c3e2fbeee269c843d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void VehicleManager::select_vehicles</definition>
+        <argsstring>(QVector&lt; int &gt; vehicle_ids)</argsstring>
+        <name>select_vehicles</name>
+        <param>
+          <type>QVector&lt; int &gt;</type>
+          <declname>vehicle_ids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="234" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a731c43dc3c6e607c0e7712694696f4c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QVector&lt; int &gt;</type>
+        <definition>Q_INVOKABLE QVector&lt;int&gt; VehicleManager::get_selected_vehicles</definition>
+        <argsstring>()</argsstring>
+        <name>get_selected_vehicles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="241" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a56f813c2834fa63c16ed0b5bf2fedd1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_vehicle" kindref="compound">Vehicle</ref> *</type>
+        <definition>Q_INVOKABLE Vehicle* VehicleManager::get_selected_vehicle</definition>
+        <argsstring>()</argsstring>
+        <name>get_selected_vehicle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="248" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1ae6fe25c95ec6417973f6e21dec773385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>Q_INVOKABLE bool VehicleManager::is_selected</definition>
+        <argsstring>(int vehicle_id)</argsstring>
+        <name>is_selected</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="255" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1aa1c06959171d10c7f49cac966fea42bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_vehicle" kindref="compound">Vehicle</ref> *</type>
+        <definition>Q_INVOKABLE Vehicle* VehicleManager::get_vehicle</definition>
+        <argsstring>(int vehicle_id)</argsstring>
+        <name>get_vehicle</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="263" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1ae63e786f71165e1800750040960898a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_vehicle" kindref="compound">Vehicle</ref> *</type>
+        <definition>Q_INVOKABLE Vehicle* VehicleManager::get_deckbox</definition>
+        <argsstring>()</argsstring>
+        <name>get_deckbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="270" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a4fdf5ee0fe1382f9a505645389a74f69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QStringList</type>
+        <definition>Q_INVOKABLE QStringList VehicleManager::get_vehicle_names</definition>
+        <argsstring>()</argsstring>
+        <name>get_vehicle_names</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="277" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1af5cde6c671a4ada6a57d1ac25cc8faf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void VehicleManager::clear_vehicle_paths</definition>
+        <argsstring>()</argsstring>
+        <name>clear_vehicle_paths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="283" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a3f776d5af57cac08bc7ac8d968eeaa90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void VehicleManager::zoom_to_vehicle</definition>
+        <argsstring>(int vehicle_id)</argsstring>
+        <name>zoom_to_vehicle</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="299" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1aabb5d00c89b133dbef98028f030b8c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_vehicle_status" kindref="compound">VehicleStatus</ref></type>
+        <definition>Q_INVOKABLE VehicleStatus VehicleManager::generate_empty_status</definition>
+        <argsstring>()</argsstring>
+        <name>generate_empty_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="307" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a3af22dfa973cc5c70f977e8c42aaf8e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void VehicleManager::move_vehicle_waypoint</definition>
+        <argsstring>(int vehicle_index, int waypoint_index, QPointF new_location)</argsstring>
+        <name>move_vehicle_waypoint</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>waypoint_index</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>new_location</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="317" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1aac759d0dfcc83304937ed336cedd8357" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double VehicleManager::get_deckbox_distance</definition>
+        <argsstring>(int vehicle_id)</argsstring>
+        <name>get_deckbox_distance</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="327" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1ab82760178c1acc89951c4f37aeba9dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE double</type>
+        <definition>Q_INVOKABLE double VehicleManager::get_deckbox_heading</definition>
+        <argsstring>(int vehicle_id)</argsstring>
+        <name>get_deckbox_heading</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="336" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_manager_1a1c2ce16b2d50c0887dd30cc133fbfe9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void VehicleManager::add_default_vehicle</definition>
+        <argsstring>()</argsstring>
+        <name>add_default_vehicle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="342" column="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_vehicle_manager_1a26f98433962c9d8aac7194c12be7519f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::udp_read_data_ready</definition>
+        <argsstring>()</argsstring>
+        <name>udp_read_data_ready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="383" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1ab89092e8f29cd66e5e97c677d8dd35f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_connection_status_changed</definition>
+        <argsstring>(QString ip_address, QString connection_status, bool can_send)</argsstring>
+        <name>vehicle_connection_status_changed</name>
+        <param>
+          <type>QString</type>
+          <declname>ip_address</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>connection_status</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>can_send</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="395" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1acb37eb6b798a7d26abaeff6537c3e23f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_response_received</definition>
+        <argsstring>(int origin_vehicle_id, QString response)</argsstring>
+        <name>vehicle_response_received</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="406" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1a884f715c80e5227dd7677d43772c30f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_status_received</definition>
+        <argsstring>(int origin_vehicle_id, VehicleStatus status)</argsstring>
+        <name>vehicle_status_received</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_vehicle_status" kindref="compound">VehicleStatus</ref></type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="416" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1a6f1ed5751c919fa325c266ecae65c9cf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_type_changed</definition>
+        <argsstring>(int vehicle_id, VehicleType::Value new_type)</argsstring>
+        <name>vehicle_type_changed</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>VehicleType::Value</type>
+          <declname>new_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="424" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1aa5473003de061b5ad01903fd6b3bf505" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_mission_time_changed</definition>
+        <argsstring>(int vehicle_id, int new_mission_time)</argsstring>
+        <name>vehicle_mission_time_changed</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>new_mission_time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="432" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1a7135aaa8cf44ee9b8a772dfbd9a0e2b3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_mission_distance_changed</definition>
+        <argsstring>(int vehicle_id, double new_mission_distance)</argsstring>
+        <name>vehicle_mission_distance_changed</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_mission_distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="440" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1ac9cfcdb9928a4c3b6e079134dc027227" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_mission_duration_changed</definition>
+        <argsstring>(int vehicle_id, double new_mission_duration)</argsstring>
+        <name>vehicle_mission_duration_changed</name>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_mission_duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="448" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1a9a6c16ecba788d0148b74cb6d70a9133" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_mission_received</definition>
+        <argsstring>(int origin_vehicle_id, Mission *mission)</argsstring>
+        <name>vehicle_mission_received</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mission" kindref="compound">Mission</ref> *</type>
+          <declname>mission</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="458" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1abae2761f114058d1c1ba946b48601fe3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_param_received</definition>
+        <argsstring>(int origin_vehicle_id, std::string name, std::string type, QVariant value)</argsstring>
+        <name>vehicle_param_received</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="468" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1adfee1f362cb7019e086daebdd67e333b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_param_refresh</definition>
+        <argsstring>(int origin_vehicle_id)</argsstring>
+        <name>vehicle_param_refresh</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="471" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_manager_1a560faa957a78af613dad4857a15ad29d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleManager::vehicle_parameters_fully_received</definition>
+        <argsstring>(int origin_vehicle_id)</argsstring>
+        <name>vehicle_parameters_fully_received</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="473" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_vehicle_manager_1adb0b7094597e6efb86e7108855f80c4f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int VehicleManager::ip_to_id</definition>
+        <argsstring>(QString ip_address)</argsstring>
+        <name>ip_to_id</name>
+        <param>
+          <type>QString</type>
+          <declname>ip_address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="485" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>VehicleManager</label>
+        <link refid="class_vehicle_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>VehicleManager</label>
+        <link refid="class_vehicle_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" line="42" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_manager.h" bodystart="41" bodyend="487"/>
+    <listofallmembers>
+      <member refid="class_vehicle_manager_1a1c2ce16b2d50c0887dd30cc133fbfe9f" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>add_default_vehicle</name></member>
+      <member refid="class_vehicle_manager_1af5cde6c671a4ada6a57d1ac25cc8faf1" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>clear_vehicle_paths</name></member>
+      <member refid="class_vehicle_manager_1aabb5d00c89b133dbef98028f030b8c76" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>generate_empty_status</name></member>
+      <member refid="class_vehicle_manager_1abeef97c3315c87b7322ee21a1fa3cc11" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>geofence_data_model</name></member>
+      <member refid="class_vehicle_manager_1ae63e786f71165e1800750040960898a1" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>get_deckbox</name></member>
+      <member refid="class_vehicle_manager_1aac759d0dfcc83304937ed336cedd8357" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>get_deckbox_distance</name></member>
+      <member refid="class_vehicle_manager_1ab82760178c1acc89951c4f37aeba9dae" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>get_deckbox_heading</name></member>
+      <member refid="class_vehicle_manager_1a38d21a562a62077d258e9918d3bc992a" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>get_deckbox_index</name></member>
+      <member refid="class_vehicle_manager_1a56f813c2834fa63c16ed0b5bf2fedd1e" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>get_selected_vehicle</name></member>
+      <member refid="class_vehicle_manager_1a731c43dc3c6e607c0e7712694696f4c9" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>get_selected_vehicles</name></member>
+      <member refid="class_vehicle_manager_1aa1c06959171d10c7f49cac966fea42bf" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>get_vehicle</name></member>
+      <member refid="class_vehicle_manager_1a0536c181b65bd3ec91be0160b24ce119" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>get_vehicle_index</name></member>
+      <member refid="class_vehicle_manager_1a4fdf5ee0fe1382f9a505645389a74f69" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>get_vehicle_names</name></member>
+      <member refid="class_vehicle_manager_1aef5b3e9e909b160cccccf23aa48d0697" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>has_deckbox</name></member>
+      <member refid="class_vehicle_manager_1aaf0363177e4cf6e9a9c019d2d0c3527b" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>has_vehicle</name></member>
+      <member refid="class_vehicle_manager_1adb0b7094597e6efb86e7108855f80c4f" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>ip_to_id</name></member>
+      <member refid="class_vehicle_manager_1ae6fe25c95ec6417973f6e21dec773385" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>is_selected</name></member>
+      <member refid="class_vehicle_manager_1a6e42b3d7de6356d561b12979bf9f61ef" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>mission_data_model</name></member>
+      <member refid="class_vehicle_manager_1a3af22dfa973cc5c70f977e8c42aaf8e5" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>move_vehicle_waypoint</name></member>
+      <member refid="class_vehicle_manager_1aa622cba361d669049a9c493585113caf" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>multicast_address</name></member>
+      <member refid="class_vehicle_manager_1a5c55b03a4df32752aaf07d8eacdcb1e0" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>num_vehicles</name></member>
+      <member refid="class_vehicle_manager_1aff3ae468370bf3f13e69292ebef6f889" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>param_data_model</name></member>
+      <member refid="class_vehicle_manager_1a1e96349f7980be9e54805c3c43bd5716" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>port</name></member>
+      <member refid="class_vehicle_manager_1a27111aa5710fb85c3e2fbeee269c843d" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>select_vehicles</name></member>
+      <member refid="class_vehicle_manager_1acbd52e6ab13cbe601377849ea960d0d9" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>selected_vehicles</name></member>
+      <member refid="class_vehicle_manager_1a26f98433962c9d8aac7194c12be7519f" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>udp_read_data_ready</name></member>
+      <member refid="class_vehicle_manager_1a8e0cdb07395371a1f19c74d72c88e391" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>udp_socket</name></member>
+      <member refid="class_vehicle_manager_1ab89092e8f29cd66e5e97c677d8dd35f0" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_connection_status_changed</name></member>
+      <member refid="class_vehicle_manager_1a3fd67d5efaabe2d03d572e14b5ef5678" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_data_model</name></member>
+      <member refid="class_vehicle_manager_1aa9bd011b5bd34cb4640d9ef4e0de7d36" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_list</name></member>
+      <member refid="class_vehicle_manager_1a7135aaa8cf44ee9b8a772dfbd9a0e2b3" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_mission_distance_changed</name></member>
+      <member refid="class_vehicle_manager_1ac9cfcdb9928a4c3b6e079134dc027227" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_mission_duration_changed</name></member>
+      <member refid="class_vehicle_manager_1a9a6c16ecba788d0148b74cb6d70a9133" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_mission_received</name></member>
+      <member refid="class_vehicle_manager_1aa5473003de061b5ad01903fd6b3bf505" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_mission_time_changed</name></member>
+      <member refid="class_vehicle_manager_1abae2761f114058d1c1ba946b48601fe3" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_param_received</name></member>
+      <member refid="class_vehicle_manager_1adfee1f362cb7019e086daebdd67e333b" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_param_refresh</name></member>
+      <member refid="class_vehicle_manager_1a560faa957a78af613dad4857a15ad29d" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_parameters_fully_received</name></member>
+      <member refid="class_vehicle_manager_1acb37eb6b798a7d26abaeff6537c3e23f" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_response_received</name></member>
+      <member refid="class_vehicle_manager_1a884f715c80e5227dd7677d43772c30f4" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_status_received</name></member>
+      <member refid="class_vehicle_manager_1a6f1ed5751c919fa325c266ecae65c9cf" prot="private" virt="non-virtual"><scope>VehicleManager</scope><name>vehicle_type_changed</name></member>
+      <member refid="class_vehicle_manager_1abe5f2ae189c2ac2ffba6d1529d301953" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleAdded</name></member>
+      <member refid="class_vehicle_manager_1a4113649a151828985283ee3df2d37175" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleConnectionStatusChanged</name></member>
+      <member refid="class_vehicle_manager_1a4bdf36cac188ea944aff8d2d42761f03" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>VehicleManager</name></member>
+      <member refid="class_vehicle_manager_1a2ad1163c91a76fe837ecee4787cac133" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleMissionDistanceChanged</name></member>
+      <member refid="class_vehicle_manager_1a8c4f31e94f56be9f5fefeb04b61c01bd" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleMissionDurationChanged</name></member>
+      <member refid="class_vehicle_manager_1af568c4e3b02279f814f329ae484f6fb9" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleMissionReceived</name></member>
+      <member refid="class_vehicle_manager_1ac070c53ec7156aff312de6d5a7230047" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleMissionTimeChanged</name></member>
+      <member refid="class_vehicle_manager_1a1bc8312cac0cd17e0993b8559fd25184" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleParameterReceived</name></member>
+      <member refid="class_vehicle_manager_1a6e0eaff8386aa49ef37a8f37bc964776" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleParameterRefresh</name></member>
+      <member refid="class_vehicle_manager_1ab8d3e5a696569c06679b87d8b62bebc6" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleParametersFullyReceived</name></member>
+      <member refid="class_vehicle_manager_1aba49250b6645e6025518edf4b9b252bc" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleResponseReceived</name></member>
+      <member refid="class_vehicle_manager_1a526e49eeddf252e3725884148f558a5e" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleSelectionChanged</name></member>
+      <member refid="class_vehicle_manager_1accfe85603f05a20b13902d08cadac15d" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleStatusUpdated</name></member>
+      <member refid="class_vehicle_manager_1a1eddbb42c3aa6528be252763ff133d49" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleTypeChanged</name></member>
+      <member refid="class_vehicle_manager_1adace6391e3884bacfcf6164ee62c7803" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>vehicleZoomTriggered</name></member>
+      <member refid="class_vehicle_manager_1a3f776d5af57cac08bc7ac8d968eeaa90" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>zoom_to_vehicle</name></member>
+      <member refid="class_vehicle_manager_1a7bdc56a0f73dcb9ae88ed1bf3bbd9a50" prot="public" virt="non-virtual"><scope>VehicleManager</scope><name>~VehicleManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

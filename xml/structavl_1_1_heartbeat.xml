@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structavl_1_1_heartbeat" kind="struct" language="C++" prot="public">
+    <compoundname>avl::Heartbeat</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a729db198ef51ce4fc42372dae74ce5fa" prot="public" static="no" mutable="no">
+        <type>MissionMode</type>
+        <definition>MissionMode avl::Heartbeat::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <initializer>= MISSION_MODE_UNKNOWN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="100" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a534d1247bb5fbca6ccf702ed12a91351" prot="public" static="no" mutable="no">
+        <type>SafetyStatus</type>
+        <definition>SafetyStatus avl::Heartbeat::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <initializer>= SAFETY_STATUS_UNKNOWN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="101" column="18" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a291ae85f033204b9ee8cfb24793a4104" prot="public" static="no" mutable="no">
+        <type>PosSource</type>
+        <definition>PosSource avl::Heartbeat::pos_source</definition>
+        <argsstring></argsstring>
+        <name>pos_source</name>
+        <initializer>= POS_SOURCE_UNKNOWN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="102" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a8aca146924788c5da8461c9b9f1c3919" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::roll</definition>
+        <argsstring></argsstring>
+        <name>roll</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="103" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a77aac8431d58d951be1e808bbf108c24" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="104" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a319bd7b93700d721054083c693ffdf01" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::yaw</definition>
+        <argsstring></argsstring>
+        <name>yaw</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="105" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1af80a70e035f5b450a5df17f247ef7148" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::vx</definition>
+        <argsstring></argsstring>
+        <name>vx</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="106" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a61282e9170d71ad38b7eb2d0b4c3abe3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::vy</definition>
+        <argsstring></argsstring>
+        <name>vy</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="107" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a9c80bf69fb583421ea9eb38b3504400d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::vz</definition>
+        <argsstring></argsstring>
+        <name>vz</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="108" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1ace5c8ce58c0a7d757850357d2a81f07a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::lat</definition>
+        <argsstring></argsstring>
+        <name>lat</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="109" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1acfd7ea4d01174c01d18cbd00e7eaa255" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::lon</definition>
+        <argsstring></argsstring>
+        <name>lon</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="110" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1ae133653168ef62d600be076adba75009" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::alt</definition>
+        <argsstring></argsstring>
+        <name>alt</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="111" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1ab97e44d16af143352ef805b30bb699a4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="112" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1af2dbb83faa262e31d3642f050d6db514" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="113" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1ac9005c2948b1e2a7dbfd214aab4cbeda" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::rpm</definition>
+        <argsstring></argsstring>
+        <name>rpm</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="114" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1acca46ce8d74375b4cadf37e06e176bbd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::voltage</definition>
+        <argsstring></argsstring>
+        <name>voltage</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="115" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1af81e9e3bdf43250348c2277f30b72e15" prot="public" static="no" mutable="no">
+        <type>Sync</type>
+        <definition>Sync avl::Heartbeat::umodem_sync</definition>
+        <argsstring></argsstring>
+        <name>umodem_sync</name>
+        <initializer>= SYNC_UNKNOWN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="116" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1ac3c8aae03f1080859d162f2f4b854798" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::Heartbeat::gps_sats</definition>
+        <argsstring></argsstring>
+        <name>gps_sats</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="117" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a07a91635649138d354551316276f343e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::Heartbeat::iridium_str</definition>
+        <argsstring></argsstring>
+        <name>iridium_str</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="118" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1af3b8871edb290e5d4d985457c492979a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::Heartbeat::fsd_current_action</definition>
+        <argsstring></argsstring>
+        <name>fsd_current_action</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="119" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1ad7bfd643513c120c3c9d6ccaa0249369" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::Heartbeat::fsd_total_actions</definition>
+        <argsstring></argsstring>
+        <name>fsd_total_actions</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="120" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1aa8f148b3119ff91a1f8a7a6bbbb81cfd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::fsd_action_percent</definition>
+        <argsstring></argsstring>
+        <name>fsd_action_percent</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="121" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1ac66083c0c7e08ca0d04e602910df779a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::Heartbeat::bsd_current_action</definition>
+        <argsstring></argsstring>
+        <name>bsd_current_action</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="122" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a56834b08f578bd10fcf452479580655e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t avl::Heartbeat::bsd_total_actions</definition>
+        <argsstring></argsstring>
+        <name>bsd_total_actions</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="123" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_heartbeat_1a1a3ec32c85cf14dc253dd451ec905c52" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double avl::Heartbeat::bsd_action_percent</definition>
+        <argsstring></argsstring>
+        <name>bsd_action_percent</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="124" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" line="99" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/heartbeat_packet.h" bodystart="98" bodyend="125"/>
+    <listofallmembers>
+      <member refid="structavl_1_1_heartbeat_1ae133653168ef62d600be076adba75009" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>alt</name></member>
+      <member refid="structavl_1_1_heartbeat_1a1a3ec32c85cf14dc253dd451ec905c52" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>bsd_action_percent</name></member>
+      <member refid="structavl_1_1_heartbeat_1ac66083c0c7e08ca0d04e602910df779a" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>bsd_current_action</name></member>
+      <member refid="structavl_1_1_heartbeat_1a56834b08f578bd10fcf452479580655e" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>bsd_total_actions</name></member>
+      <member refid="structavl_1_1_heartbeat_1ab97e44d16af143352ef805b30bb699a4" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>depth</name></member>
+      <member refid="structavl_1_1_heartbeat_1aa8f148b3119ff91a1f8a7a6bbbb81cfd" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>fsd_action_percent</name></member>
+      <member refid="structavl_1_1_heartbeat_1af3b8871edb290e5d4d985457c492979a" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>fsd_current_action</name></member>
+      <member refid="structavl_1_1_heartbeat_1ad7bfd643513c120c3c9d6ccaa0249369" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>fsd_total_actions</name></member>
+      <member refid="structavl_1_1_heartbeat_1ac3c8aae03f1080859d162f2f4b854798" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>gps_sats</name></member>
+      <member refid="structavl_1_1_heartbeat_1af2dbb83faa262e31d3642f050d6db514" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>height</name></member>
+      <member refid="structavl_1_1_heartbeat_1a07a91635649138d354551316276f343e" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>iridium_str</name></member>
+      <member refid="structavl_1_1_heartbeat_1ace5c8ce58c0a7d757850357d2a81f07a" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>lat</name></member>
+      <member refid="structavl_1_1_heartbeat_1acfd7ea4d01174c01d18cbd00e7eaa255" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>lon</name></member>
+      <member refid="structavl_1_1_heartbeat_1a729db198ef51ce4fc42372dae74ce5fa" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>mode</name></member>
+      <member refid="structavl_1_1_heartbeat_1a77aac8431d58d951be1e808bbf108c24" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>pitch</name></member>
+      <member refid="structavl_1_1_heartbeat_1a291ae85f033204b9ee8cfb24793a4104" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>pos_source</name></member>
+      <member refid="structavl_1_1_heartbeat_1a8aca146924788c5da8461c9b9f1c3919" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>roll</name></member>
+      <member refid="structavl_1_1_heartbeat_1ac9005c2948b1e2a7dbfd214aab4cbeda" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>rpm</name></member>
+      <member refid="structavl_1_1_heartbeat_1a534d1247bb5fbca6ccf702ed12a91351" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>status</name></member>
+      <member refid="structavl_1_1_heartbeat_1af81e9e3bdf43250348c2277f30b72e15" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>umodem_sync</name></member>
+      <member refid="structavl_1_1_heartbeat_1acca46ce8d74375b4cadf37e06e176bbd" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>voltage</name></member>
+      <member refid="structavl_1_1_heartbeat_1af80a70e035f5b450a5df17f247ef7148" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>vx</name></member>
+      <member refid="structavl_1_1_heartbeat_1a61282e9170d71ad38b7eb2d0b4c3abe3" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>vy</name></member>
+      <member refid="structavl_1_1_heartbeat_1a9c80bf69fb583421ea9eb38b3504400d" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>vz</name></member>
+      <member refid="structavl_1_1_heartbeat_1a319bd7b93700d721054083c693ffdf01" prot="public" virt="non-virtual"><scope>avl::Heartbeat</scope><name>yaw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_geofence" kind="class" language="C++" prot="public">
+    <compoundname>Geofence</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_geofence_1aa77d01135c6d9219cc2005d31eebf6c1" prot="private" static="no" mutable="no">
+        <type>QVector&lt; QPointF &gt; *</type>
+        <definition>QVector&lt;QPointF&gt;* Geofence::geofence_points</definition>
+        <argsstring></argsstring>
+        <name>geofence_points</name>
+        <initializer>= new QVector&lt;QPointF&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="96" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/geofence.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_geofence_1a1e261d9b4572ed0aba7a4e63f36d7350" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geofence::Geofence</definition>
+        <argsstring>(QObject *parent=nullptr)</argsstring>
+        <name>Geofence</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geofence_1a08cd2e3ad601b8711a4bb806d77faf7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Geofence::~Geofence</definition>
+        <argsstring>()</argsstring>
+        <name>~Geofence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="44" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geofence_1a021ff412667d16b730ade93338867caa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Geofence::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="51" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geofence_1a5c1ced98dd6f5167c912992c9b69b62f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geofence::append</definition>
+        <argsstring>(double lat, double lon)</argsstring>
+        <name>append</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="57" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geofence_1a115a7babbdef6ddffa39bac2095ade80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geofence::append</definition>
+        <argsstring>(QPointF point)</argsstring>
+        <name>append</name>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="63" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geofence_1ac0fec1cf4eb2c102bece9ae7b7bc2dee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVector&lt; QPointF &gt;</type>
+        <definition>QVector&lt;QPointF&gt; Geofence::get_all</definition>
+        <argsstring>()</argsstring>
+        <name>get_all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="70" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geofence_1a5fd70d260657930809d5f1a058f3e210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geofence::remove</definition>
+        <argsstring>(int index)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="78" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geofence_1a6157f3f6ba102732c5f1729bc9ccad1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Geofence::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="84" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geofence_1a51f3ef9a78c8257b7fde15c201fe017d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPointF</type>
+        <definition>QPointF Geofence::get</definition>
+        <argsstring>(int index)</argsstring>
+        <name>get</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="91" column="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Geofence</label>
+        <link refid="class_geofence"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Geofence</label>
+        <link refid="class_geofence"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/geofence.h" line="31" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/geofence.h" bodystart="30" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_geofence_1a5c1ced98dd6f5167c912992c9b69b62f" prot="public" virt="non-virtual"><scope>Geofence</scope><name>append</name></member>
+      <member refid="class_geofence_1a115a7babbdef6ddffa39bac2095ade80" prot="public" virt="non-virtual"><scope>Geofence</scope><name>append</name></member>
+      <member refid="class_geofence_1a6157f3f6ba102732c5f1729bc9ccad1e" prot="public" virt="non-virtual"><scope>Geofence</scope><name>clear</name></member>
+      <member refid="class_geofence_1a1e261d9b4572ed0aba7a4e63f36d7350" prot="public" virt="non-virtual"><scope>Geofence</scope><name>Geofence</name></member>
+      <member refid="class_geofence_1aa77d01135c6d9219cc2005d31eebf6c1" prot="private" virt="non-virtual"><scope>Geofence</scope><name>geofence_points</name></member>
+      <member refid="class_geofence_1a51f3ef9a78c8257b7fde15c201fe017d" prot="public" virt="non-virtual"><scope>Geofence</scope><name>get</name></member>
+      <member refid="class_geofence_1ac0fec1cf4eb2c102bece9ae7b7bc2dee" prot="public" virt="non-virtual"><scope>Geofence</scope><name>get_all</name></member>
+      <member refid="class_geofence_1a5fd70d260657930809d5f1a058f3e210" prot="public" virt="non-virtual"><scope>Geofence</scope><name>remove</name></member>
+      <member refid="class_geofence_1a021ff412667d16b730ade93338867caa" prot="public" virt="non-virtual"><scope>Geofence</scope><name>size</name></member>
+      <member refid="class_geofence_1a08cd2e3ad601b8711a4bb806d77faf7a" prot="public" virt="virtual"><scope>Geofence</scope><name>~Geofence</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,719 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_vehicle_status" kind="class" language="C++" prot="public">
+    <compoundname>VehicleStatus</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_vehicle_status_1ac2713507a3996238c501200e1a54b47e" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>avl::MissionMode</type>
+        <definition>avl::MissionMode VehicleStatus::mission_mode</definition>
+        <argsstring></argsstring>
+        <name>mission_mode</name>
+        <initializer>= avl::MISSION_MODE_UNKNOWN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a7c84a3b94388bfbae5dd1d765b9e78be" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>avl::SafetyStatus</type>
+        <definition>avl::SafetyStatus VehicleStatus::safety_status</definition>
+        <argsstring></argsstring>
+        <name>safety_status</name>
+        <initializer>= avl::SAFETY_STATUS_UNKNOWN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a6def135f5b32a805ae51dd0a36e2f074" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>avl::PosSource</type>
+        <definition>avl::PosSource VehicleStatus::pos_source</definition>
+        <argsstring></argsstring>
+        <name>pos_source</name>
+        <initializer>= avl::POS_SOURCE_UNKNOWN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a7e25434b6e72bf2225905f7ebbf85225" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QString</type>
+        <definition>QString VehicleStatus::comms_channel</definition>
+        <argsstring></argsstring>
+        <name>comms_channel</name>
+        <initializer>= &quot;RADIO&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a37e9844a8b920c4150328271d2a1b3cd" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int VehicleStatus::vehicle_id</definition>
+        <argsstring></argsstring>
+        <name>vehicle_id</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a086389c315facc93f138cd6cfba8195e" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QString</type>
+        <definition>QString VehicleStatus::operational_status</definition>
+        <argsstring></argsstring>
+        <name>operational_status</name>
+        <initializer>= &quot;NONE&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a7236054d9067f9707ac2e9ab8adba653" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool VehicleStatus::whoi_synced</definition>
+        <argsstring></argsstring>
+        <name>whoi_synced</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1ad294e60173c12f04c12e754a8cc2c0c8" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::roll</definition>
+        <argsstring></argsstring>
+        <name>roll</name>
+        <initializer>=    std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a2b455801bde627c967c6c75f5a71da56" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <initializer>=   std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a84c54e26a694389cbf95176afa18f9cf" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::yaw</definition>
+        <argsstring></argsstring>
+        <name>yaw</name>
+        <initializer>=     std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1acf566b17655ff34733fc77adb47a03c5" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::vx</definition>
+        <argsstring></argsstring>
+        <name>vx</name>
+        <initializer>=      std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a6d26183b97788413643494e0062d8d95" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::vy</definition>
+        <argsstring></argsstring>
+        <name>vy</name>
+        <initializer>=      std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a9993c322353208e418776b6bb60d43a1" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::vz</definition>
+        <argsstring></argsstring>
+        <name>vz</name>
+        <initializer>=      std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a3da2850789984bf4e09bed4edadaa63c" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::lat</definition>
+        <argsstring></argsstring>
+        <name>lat</name>
+        <initializer>=     std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1acbd97194a97534acf735729812403f82" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::lon</definition>
+        <argsstring></argsstring>
+        <name>lon</name>
+        <initializer>=     std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a992547eaf95c22fd828ae2a08b89712c" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::alt</definition>
+        <argsstring></argsstring>
+        <name>alt</name>
+        <initializer>=     std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a6d7e7c22b2fbd36e3f8fad2cf23ef07b" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <initializer>=   std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a3fdbe71910327248d7b967abb96019f7" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <initializer>=  std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a8501c0e53a7bff196ee2549500ae261e" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::rpm</definition>
+        <argsstring></argsstring>
+        <name>rpm</name>
+        <initializer>=     std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1aca052c1155fa496c4163695f76142cfa" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::voltage</definition>
+        <argsstring></argsstring>
+        <name>voltage</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1ac72fd58bc6dfa0d4c5765a3a73506c06" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>avl::Sync</type>
+        <definition>avl::Sync VehicleStatus::umodem_sync</definition>
+        <argsstring></argsstring>
+        <name>umodem_sync</name>
+        <initializer>= avl::SYNC_UNKNOWN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a44774d0b874aa2ab61f6b9062f64f42f" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::num_sats</definition>
+        <argsstring></argsstring>
+        <name>num_sats</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1ae6c00a4e0ec222fd44766c38b7f87b12" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::iridium_str</definition>
+        <argsstring></argsstring>
+        <name>iridium_str</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a6f6ecfc0c42652d43b7f69b5a7e98220" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::fsd_current_action</definition>
+        <argsstring></argsstring>
+        <name>fsd_current_action</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a025e08955948c2eeaefcd2a2ffb5242f" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::fsd_total_actions</definition>
+        <argsstring></argsstring>
+        <name>fsd_total_actions</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a00fc087c63291545e90b91db448c48f6" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::fsd_action_percent</definition>
+        <argsstring></argsstring>
+        <name>fsd_action_percent</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a8f8740b331d1d76b8addf84c911151a2" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::bsd_current_action</definition>
+        <argsstring></argsstring>
+        <name>bsd_current_action</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a0872794659ceb1cb60e8663147f15e98" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::bsd_total_actions</definition>
+        <argsstring></argsstring>
+        <name>bsd_total_actions</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a4899a6024bb065c101a3c11824eaffd0" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::bsd_action_percent</definition>
+        <argsstring></argsstring>
+        <name>bsd_action_percent</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a6a43e87003c25567abe0f2186415bdb4" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QString</type>
+        <definition>QString VehicleStatus::mission_mode_string</definition>
+        <argsstring></argsstring>
+        <name>mission_mode_string</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a381ca11d301a810c2219c49ecde7dc57" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QString</type>
+        <definition>QString VehicleStatus::safety_status_string</definition>
+        <argsstring></argsstring>
+        <name>safety_status_string</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a269a11dcda970ab1d30bfb7392680006" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QString</type>
+        <definition>QString VehicleStatus::pos_source_string</definition>
+        <argsstring></argsstring>
+        <name>pos_source_string</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a270c328e8d688db8fdc2ef271b686a49" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QString</type>
+        <definition>QString VehicleStatus::umodem_sync_string</definition>
+        <argsstring></argsstring>
+        <name>umodem_sync_string</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a707f1091f6a3b2656f16a793e946a1c2" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int VehicleStatus::num_gps_sats</definition>
+        <argsstring></argsstring>
+        <name>num_gps_sats</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1ab3bbc09c644b5c8a862a0a925a319124" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int VehicleStatus::iridium_strength</definition>
+        <argsstring></argsstring>
+        <name>iridium_strength</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1ac501b1deb17904831cecdb6fdbcfbb38" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int VehicleStatus::current_task</definition>
+        <argsstring></argsstring>
+        <name>current_task</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1a1da374747badff37c931cc836aa00e9a" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int VehicleStatus::total_tasks</definition>
+        <argsstring></argsstring>
+        <name>total_tasks</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1aeeae8028910208189aadbc4c9bd4a85f" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double VehicleStatus::task_percent</definition>
+        <argsstring></argsstring>
+        <name>task_percent</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_vehicle_status_1aaf660546adc8a548e9a674e64c3e4a9e" prot="public" static="no" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>QVector&lt; double &gt;</type>
+        <definition>QVector&lt; double &gt; VehicleStatus::myList</definition>
+        <argsstring></argsstring>
+        <name>myList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="32" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vehicle_status_1abbb98e39b790442acc8c77dccafbc89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VehicleStatus::VehicleStatus</definition>
+        <argsstring>()</argsstring>
+        <name>VehicleStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="141" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_status_1aa7702d151b432c267cb31353ccd5a7d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VehicleStatus::VehicleStatus</definition>
+        <argsstring>(avl::Heartbeat packet)</argsstring>
+        <name>VehicleStatus</name>
+        <param>
+          <type><ref refid="structavl_1_1_heartbeat" kindref="compound">avl::Heartbeat</ref></type>
+          <declname>packet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="148" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_status_1a7aa9bc52d96428a8032a19ba1e0d9414" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual VehicleStatus::~VehicleStatus</definition>
+        <argsstring>()</argsstring>
+        <name>~VehicleStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="154" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_status_1aa62ffd3c0611c2a3d09ef7740c44507c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString VehicleStatus::get_vehicle_mission_mode</definition>
+        <argsstring>(avl::MissionMode mission_mode)</argsstring>
+        <name>get_vehicle_mission_mode</name>
+        <param>
+          <type>avl::MissionMode</type>
+          <declname>mission_mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="161" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_status_1a2eda079b5c1a1ed65ccd51743ab5743a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString VehicleStatus::get_vehicle_safety_status</definition>
+        <argsstring>(avl::SafetyStatus safety_status)</argsstring>
+        <name>get_vehicle_safety_status</name>
+        <param>
+          <type>avl::SafetyStatus</type>
+          <declname>safety_status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="168" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_status_1ae1654d54cccc6924578b8f91cd11cb69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString VehicleStatus::get_vehicle_pos_source</definition>
+        <argsstring>(avl::PosSource pos_source)</argsstring>
+        <name>get_vehicle_pos_source</name>
+        <param>
+          <type>avl::PosSource</type>
+          <declname>pos_source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="175" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_status_1acb434b0feb02676f6f351af9b82b074e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString VehicleStatus::get_vehicle_sync</definition>
+        <argsstring>(avl::Sync umodem_sync)</argsstring>
+        <name>get_vehicle_sync</name>
+        <param>
+          <type>avl::Sync</type>
+          <declname>umodem_sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="182" column="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/vehicle_status.h" line="30" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_status.h" bodystart="29" bodyend="186"/>
+    <listofallmembers>
+      <member refid="class_vehicle_status_1a992547eaf95c22fd828ae2a08b89712c" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>alt</name></member>
+      <member refid="class_vehicle_status_1a4899a6024bb065c101a3c11824eaffd0" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>bsd_action_percent</name></member>
+      <member refid="class_vehicle_status_1a8f8740b331d1d76b8addf84c911151a2" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>bsd_current_action</name></member>
+      <member refid="class_vehicle_status_1a0872794659ceb1cb60e8663147f15e98" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>bsd_total_actions</name></member>
+      <member refid="class_vehicle_status_1a7e25434b6e72bf2225905f7ebbf85225" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>comms_channel</name></member>
+      <member refid="class_vehicle_status_1ac501b1deb17904831cecdb6fdbcfbb38" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>current_task</name></member>
+      <member refid="class_vehicle_status_1a6d7e7c22b2fbd36e3f8fad2cf23ef07b" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>depth</name></member>
+      <member refid="class_vehicle_status_1a00fc087c63291545e90b91db448c48f6" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>fsd_action_percent</name></member>
+      <member refid="class_vehicle_status_1a6f6ecfc0c42652d43b7f69b5a7e98220" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>fsd_current_action</name></member>
+      <member refid="class_vehicle_status_1a025e08955948c2eeaefcd2a2ffb5242f" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>fsd_total_actions</name></member>
+      <member refid="class_vehicle_status_1aa62ffd3c0611c2a3d09ef7740c44507c" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>get_vehicle_mission_mode</name></member>
+      <member refid="class_vehicle_status_1ae1654d54cccc6924578b8f91cd11cb69" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>get_vehicle_pos_source</name></member>
+      <member refid="class_vehicle_status_1a2eda079b5c1a1ed65ccd51743ab5743a" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>get_vehicle_safety_status</name></member>
+      <member refid="class_vehicle_status_1acb434b0feb02676f6f351af9b82b074e" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>get_vehicle_sync</name></member>
+      <member refid="class_vehicle_status_1a3fdbe71910327248d7b967abb96019f7" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>height</name></member>
+      <member refid="class_vehicle_status_1ae6c00a4e0ec222fd44766c38b7f87b12" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>iridium_str</name></member>
+      <member refid="class_vehicle_status_1ab3bbc09c644b5c8a862a0a925a319124" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>iridium_strength</name></member>
+      <member refid="class_vehicle_status_1a3da2850789984bf4e09bed4edadaa63c" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>lat</name></member>
+      <member refid="class_vehicle_status_1acbd97194a97534acf735729812403f82" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>lon</name></member>
+      <member refid="class_vehicle_status_1ac2713507a3996238c501200e1a54b47e" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>mission_mode</name></member>
+      <member refid="class_vehicle_status_1a6a43e87003c25567abe0f2186415bdb4" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>mission_mode_string</name></member>
+      <member refid="class_vehicle_status_1aaf660546adc8a548e9a674e64c3e4a9e" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>myList</name></member>
+      <member refid="class_vehicle_status_1a707f1091f6a3b2656f16a793e946a1c2" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>num_gps_sats</name></member>
+      <member refid="class_vehicle_status_1a44774d0b874aa2ab61f6b9062f64f42f" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>num_sats</name></member>
+      <member refid="class_vehicle_status_1a086389c315facc93f138cd6cfba8195e" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>operational_status</name></member>
+      <member refid="class_vehicle_status_1a2b455801bde627c967c6c75f5a71da56" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>pitch</name></member>
+      <member refid="class_vehicle_status_1a6def135f5b32a805ae51dd0a36e2f074" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>pos_source</name></member>
+      <member refid="class_vehicle_status_1a269a11dcda970ab1d30bfb7392680006" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>pos_source_string</name></member>
+      <member refid="class_vehicle_status_1ad294e60173c12f04c12e754a8cc2c0c8" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>roll</name></member>
+      <member refid="class_vehicle_status_1a8501c0e53a7bff196ee2549500ae261e" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>rpm</name></member>
+      <member refid="class_vehicle_status_1a7c84a3b94388bfbae5dd1d765b9e78be" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>safety_status</name></member>
+      <member refid="class_vehicle_status_1a381ca11d301a810c2219c49ecde7dc57" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>safety_status_string</name></member>
+      <member refid="class_vehicle_status_1aeeae8028910208189aadbc4c9bd4a85f" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>task_percent</name></member>
+      <member refid="class_vehicle_status_1a1da374747badff37c931cc836aa00e9a" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>total_tasks</name></member>
+      <member refid="class_vehicle_status_1ac72fd58bc6dfa0d4c5765a3a73506c06" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>umodem_sync</name></member>
+      <member refid="class_vehicle_status_1a270c328e8d688db8fdc2ef271b686a49" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>umodem_sync_string</name></member>
+      <member refid="class_vehicle_status_1a37e9844a8b920c4150328271d2a1b3cd" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>vehicle_id</name></member>
+      <member refid="class_vehicle_status_1abbb98e39b790442acc8c77dccafbc89a" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>VehicleStatus</name></member>
+      <member refid="class_vehicle_status_1aa7702d151b432c267cb31353ccd5a7d2" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>VehicleStatus</name></member>
+      <member refid="class_vehicle_status_1aca052c1155fa496c4163695f76142cfa" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>voltage</name></member>
+      <member refid="class_vehicle_status_1acf566b17655ff34733fc77adb47a03c5" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>vx</name></member>
+      <member refid="class_vehicle_status_1a6d26183b97788413643494e0062d8d95" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>vy</name></member>
+      <member refid="class_vehicle_status_1a9993c322353208e418776b6bb60d43a1" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>vz</name></member>
+      <member refid="class_vehicle_status_1a7236054d9067f9707ac2e9ab8adba653" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>whoi_synced</name></member>
+      <member refid="class_vehicle_status_1a84c54e26a694389cbf95176afa18f9cf" prot="public" virt="non-virtual"><scope>VehicleStatus</scope><name>yaw</name></member>
+      <member refid="class_vehicle_status_1a7aa9bc52d96428a8032a19ba1e0d9414" prot="public" virt="virtual"><scope>VehicleStatus</scope><name>~VehicleStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

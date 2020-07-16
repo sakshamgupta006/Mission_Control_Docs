@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>/home/cooper/test/avl_gui_new/include</compoundname>
+    <innerdir refid="dir_a8708a1af961f7c156ece11d71cb1b13">/home/cooper/test/avl_gui_new/include/protocol</innerdir>
+    <innerdir refid="dir_586ad3c2f85d776b984733890d824e3e">/home/cooper/test/avl_gui_new/include/util</innerdir>
+    <innerfile refid="action__type_8h">action_type.h</innerfile>
+    <innerfile refid="avl__map__display_8h">avl_map_display.h</innerfile>
+    <innerfile refid="comms__channel_8h">comms_channel.h</innerfile>
+    <innerfile refid="dynamic__parameter_8h">dynamic_parameter.h</innerfile>
+    <innerfile refid="geofence_8h">geofence.h</innerfile>
+    <innerfile refid="geofence__data__model_8h">geofence_data_model.h</innerfile>
+    <innerfile refid="graphics_8h">graphics.h</innerfile>
+    <innerfile refid="mission_8h">mission.h</innerfile>
+    <innerfile refid="mission__action_8h">mission_action.h</innerfile>
+    <innerfile refid="mission__data__model_8h">mission_data_model.h</innerfile>
+    <innerfile refid="param_8h">param.h</innerfile>
+    <innerfile refid="param__data__model_8h">param_data_model.h</innerfile>
+    <innerfile refid="points__data__model_8h">points_data_model.h</innerfile>
+    <innerfile refid="pugiconfig_8hpp">pugiconfig.hpp</innerfile>
+    <innerfile refid="pugixml_8hpp">pugixml.hpp</innerfile>
+    <innerfile refid="task_8h">task.h</innerfile>
+    <innerfile refid="task__type_8h">task_type.h</innerfile>
+    <innerfile refid="trajectory_8h">trajectory.h</innerfile>
+    <innerfile refid="vehicle_8h">vehicle.h</innerfile>
+    <innerfile refid="vehicle__connection_8h">vehicle_connection.h</innerfile>
+    <innerfile refid="vehicle__data__model_8h">vehicle_data_model.h</innerfile>
+    <innerfile refid="vehicle__manager_8h">vehicle_manager.h</innerfile>
+    <innerfile refid="vehicle__status_8h">vehicle_status.h</innerfile>
+    <innerfile refid="vehicle__type_8h">vehicle_type.h</innerfile>
+    <innerfile refid="waypoint_8h">waypoint.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/"/>
+  </compounddef>
+</doxygen>

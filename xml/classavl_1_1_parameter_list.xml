@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classavl_1_1_parameter_list" kind="class" language="C++" prot="public">
+    <compoundname>avl::ParameterList</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classavl_1_1_parameter_list_1a55a14aaca238236e2eca598a52c2b4a2" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classavl_1_1_parameter" kindref="compound">Parameter</ref> &gt;</type>
+        <definition>std::vector&lt;Parameter&gt; avl::ParameterList::parameters</definition>
+        <argsstring></argsstring>
+        <name>parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="27" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a2ff100c3074268b24770e418ef17e82a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>avl::ParameterList::ParameterList</definition>
+        <argsstring>()</argsstring>
+        <name>ParameterList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="35" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1ac5e48b7c800bf006944ca51c01908e17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>avl::ParameterList::ParameterList</definition>
+        <argsstring>(std::vector&lt; Field &gt; fields)</argsstring>
+        <name>ParameterList</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classavl_1_1_field" kindref="compound">Field</ref> &gt;</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="48" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a868eec849df56246181bc50aae0cc3c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual avl::ParameterList::~ParameterList</definition>
+        <argsstring>()</argsstring>
+        <name>~ParameterList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="57" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a851c3fd853354b205cf0dcb8df9b522d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classavl_1_1_parameter" kindref="compound">Parameter</ref> &gt;::iterator</type>
+        <definition>std::vector&lt;Parameter&gt;::iterator avl::ParameterList::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="67" column="28" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1afff8bc5c035ab38ed6279201423f28b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classavl_1_1_parameter" kindref="compound">Parameter</ref> &gt;::iterator</type>
+        <definition>std::vector&lt;Parameter&gt;::iterator avl::ParameterList::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="77" column="28" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a46f1544e777d2dccc63467dca2f93382" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void avl::ParameterList::add_parameter</definition>
+        <argsstring>(Parameter param)</argsstring>
+        <name>add_parameter</name>
+        <param>
+          <type><ref refid="classavl_1_1_parameter" kindref="compound">Parameter</ref></type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="87" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a63c841ea8f6d5c7cd9bfd1cb9a375044" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void avl::ParameterList::from_fields</definition>
+        <argsstring>(std::vector&lt; Field &gt; fields)</argsstring>
+        <name>from_fields</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classavl_1_1_field" kindref="compound">Field</ref> &gt;</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="99" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="99" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a22a723cf1c820ee98bbf278b7f35e939" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classavl_1_1_field" kindref="compound">Field</ref> &gt;</type>
+        <definition>std::vector&lt;Field&gt; avl::ParameterList::to_fields</definition>
+        <argsstring>(uint8_t start_desc)</argsstring>
+        <name>to_fields</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>start_desc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="132" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="132" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1ab2f8e0a199dd60461d97e2a7212bd29b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void avl::ParameterList::from_bytes</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; data)</argsstring>
+        <name>from_bytes</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="147" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="147" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a6ff97cd807732eb1280e6cbe5686b6bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; avl::ParameterList::to_bytes</definition>
+        <argsstring>()</argsstring>
+        <name>to_bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="158" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="158" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a8e377d98dbd55973a194dec91b3c86aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t avl::ParameterList::get_num_parameters</definition>
+        <argsstring>()</argsstring>
+        <name>get_num_parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="173" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="173" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a8d07ec62beefbdd614ac90dab9ea3bce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classavl_1_1_parameter" kindref="compound">Parameter</ref></type>
+        <definition>Parameter avl::ParameterList::get_parameter</definition>
+        <argsstring>(size_t num)</argsstring>
+        <name>get_parameter</name>
+        <param>
+          <type>size_t</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="184" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="184" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1a69c16bd73e2af77d5b35ea5c1796e68b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool avl::ParameterList::has_parameter</definition>
+        <argsstring>(std::string param_name)</argsstring>
+        <name>has_parameter</name>
+        <param>
+          <type>std::string</type>
+          <declname>param_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="196" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="196" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_parameter_list_1aa0e41435248ff95aa2dbb8df3b0bf6ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classavl_1_1_parameter" kindref="compound">Parameter</ref></type>
+        <definition>Parameter avl::ParameterList::get_parameter</definition>
+        <argsstring>(std::string param_name)</argsstring>
+        <name>get_parameter</name>
+        <param>
+          <type>std::string</type>
+          <declname>param_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="210" column="15" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="210" bodyend="217"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" line="22" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/parameter_list.h" bodystart="21" bodyend="219"/>
+    <listofallmembers>
+      <member refid="classavl_1_1_parameter_list_1a46f1544e777d2dccc63467dca2f93382" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>add_parameter</name></member>
+      <member refid="classavl_1_1_parameter_list_1a851c3fd853354b205cf0dcb8df9b522d" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>begin</name></member>
+      <member refid="classavl_1_1_parameter_list_1afff8bc5c035ab38ed6279201423f28b5" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>end</name></member>
+      <member refid="classavl_1_1_parameter_list_1ab2f8e0a199dd60461d97e2a7212bd29b" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>from_bytes</name></member>
+      <member refid="classavl_1_1_parameter_list_1a63c841ea8f6d5c7cd9bfd1cb9a375044" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>from_fields</name></member>
+      <member refid="classavl_1_1_parameter_list_1a8e377d98dbd55973a194dec91b3c86aa" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>get_num_parameters</name></member>
+      <member refid="classavl_1_1_parameter_list_1a8d07ec62beefbdd614ac90dab9ea3bce" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>get_parameter</name></member>
+      <member refid="classavl_1_1_parameter_list_1aa0e41435248ff95aa2dbb8df3b0bf6ac" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>get_parameter</name></member>
+      <member refid="classavl_1_1_parameter_list_1a69c16bd73e2af77d5b35ea5c1796e68b" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>has_parameter</name></member>
+      <member refid="classavl_1_1_parameter_list_1a2ff100c3074268b24770e418ef17e82a" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>ParameterList</name></member>
+      <member refid="classavl_1_1_parameter_list_1ac5e48b7c800bf006944ca51c01908e17" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>ParameterList</name></member>
+      <member refid="classavl_1_1_parameter_list_1a55a14aaca238236e2eca598a52c2b4a2" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>parameters</name></member>
+      <member refid="classavl_1_1_parameter_list_1a6ff97cd807732eb1280e6cbe5686b6bb" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>to_bytes</name></member>
+      <member refid="classavl_1_1_parameter_list_1a22a723cf1c820ee98bbf278b7f35e939" prot="public" virt="non-virtual"><scope>avl::ParameterList</scope><name>to_fields</name></member>
+      <member refid="classavl_1_1_parameter_list_1a868eec849df56246181bc50aae0cc3c2" prot="public" virt="virtual"><scope>avl::ParameterList</scope><name>~ParameterList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

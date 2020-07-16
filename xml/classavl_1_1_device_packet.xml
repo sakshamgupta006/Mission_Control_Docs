@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classavl_1_1_device_packet" kind="class" language="C++" prot="public">
+    <compoundname>avl::DevicePacket</compoundname>
+    <basecompoundref refid="classavl_1_1_packet" prot="public" virt="non-virtual">avl::Packet</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classavl_1_1_device_packet_1ac06c19990bff9e77f99b7feee4b879f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>avl::DevicePacket::DevicePacket</definition>
+        <argsstring>(Packet packet)</argsstring>
+        <name>DevicePacket</name>
+        <param>
+          <type><ref refid="classavl_1_1_packet" kindref="compound">Packet</ref></type>
+          <declname>packet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" line="57" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_device_packet_1ac534682cfe749bcbcc1dd1ea9e9a5b7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>avl::DevicePacket::DevicePacket</definition>
+        <argsstring>(PacketHeader header, DeviceInfo device_info)</argsstring>
+        <name>DevicePacket</name>
+        <param>
+          <type><ref refid="structavl_1_1_packet_header" kindref="compound">PacketHeader</ref></type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type><ref refid="structavl_1_1_device_info" kindref="compound">DeviceInfo</ref></type>
+          <declname>device_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" line="67" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_device_packet_1aa2569ebac7fb55a48667809c8bcaffbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>avl::DevicePacket::DevicePacket</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; bytes)</argsstring>
+        <name>DevicePacket</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" line="82" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" bodystart="82" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classavl_1_1_device_packet_1a600992816f848e79e4c64daa05c98034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structavl_1_1_device_info" kindref="compound">DeviceInfo</ref></type>
+        <definition>DeviceInfo avl::DevicePacket::get_device_info</definition>
+        <argsstring>()</argsstring>
+        <name>get_device_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" line="95" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" bodystart="95" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>avl::DevicePacket</label>
+        <link refid="classavl_1_1_device_packet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>avl::Packet</label>
+        <link refid="classavl_1_1_packet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>avl::PacketHeader</label>
+        <link refid="structavl_1_1_packet_header"/>
+      </node>
+      <node id="1">
+        <label>avl::DevicePacket</label>
+        <link refid="classavl_1_1_device_packet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>avl::Packet</label>
+        <link refid="classavl_1_1_packet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" line="48" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/device_packet.h" bodystart="47" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classavl_1_1_packet_1a0de1c14bc2fc57578ba6dcbbf37e8469" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>add_field</name></member>
+      <member refid="classavl_1_1_packet_1ada8558c0870883c6f0039ef6a242ba57" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>add_field</name></member>
+      <member refid="classavl_1_1_packet_1adc7df79bdc5eef9ca2a39ba1ded6ca80" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>add_field</name></member>
+      <member refid="classavl_1_1_packet_1a54da1cedfc7275a7b7cda6dcc429ea80" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>add_fields</name></member>
+      <member refid="classavl_1_1_packet_1a11c93836a9183f4da52879bbeb5dc5f5" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>clear_fields</name></member>
+      <member refid="classavl_1_1_packet_1ae941ffc4c5306a9a24a7491def7f17cc" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>contains_packet</name></member>
+      <member refid="classavl_1_1_packet_1a8f82581be40ae8b73b1af4461358f123" prot="protected" virt="non-virtual"><scope>avl::DevicePacket</scope><name>descriptor</name></member>
+      <member refid="classavl_1_1_device_packet_1ac06c19990bff9e77f99b7feee4b879f9" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>DevicePacket</name></member>
+      <member refid="classavl_1_1_device_packet_1ac534682cfe749bcbcc1dd1ea9e9a5b7b" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>DevicePacket</name></member>
+      <member refid="classavl_1_1_device_packet_1aa2569ebac7fb55a48667809c8bcaffbc" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>DevicePacket</name></member>
+      <member refid="classavl_1_1_packet_1a389141cd29acdb5b01e07e73173d9105" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>get_bytes</name></member>
+      <member refid="classavl_1_1_packet_1a46a373843b573b04b35db03e0204a1dc" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>get_descriptor</name></member>
+      <member refid="classavl_1_1_device_packet_1a600992816f848e79e4c64daa05c98034" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>get_device_info</name></member>
+      <member refid="classavl_1_1_packet_1a3d74eb2b7d676dff2fb4b2afd5457dd9" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>get_field</name></member>
+      <member refid="classavl_1_1_packet_1ac56f045380af79d0c4b8d9fe5a9a03be" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>get_field_index</name></member>
+      <member refid="classavl_1_1_packet_1a1a25836cc5cf596f92e94512056053ef" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>get_fields</name></member>
+      <member refid="classavl_1_1_packet_1a8efccee799cae013c6b6afc8f4f429e9" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>get_header</name></member>
+      <member refid="classavl_1_1_packet_1ab25982e33cee0623570d01934d659851" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>get_num_fields</name></member>
+      <member refid="classavl_1_1_packet_1a3f6e7d5a1f7c67d4e9914ef9f139b7c7" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>get_string</name></member>
+      <member refid="classavl_1_1_packet_1aca0d10e67091029f6ae5b3e4757d98f3" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>has_field</name></member>
+      <member refid="classavl_1_1_packet_1a0a45923d1dbae5c8c4d742565997916a" prot="protected" virt="non-virtual"><scope>avl::DevicePacket</scope><name>header</name></member>
+      <member refid="classavl_1_1_packet_1af7669972acdeacd0e2d00d5b3918d72e" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>Packet</name></member>
+      <member refid="classavl_1_1_packet_1ae4bbd34f9cdbf03e92b623af032eda9a" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>Packet</name></member>
+      <member refid="classavl_1_1_packet_1ac801fa0b3f1bb3c56979354c97d62aef" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>parse_multiple</name></member>
+      <member refid="classavl_1_1_packet_1af0d9673caf2d2cb5af7e581e9723a95e" prot="protected" virt="non-virtual"><scope>avl::DevicePacket</scope><name>payload</name></member>
+      <member refid="classavl_1_1_packet_1a777e95d61b83773f0dd47e1e9919c9fd" prot="public" virt="non-virtual"><scope>avl::DevicePacket</scope><name>set_bytes</name></member>
+      <member refid="classavl_1_1_packet_1aad1fd5d929ac3d9aae359c6e167a8f42" prot="public" virt="virtual"><scope>avl::DevicePacket</scope><name>~Packet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

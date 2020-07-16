@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_param_data_model" kind="class" language="C++" prot="public">
+    <compoundname>ParamDataModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QAbstractTableModel</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_param_data_model_1a57ba886bb693c6c8ba48e74e42aa43d2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_params" kindref="compound">Params</ref> *</type>
+        <definition>Params* ParamDataModel::current_params</definition>
+        <argsstring></argsstring>
+        <name>current_params</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="34" column="12" bodyfile="/home/cooper/test/avl_gui_new/include/param_data_model.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_param_data_model_1a18175b43aa7070ae20eca8de786638b6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ParamDataModel::selected_task</definition>
+        <argsstring></argsstring>
+        <name>selected_task</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="177" column="9" bodyfile="/home/cooper/test/avl_gui_new/include/param_data_model.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_param_data_model_1aafbaf257f7c59804a46587d0eec53c9b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ParamDataModel::ParamDataModel</definition>
+        <argsstring>()</argsstring>
+        <name>ParamDataModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="42" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1a2e6b07dc3e25c4ff0be97adc8d9e8a4a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ParamDataModel::rowCount</definition>
+        <argsstring>(const QModelIndex &amp;=QModelIndex()) const override</argsstring>
+        <name>rowCount</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <defval>QModelIndex()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="48" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1a185e2961e32477189163ce655cd198fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ParamDataModel::columnCount</definition>
+        <argsstring>(const QModelIndex &amp;=QModelIndex()) const override</argsstring>
+        <name>columnCount</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <defval>QModelIndex()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="54" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1a9586fd2c6f2a1efb063839a2fc2b6b79" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant ParamDataModel::data</definition>
+        <argsstring>(const QModelIndex &amp;index, int role) const override</argsstring>
+        <name>data</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>role</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="62" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1ae2e3407c6471d15079889d6c9b37bbc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParamDataModel::setData</definition>
+        <argsstring>(const QModelIndex &amp;index, const QVariant &amp;value, int role=Qt::EditRole) override</argsstring>
+        <name>setData</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>role</declname>
+          <defval>Qt::EditRole</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="72" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1a1cde8f5e69a7c69ad4247e5a3f65a9ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Qt::ItemFlags</type>
+        <definition>Qt::ItemFlags ParamDataModel::flags</definition>
+        <argsstring>(const QModelIndex &amp;index) const override</argsstring>
+        <name>flags</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="79" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1ac0c63b9fb1061cba34e438a8e262adaf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QHash&lt; int, QByteArray &gt;</type>
+        <definition>virtual QHash&lt;int, QByteArray&gt; ParamDataModel::roleNames</definition>
+        <argsstring>() const override</argsstring>
+        <name>roleNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="85" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1ae551cfd88eaef8c235da5538366c52f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void ParamDataModel::redraw</definition>
+        <argsstring>()</argsstring>
+        <name>redraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="91" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1adbc78d737451b791afcd24ff141a12c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void ParamDataModel::append_params</definition>
+        <argsstring>()</argsstring>
+        <name>append_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="97" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1ab39eccf90b978ee210a467714d0fa400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE int</type>
+        <definition>Q_INVOKABLE int ParamDataModel::get_selected_task_index</definition>
+        <argsstring>()</argsstring>
+        <name>get_selected_task_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="118" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1a6606d3947583e7f308296633b0292100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void ParamDataModel::clear_params</definition>
+        <argsstring>()</argsstring>
+        <name>clear_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="145" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1a7ae9067b7dce2ddfbecc38fcd62698f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void ParamDataModel::edit_param</definition>
+        <argsstring>(const int row, const int column, const QVariant value)</argsstring>
+        <name>edit_param</name>
+        <param>
+          <type>const int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>const QVariant</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="154" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_param_data_model_1ae99245fe46a5ef514981eaa6c44b68a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QVector&lt; <ref refid="structparam" kindref="compound">param</ref> &gt;</type>
+        <definition>Q_INVOKABLE QVector&lt;param&gt; ParamDataModel::get_all</definition>
+        <argsstring>()</argsstring>
+        <name>get_all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="172" column="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ParamDataModel</label>
+        <link refid="class_param_data_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAbstractTableModel</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>ParamDataModel</label>
+        <link refid="class_param_data_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>current_params</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Params</label>
+        <link refid="class_params"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAbstractTableModel</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/param_data_model.h" line="28" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/param_data_model.h" bodystart="27" bodyend="189"/>
+    <listofallmembers>
+      <member refid="class_param_data_model_1adbc78d737451b791afcd24ff141a12c0" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>append_params</name></member>
+      <member refid="class_param_data_model_1a6606d3947583e7f308296633b0292100" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>clear_params</name></member>
+      <member refid="class_param_data_model_1a185e2961e32477189163ce655cd198fa" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>columnCount</name></member>
+      <member refid="class_param_data_model_1a57ba886bb693c6c8ba48e74e42aa43d2" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>current_params</name></member>
+      <member refid="class_param_data_model_1a9586fd2c6f2a1efb063839a2fc2b6b79" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>data</name></member>
+      <member refid="class_param_data_model_1a7ae9067b7dce2ddfbecc38fcd62698f5" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>edit_param</name></member>
+      <member refid="class_param_data_model_1a1cde8f5e69a7c69ad4247e5a3f65a9ef" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>flags</name></member>
+      <member refid="class_param_data_model_1ae99245fe46a5ef514981eaa6c44b68a5" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>get_all</name></member>
+      <member refid="class_param_data_model_1ab39eccf90b978ee210a467714d0fa400" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>get_selected_task_index</name></member>
+      <member refid="class_param_data_model_1aafbaf257f7c59804a46587d0eec53c9b" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>ParamDataModel</name></member>
+      <member refid="class_param_data_model_1ae551cfd88eaef8c235da5538366c52f4" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>redraw</name></member>
+      <member refid="class_param_data_model_1ac0c63b9fb1061cba34e438a8e262adaf" prot="public" virt="virtual"><scope>ParamDataModel</scope><name>roleNames</name></member>
+      <member refid="class_param_data_model_1a2e6b07dc3e25c4ff0be97adc8d9e8a4a" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>rowCount</name></member>
+      <member refid="class_param_data_model_1a18175b43aa7070ae20eca8de786638b6" prot="private" virt="non-virtual"><scope>ParamDataModel</scope><name>selected_task</name></member>
+      <member refid="class_param_data_model_1ae2e3407c6471d15079889d6c9b37bbc3" prot="public" virt="non-virtual"><scope>ParamDataModel</scope><name>setData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

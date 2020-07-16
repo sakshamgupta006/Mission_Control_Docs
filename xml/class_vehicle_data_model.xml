@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_vehicle_data_model" kind="class" language="C++" prot="public">
+    <compoundname>VehicleDataModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QAbstractTableModel</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_vehicle_data_model_1ae3aead964fd116dfca553368f178edeb" prot="public" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="class_vehicle" kindref="compound">Vehicle</ref> * &gt; *</type>
+        <definition>QVector&lt;Vehicle*&gt;* VehicleDataModel::vehicle_list</definition>
+        <argsstring></argsstring>
+        <name>vehicle_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="28" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vehicle_data_model_1aa59d50872e5c4f12e739e68568a13cf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VehicleDataModel::VehicleDataModel</definition>
+        <argsstring>(QObject *parent=nullptr)</argsstring>
+        <name>VehicleDataModel</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="36" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_data_model_1aabae05f43a852e45488891a3d10a6064" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int VehicleDataModel::rowCount</definition>
+        <argsstring>(const QModelIndex &amp;=QModelIndex()) const override</argsstring>
+        <name>rowCount</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <defval>QModelIndex()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="42" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_data_model_1af33fbcda7b934a771d38195f7f05daff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int VehicleDataModel::columnCount</definition>
+        <argsstring>(const QModelIndex &amp;=QModelIndex()) const override</argsstring>
+        <name>columnCount</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <defval>QModelIndex()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="48" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_data_model_1a380d8ce55a897116441c4ec2a25657b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant VehicleDataModel::data</definition>
+        <argsstring>(const QModelIndex &amp;index, int role) const override</argsstring>
+        <name>data</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>role</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="56" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_data_model_1ae18bf06adcdeb39963bd5aa529416633" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QHash&lt; int, QByteArray &gt;</type>
+        <definition>QHash&lt;int, QByteArray&gt; VehicleDataModel::roleNames</definition>
+        <argsstring>() const override</argsstring>
+        <name>roleNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="62" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_data_model_1a5bca63870b260476e0ef1c8a7ed5a44d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleDataModel::start_insert_row</definition>
+        <argsstring>()</argsstring>
+        <name>start_insert_row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_data_model_1addc5d55e6392058ca2a9734a944e9826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleDataModel::stop_insert_row</definition>
+        <argsstring>()</argsstring>
+        <name>stop_insert_row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="75" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_data_model_1a5a7c223ee14bd5511ce84eb8dde1f261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleDataModel::update_row</definition>
+        <argsstring>(int row)</argsstring>
+        <name>update_row</name>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="82" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>VehicleDataModel</label>
+        <link refid="class_vehicle_data_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAbstractTableModel</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>VehicleDataModel</label>
+        <link refid="class_vehicle_data_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAbstractTableModel</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" line="23" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_data_model.h" bodystart="22" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_vehicle_data_model_1af33fbcda7b934a771d38195f7f05daff" prot="public" virt="non-virtual"><scope>VehicleDataModel</scope><name>columnCount</name></member>
+      <member refid="class_vehicle_data_model_1a380d8ce55a897116441c4ec2a25657b7" prot="public" virt="non-virtual"><scope>VehicleDataModel</scope><name>data</name></member>
+      <member refid="class_vehicle_data_model_1ae18bf06adcdeb39963bd5aa529416633" prot="public" virt="non-virtual"><scope>VehicleDataModel</scope><name>roleNames</name></member>
+      <member refid="class_vehicle_data_model_1aabae05f43a852e45488891a3d10a6064" prot="public" virt="non-virtual"><scope>VehicleDataModel</scope><name>rowCount</name></member>
+      <member refid="class_vehicle_data_model_1a5bca63870b260476e0ef1c8a7ed5a44d" prot="public" virt="non-virtual"><scope>VehicleDataModel</scope><name>start_insert_row</name></member>
+      <member refid="class_vehicle_data_model_1addc5d55e6392058ca2a9734a944e9826" prot="public" virt="non-virtual"><scope>VehicleDataModel</scope><name>stop_insert_row</name></member>
+      <member refid="class_vehicle_data_model_1a5a7c223ee14bd5511ce84eb8dde1f261" prot="public" virt="non-virtual"><scope>VehicleDataModel</scope><name>update_row</name></member>
+      <member refid="class_vehicle_data_model_1ae3aead964fd116dfca553368f178edeb" prot="public" virt="non-virtual"><scope>VehicleDataModel</scope><name>vehicle_list</name></member>
+      <member refid="class_vehicle_data_model_1aa59d50872e5c4f12e739e68568a13cf0" prot="public" virt="non-virtual"><scope>VehicleDataModel</scope><name>VehicleDataModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

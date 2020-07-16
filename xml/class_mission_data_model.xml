@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_mission_data_model" kind="class" language="C++" prot="public">
+    <compoundname>MissionDataModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QAbstractListModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mission_data_model_1ae0ede0e110698a0b7eafdba84a350db9" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_mission_action" kindref="compound">MissionAction</ref> &gt;</type>
+        <definition>QList&lt;MissionAction&gt; MissionDataModel::actions</definition>
+        <argsstring></argsstring>
+        <name>actions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="299" column="11" bodyfile="/home/cooper/test/avl_gui_new/include/mission_data_model.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mission_data_model_1a696aa878b891f53a146ab4c96f89dcb6" prot="private" static="no" mutable="no">
+        <type>QList&lt; QJsonObject &gt;</type>
+        <definition>QList&lt;QJsonObject&gt; MissionDataModel::action_types</definition>
+        <argsstring></argsstring>
+        <name>action_types</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="303" column="11" bodyfile="/home/cooper/test/avl_gui_new/include/mission_data_model.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mission_data_model_1ac74b749c95284ad256507b9ba69c73ee" prot="private" static="no" mutable="no">
+        <type>QList&lt; QJsonObject &gt;</type>
+        <definition>QList&lt;QJsonObject&gt; MissionDataModel::command_types</definition>
+        <argsstring></argsstring>
+        <name>command_types</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="304" column="11" bodyfile="/home/cooper/test/avl_gui_new/include/mission_data_model.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mission_data_model_1ab23af4e6d46c29d9062f51cfa3c3bbee" prot="private" static="no" mutable="no">
+        <type>QUdpSocket</type>
+        <definition>QUdpSocket MissionDataModel::socket</definition>
+        <argsstring></argsstring>
+        <name>socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="306" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/mission_data_model.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mission_data_model_1ae0eb5721ec1b58415a50d8d60b4ee736" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MissionDataModel::MissionDataModel</definition>
+        <argsstring>(QObject *parent=nullptr)</argsstring>
+        <name>MissionDataModel</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="40" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1af3c3b871ec5a4eb5450ff0d362efa66e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MissionDataModel::rowCount</definition>
+        <argsstring>(const QModelIndex &amp;parent=QModelIndex()) const override</argsstring>
+        <name>rowCount</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>parent</declname>
+          <defval>QModelIndex()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="46" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a0fff87e5b7f624126a0bd9cb92aa46fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant MissionDataModel::data</definition>
+        <argsstring>(const QModelIndex &amp;index, int role=Qt::DisplayRole) const override</argsstring>
+        <name>data</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>role</declname>
+          <defval>Qt::DisplayRole</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="55" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a69d4b3ff188f905bd011c58df7435b15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_mission_action" kindref="compound">MissionAction</ref></type>
+        <definition>Q_INVOKABLE MissionAction MissionDataModel::get_action</definition>
+        <argsstring>(const int num)</argsstring>
+        <name>get_action</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="63" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1aa2595cbe4554b994f22b8d52a6146e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::append_action</definition>
+        <argsstring>()</argsstring>
+        <name>append_action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="69" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a11249eb80f36219d948e16179abc94d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::move_action_up</definition>
+        <argsstring>(const int num)</argsstring>
+        <name>move_action_up</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="76" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1aacaaf4e27550b887196310329ff100d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::move_action_down</definition>
+        <argsstring>(const int num)</argsstring>
+        <name>move_action_down</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="83" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1ac16372cd977e06a7510948dd0bf002ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::remove_action</definition>
+        <argsstring>(const int num)</argsstring>
+        <name>remove_action</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="90" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a3530bc6c65fccf65321f6856b4bf75a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::insert_before</definition>
+        <argsstring>(const int num)</argsstring>
+        <name>insert_before</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="99" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a7a29a90f829d545ad3d9c8cbc769ac6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::insert_after</definition>
+        <argsstring>(const int num)</argsstring>
+        <name>insert_after</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="108" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a676ea0711c7349933df4cf9e52281d46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::duplicate</definition>
+        <argsstring>(const int num)</argsstring>
+        <name>duplicate</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="115" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a91c8ef1d39ffb1a0f5595599d774488b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="121" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1ad2a87833ae77ef6e4e291fae2817267c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::reset_parameter</definition>
+        <argsstring>(const int num, const int param_num)</argsstring>
+        <name>reset_parameter</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>param_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="130" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a507cc9ace12819443c896bf0fc8a1197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::edit_parameter</definition>
+        <argsstring>(const int num, const int param_num, QVariant new_value)</argsstring>
+        <name>edit_parameter</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>param_num</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>new_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="139" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1af67ec641aa97cdddaa864a7bb1d6b4d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::set_action_type</definition>
+        <argsstring>(const int num, QString type)</argsstring>
+        <name>set_action_type</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="152" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a372cee99c90fc13e7d63a4446978122f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QString</type>
+        <definition>Q_INVOKABLE QString MissionDataModel::get_action_type</definition>
+        <argsstring>(const int num)</argsstring>
+        <name>get_action_type</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="160" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a43e05135669270179508a4dc56332a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::set_command_type</definition>
+        <argsstring>(const int num, QString type)</argsstring>
+        <name>set_command_type</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="170" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1aa9d5e7e935a7f757ea06d7e7ad789207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QString</type>
+        <definition>Q_INVOKABLE QString MissionDataModel::get_command_type</definition>
+        <argsstring>(const int num)</argsstring>
+        <name>get_command_type</name>
+        <param>
+          <type>const int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="178" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a19d3386fd1a261beaafc76153381564c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QStringList</type>
+        <definition>Q_INVOKABLE QStringList MissionDataModel::get_action_types</definition>
+        <argsstring>()</argsstring>
+        <name>get_action_types</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="187" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1af3d2e5351697a218457bd89293bc006d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QStringList</type>
+        <definition>Q_INVOKABLE QStringList MissionDataModel::get_command_types</definition>
+        <argsstring>()</argsstring>
+        <name>get_command_types</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="194" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a3057a4942d23219505d5bc9496db7c8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QVariant</type>
+        <definition>Q_INVOKABLE QVariant MissionDataModel::get_action_params</definition>
+        <argsstring>(const int &amp;action_num)</argsstring>
+        <name>get_action_params</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>action_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="202" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a555558bacf9c74ec5fac92ac5e466a0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::save</definition>
+        <argsstring>(QString filepath)</argsstring>
+        <name>save</name>
+        <param>
+          <type>QString</type>
+          <declname>filepath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="211" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a1b66fc3a9c65d4fb33187a362d5118fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::load</definition>
+        <argsstring>(QString filepath)</argsstring>
+        <name>load</name>
+        <param>
+          <type>QString</type>
+          <declname>filepath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="218" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a0e4b1ce312d87274eef52d45b4eb27be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::send</definition>
+        <argsstring>()</argsstring>
+        <name>send</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="224" column="22" bodyfile="/home/cooper/test/avl_gui_new/include/mission_data_model.h" bodystart="224" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a7b769880ad927e3461d6a06c3664948e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="246" column="22" bodyfile="/home/cooper/test/avl_gui_new/include/mission_data_model.h" bodystart="246" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a3e56ab5d87fb2ab4acd08ab63d743012" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void MissionDataModel::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="269" column="22" bodyfile="/home/cooper/test/avl_gui_new/include/mission_data_model.h" bodystart="269" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a8951506dfc9f92f3f9d17f9787700e6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QByteArray</type>
+        <definition>QByteArray MissionDataModel::packet_to_byte_array</definition>
+        <argsstring>(avl::Packet packet)</argsstring>
+        <name>packet_to_byte_array</name>
+        <param>
+          <type><ref refid="classavl_1_1_packet" kindref="compound">avl::Packet</ref></type>
+          <declname>packet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="289" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/mission_data_model.h" bodystart="289" bodyend="294"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mission_data_model_1a260108c04036907b7afce898fa512828" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QJsonObject</type>
+        <definition>QJsonObject MissionDataModel::get_action_object</definition>
+        <argsstring>(QString type)</argsstring>
+        <name>get_action_object</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="315" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a3ff096b0e55f65eaf21a550dfb48ac38" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QJsonObject</type>
+        <definition>QJsonObject MissionDataModel::get_command_object</definition>
+        <argsstring>(QString type)</argsstring>
+        <name>get_command_object</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="322" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_data_model_1a4da25fb8da887bb543ea14778353857d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_mission_action" kindref="compound">MissionAction</ref></type>
+        <definition>MissionAction MissionDataModel::get_default_action</definition>
+        <argsstring>(QString type=&quot;&quot;, QString command_type=&quot;&quot;)</argsstring>
+        <name>get_default_action</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>command_type</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="329" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MissionDataModel</label>
+        <link refid="class_mission_data_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAbstractListModel</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MissionDataModel</label>
+        <link refid="class_mission_data_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAbstractListModel</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/mission_data_model.h" line="30" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/mission_data_model.h" bodystart="29" bodyend="331"/>
+    <listofallmembers>
+      <member refid="class_mission_data_model_1a696aa878b891f53a146ab4c96f89dcb6" prot="private" virt="non-virtual"><scope>MissionDataModel</scope><name>action_types</name></member>
+      <member refid="class_mission_data_model_1ae0ede0e110698a0b7eafdba84a350db9" prot="private" virt="non-virtual"><scope>MissionDataModel</scope><name>actions</name></member>
+      <member refid="class_mission_data_model_1aa2595cbe4554b994f22b8d52a6146e25" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>append_action</name></member>
+      <member refid="class_mission_data_model_1a91c8ef1d39ffb1a0f5595599d774488b" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>clear</name></member>
+      <member refid="class_mission_data_model_1ac74b749c95284ad256507b9ba69c73ee" prot="private" virt="non-virtual"><scope>MissionDataModel</scope><name>command_types</name></member>
+      <member refid="class_mission_data_model_1a0fff87e5b7f624126a0bd9cb92aa46fc" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>data</name></member>
+      <member refid="class_mission_data_model_1a676ea0711c7349933df4cf9e52281d46" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>duplicate</name></member>
+      <member refid="class_mission_data_model_1a507cc9ace12819443c896bf0fc8a1197" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>edit_parameter</name></member>
+      <member refid="class_mission_data_model_1a69d4b3ff188f905bd011c58df7435b15" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>get_action</name></member>
+      <member refid="class_mission_data_model_1a260108c04036907b7afce898fa512828" prot="private" virt="non-virtual"><scope>MissionDataModel</scope><name>get_action_object</name></member>
+      <member refid="class_mission_data_model_1a3057a4942d23219505d5bc9496db7c8e" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>get_action_params</name></member>
+      <member refid="class_mission_data_model_1a372cee99c90fc13e7d63a4446978122f" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>get_action_type</name></member>
+      <member refid="class_mission_data_model_1a19d3386fd1a261beaafc76153381564c" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>get_action_types</name></member>
+      <member refid="class_mission_data_model_1a3ff096b0e55f65eaf21a550dfb48ac38" prot="private" virt="non-virtual"><scope>MissionDataModel</scope><name>get_command_object</name></member>
+      <member refid="class_mission_data_model_1aa9d5e7e935a7f757ea06d7e7ad789207" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>get_command_type</name></member>
+      <member refid="class_mission_data_model_1af3d2e5351697a218457bd89293bc006d" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>get_command_types</name></member>
+      <member refid="class_mission_data_model_1a4da25fb8da887bb543ea14778353857d" prot="private" virt="non-virtual"><scope>MissionDataModel</scope><name>get_default_action</name></member>
+      <member refid="class_mission_data_model_1a7a29a90f829d545ad3d9c8cbc769ac6e" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>insert_after</name></member>
+      <member refid="class_mission_data_model_1a3530bc6c65fccf65321f6856b4bf75a7" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>insert_before</name></member>
+      <member refid="class_mission_data_model_1a1b66fc3a9c65d4fb33187a362d5118fa" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>load</name></member>
+      <member refid="class_mission_data_model_1ae0eb5721ec1b58415a50d8d60b4ee736" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>MissionDataModel</name></member>
+      <member refid="class_mission_data_model_1aacaaf4e27550b887196310329ff100d4" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>move_action_down</name></member>
+      <member refid="class_mission_data_model_1a11249eb80f36219d948e16179abc94d9" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>move_action_up</name></member>
+      <member refid="class_mission_data_model_1a8951506dfc9f92f3f9d17f9787700e6c" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>packet_to_byte_array</name></member>
+      <member refid="class_mission_data_model_1ac16372cd977e06a7510948dd0bf002ec" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>remove_action</name></member>
+      <member refid="class_mission_data_model_1ad2a87833ae77ef6e4e291fae2817267c" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>reset_parameter</name></member>
+      <member refid="class_mission_data_model_1af3c3b871ec5a4eb5450ff0d362efa66e" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>rowCount</name></member>
+      <member refid="class_mission_data_model_1a555558bacf9c74ec5fac92ac5e466a0f" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>save</name></member>
+      <member refid="class_mission_data_model_1a0e4b1ce312d87274eef52d45b4eb27be" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>send</name></member>
+      <member refid="class_mission_data_model_1af67ec641aa97cdddaa864a7bb1d6b4d2" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>set_action_type</name></member>
+      <member refid="class_mission_data_model_1a43e05135669270179508a4dc56332a43" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>set_command_type</name></member>
+      <member refid="class_mission_data_model_1ab23af4e6d46c29d9062f51cfa3c3bbee" prot="private" virt="non-virtual"><scope>MissionDataModel</scope><name>socket</name></member>
+      <member refid="class_mission_data_model_1a3e56ab5d87fb2ab4acd08ab63d743012" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>start</name></member>
+      <member refid="class_mission_data_model_1a7b769880ad927e3461d6a06c3664948e" prot="public" virt="non-virtual"><scope>MissionDataModel</scope><name>stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

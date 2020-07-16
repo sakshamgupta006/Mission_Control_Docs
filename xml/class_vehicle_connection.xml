@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_vehicle_connection" kind="class" language="C++" prot="public">
+    <compoundname>VehicleConnection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <derivedcompoundref refid="class_vehicle" prot="public" virt="non-virtual">Vehicle</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_vehicle_connection_1a92364a5622a41a6da8e456443a494491" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString VehicleConnection::m_ip_address</definition>
+        <argsstring></argsstring>
+        <name>m_ip_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="379" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_connection_1ae52c8c0698284598195675dfc34d8a84" prot="private" static="no" mutable="no">
+        <type>quint16</type>
+        <definition>quint16 VehicleConnection::m_port</definition>
+        <argsstring></argsstring>
+        <name>m_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="380" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_connection_1ac34c70f2d7ba7e93b87aa89d012d24ac" prot="private" static="no" mutable="no">
+        <type>QTcpSocket *</type>
+        <definition>QTcpSocket* VehicleConnection::tcp_socket</definition>
+        <argsstring></argsstring>
+        <name>tcp_socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="383" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_connection_1a3512bce00665c6e83b657d19c3c104fe" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VehicleConnection::retry_connection</definition>
+        <argsstring></argsstring>
+        <name>retry_connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="386" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" bodystart="386" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vehicle_connection_1a3f63d9c385adc802aff047276408aaa6" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString VehicleConnection::connection_status</definition>
+        <argsstring></argsstring>
+        <name>connection_status</name>
+        <initializer>= &quot;DISCONNECTED&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="389" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_vehicle_connection_1a07bd33f51f428da2fe9214f228b5d64f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::connectionStatusChanged</definition>
+        <argsstring>(QString ip_address, QString connection_status, bool can_send)</argsstring>
+        <name>connectionStatusChanged</name>
+        <param>
+          <type>QString</type>
+          <declname>ip_address</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>connection_status</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>can_send</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="53" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_connection_1acd76eac5af0d60142c21863f9c06c895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::vehicleResponseReceived</definition>
+        <argsstring>(int origin_vehicle_id, QString response)</argsstring>
+        <name>vehicleResponseReceived</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="64" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_connection_1ae18740b4c4cc013f0ba8666d2ebc0095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::vehicleMissionReceived</definition>
+        <argsstring>(int origin_vehicle_id, Mission *mission)</argsstring>
+        <name>vehicleMissionReceived</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mission" kindref="compound">Mission</ref> *</type>
+          <declname>mission</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="75" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_connection_1aecfc527b94cee3fd4a5e8091737c6c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::vehicleParameterReceived</definition>
+        <argsstring>(int origin_vehicle_id, std::string name, std::string type, QVariant value)</argsstring>
+        <name>vehicleParameterReceived</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="77" column="10"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_connection_1a61d3bb27b5c5d6892411ee9a33963bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::vehicleParametersFullyReceived</definition>
+        <argsstring>(int origin_vehicle_id)</argsstring>
+        <name>vehicleParametersFullyReceived</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="80" column="9"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_connection_1a32820ed0036377a106bdbefb0c67bc7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::vehicleParameterRefresh</definition>
+        <argsstring>(int origin_vehicle_id)</argsstring>
+        <name>vehicleParameterRefresh</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="82" column="9"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_vehicle_connection_1aeec3d8ddf6d97a8d3e97a6425e4cefa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::vehicleStatusReceived</definition>
+        <argsstring>(int origin_vehicle_id, VehicleStatus status)</argsstring>
+        <name>vehicleStatusReceived</name>
+        <param>
+          <type>int</type>
+          <declname>origin_vehicle_id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_vehicle_status" kindref="compound">VehicleStatus</ref></type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="93" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vehicle_connection_1a5b175c8dba6ac8a2287b7ffefee3a819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VehicleConnection::VehicleConnection</definition>
+        <argsstring>(QObject *parent=nullptr)</argsstring>
+        <name>VehicleConnection</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="101" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_connection_1a88facc9149983815b9ab627c2fac4dc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VehicleConnection::~VehicleConnection</definition>
+        <argsstring>()</argsstring>
+        <name>~VehicleConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="107" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_connection_1a92a1bd636044e447ad3f6a7e19b97d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::open</definition>
+        <argsstring>(QString ip_address, quint16 port)</argsstring>
+        <name>open</name>
+        <param>
+          <type>QString</type>
+          <declname>ip_address</declname>
+        </param>
+        <param>
+          <type>quint16</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="114" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_connection_1a1447ad39399d143fee8f5c1e78724c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="120" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_connection_1a3bc9a9d5330ba0347555f67b645c73f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>Q_INVOKABLE bool VehicleConnection::is_connected</definition>
+        <argsstring>()</argsstring>
+        <name>is_connected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="127" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_connection_1aaca6b441933286f5b6f4239a763d9064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QString</type>
+        <definition>Q_INVOKABLE QString VehicleConnection::get_connection_status</definition>
+        <argsstring>()</argsstring>
+        <name>get_connection_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="135" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vehicle_connection_1ad38cb1e82b73536bdc311338c02f2b11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void VehicleConnection::packet_to_parameter</definition>
+        <argsstring>(avl::Packet parameter_packet, int vehicle_id)</argsstring>
+        <name>packet_to_parameter</name>
+        <param>
+          <type><ref refid="classavl_1_1_packet" kindref="compound">avl::Packet</ref></type>
+          <declname>parameter_packet</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vehicle_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="346" column="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_vehicle_connection_1af183a19fed1ba032cc99fcd3487eb97a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::tcp_connection_error</definition>
+        <argsstring>(QAbstractSocket::SocketError error)</argsstring>
+        <name>tcp_connection_error</name>
+        <param>
+          <type>QAbstractSocket::SocketError</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="359" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_connection_1a4db88e9fb6883e377118956740a83b03" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::tcp_state_changed</definition>
+        <argsstring>(QAbstractSocket::SocketState state)</argsstring>
+        <name>tcp_state_changed</name>
+        <param>
+          <type>QAbstractSocket::SocketState</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="367" column="10"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_vehicle_connection_1a5775653b24120e7a2b777758107178c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::tcp_read_data_ready</definition>
+        <argsstring>()</argsstring>
+        <name>tcp_read_data_ready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="374" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_vehicle_connection_1a7f75877604ef05a3574e69fe42028a4f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VehicleConnection::write</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; data)</argsstring>
+        <name>write</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="399" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="3">
+        <label>Vehicle</label>
+        <link refid="class_vehicle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>VehicleConnection</label>
+        <link refid="class_vehicle_connection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>VehicleConnection</label>
+        <link refid="class_vehicle_connection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" line="37" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/vehicle_connection.h" bodystart="36" bodyend="412"/>
+    <listofallmembers>
+      <member refid="class_vehicle_connection_1a1447ad39399d143fee8f5c1e78724c96" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>close</name></member>
+      <member refid="class_vehicle_connection_1a3f63d9c385adc802aff047276408aaa6" prot="private" virt="non-virtual"><scope>VehicleConnection</scope><name>connection_status</name></member>
+      <member refid="class_vehicle_connection_1a07bd33f51f428da2fe9214f228b5d64f" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>connectionStatusChanged</name></member>
+      <member refid="class_vehicle_connection_1aaca6b441933286f5b6f4239a763d9064" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>get_connection_status</name></member>
+      <member refid="class_vehicle_connection_1a3bc9a9d5330ba0347555f67b645c73f4" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>is_connected</name></member>
+      <member refid="class_vehicle_connection_1a92364a5622a41a6da8e456443a494491" prot="private" virt="non-virtual"><scope>VehicleConnection</scope><name>m_ip_address</name></member>
+      <member refid="class_vehicle_connection_1ae52c8c0698284598195675dfc34d8a84" prot="private" virt="non-virtual"><scope>VehicleConnection</scope><name>m_port</name></member>
+      <member refid="class_vehicle_connection_1a92a1bd636044e447ad3f6a7e19b97d89" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>open</name></member>
+      <member refid="class_vehicle_connection_1ad38cb1e82b73536bdc311338c02f2b11" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>packet_to_parameter</name></member>
+      <member refid="class_vehicle_connection_1a3512bce00665c6e83b657d19c3c104fe" prot="private" virt="non-virtual"><scope>VehicleConnection</scope><name>retry_connection</name></member>
+      <member refid="class_vehicle_connection_1af183a19fed1ba032cc99fcd3487eb97a" prot="private" virt="non-virtual"><scope>VehicleConnection</scope><name>tcp_connection_error</name></member>
+      <member refid="class_vehicle_connection_1a5775653b24120e7a2b777758107178c1" prot="private" virt="non-virtual"><scope>VehicleConnection</scope><name>tcp_read_data_ready</name></member>
+      <member refid="class_vehicle_connection_1ac34c70f2d7ba7e93b87aa89d012d24ac" prot="private" virt="non-virtual"><scope>VehicleConnection</scope><name>tcp_socket</name></member>
+      <member refid="class_vehicle_connection_1a4db88e9fb6883e377118956740a83b03" prot="private" virt="non-virtual"><scope>VehicleConnection</scope><name>tcp_state_changed</name></member>
+      <member refid="class_vehicle_connection_1a5b175c8dba6ac8a2287b7ffefee3a819" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>VehicleConnection</name></member>
+      <member refid="class_vehicle_connection_1ae18740b4c4cc013f0ba8666d2ebc0095" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>vehicleMissionReceived</name></member>
+      <member refid="class_vehicle_connection_1aecfc527b94cee3fd4a5e8091737c6c9a" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>vehicleParameterReceived</name></member>
+      <member refid="class_vehicle_connection_1a32820ed0036377a106bdbefb0c67bc7c" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>vehicleParameterRefresh</name></member>
+      <member refid="class_vehicle_connection_1a61d3bb27b5c5d6892411ee9a33963bb7" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>vehicleParametersFullyReceived</name></member>
+      <member refid="class_vehicle_connection_1acd76eac5af0d60142c21863f9c06c895" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>vehicleResponseReceived</name></member>
+      <member refid="class_vehicle_connection_1aeec3d8ddf6d97a8d3e97a6425e4cefa9" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>vehicleStatusReceived</name></member>
+      <member refid="class_vehicle_connection_1a7f75877604ef05a3574e69fe42028a4f" prot="private" virt="non-virtual"><scope>VehicleConnection</scope><name>write</name></member>
+      <member refid="class_vehicle_connection_1a88facc9149983815b9ab627c2fac4dc9" prot="public" virt="non-virtual"><scope>VehicleConnection</scope><name>~VehicleConnection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

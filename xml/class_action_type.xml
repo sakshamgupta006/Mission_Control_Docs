@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_action_type" kind="class" language="C++" prot="public">
+    <compoundname>ActionType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Value</name>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18acc8b191c17246c9bb8ea6824caccf308" prot="public">
+          <name>ACTION_PING</name>
+          <initializer>=                     0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ac349c604134d8961c61b25fadf308088" prot="public">
+          <name>ACTION_EMERGENCY_STOP</name>
+          <initializer>=           0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a2f10c7f576b60f2d512ab6110bfef4af" prot="public">
+          <name>ACTION_POWER_CYCLE</name>
+          <initializer>=              0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a932c2919acd49ec627f0ef718681bd3e" prot="public">
+          <name>ACTION_RESTART_ROS</name>
+          <initializer>=              0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a769166b99a79b8fa0d707bd0fe04c04b" prot="public">
+          <name>ACTION_RESET_SAFETY</name>
+          <initializer>=             0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18aa0632eb594a11605a0d169e3edd2f391" prot="public">
+          <name>ACTION_SET_MODE</name>
+          <initializer>=                 0x05</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18aadb5622dadc7a2dc13a50ddcd6547c4a" prot="public">
+          <name>ACTION_ENABLE_MAG_STREAM</name>
+          <initializer>=        0x06</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a595063d2310f66b4ac244f8d36e1ceae" prot="public">
+          <name>ACTION_DISABLE_MAG_STREAM</name>
+          <initializer>=       0x07</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ad51a852cf291a7544021be11db940050" prot="public">
+          <name>ACTION_TARE_PRESSURE</name>
+          <initializer>=            0x08</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ace73566d8dac8bda212cb339668c2e97" prot="public">
+          <name>ACTION_START_LBL_PINGS</name>
+          <initializer>=          0x09</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ab46f8d6869d1653a11f066d096b8191e" prot="public">
+          <name>ACTION_START_OWTT_PINGS</name>
+          <initializer>=         0x0A</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a10d771a7148dc5752111acbaf9f84671" prot="public">
+          <name>ACTION_STOP_ACOUSTIC_PINGS</name>
+          <initializer>=      0x0B</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a7060f7c89b9176d9df8f40226186a459" prot="public">
+          <name>ACTION_ENABLE_BACK_SEAT_DRIVER</name>
+          <initializer>=  0x0C</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a0a860de4a959d76d41bc74e1b9d91158" prot="public">
+          <name>ACTION_DISABLE_BACK_SEAT_DRIVER</name>
+          <initializer>= 0x0D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a387c747e69a47efe64de221dfa5136ab" prot="public">
+          <name>ACTION_SET_GEOFENCE</name>
+          <initializer>=             0x0E</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a24929cae3a8a185b50f4b09a21539130" prot="public">
+          <name>ACTION_ENABLE_STROBE</name>
+          <initializer>=            0x0F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a3c7dd2e0a2e893a28d0b25c081b8d57a" prot="public">
+          <name>ACTION_DISABLE_STROBE</name>
+          <initializer>=           0x10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ae561cdb4686a534e74f30866048ddd22" prot="public">
+          <name>ACTION_ENABLE_SONAR</name>
+          <initializer>=             0x11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a5e2c581968f653daffa390187147f59f" prot="public">
+          <name>ACTION_DISABLE_SONAR</name>
+          <initializer>=            0x12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18aec04df6b3f67337b035a7b8137a363d3" prot="public">
+          <name>ACTION_START_SONAR_RECORDING</name>
+          <initializer>=    0x13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18af7526c1901d4fd58966fe153e3450aec" prot="public">
+          <name>ACTION_STOP_SONAR_RECORDING</name>
+          <initializer>=     0x14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18af4500a0299f123ffdbb37f41c9f2ffa4" prot="public">
+          <name>ACTION_NO_ACTION</name>
+          <initializer>=                0x15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/action_type.h" line="29" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/action_type.h" bodystart="28" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_action_type_1a7f1158a8cefb09b1c954e703b002c6b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ActionType::ActionType</definition>
+        <argsstring>()</argsstring>
+        <name>ActionType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/action_type.h" line="61" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/action_type.h" bodystart="61" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_action_type_1a35d1c7cf726b923852ab0c743e701283" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ActionType::declare_qml</definition>
+        <argsstring>()</argsstring>
+        <name>declare_qml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/action_type.h" line="70" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/action_type.h" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_type_1a268991192edc82152b101609aaca9692" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string ActionType::to_string</definition>
+        <argsstring>(Value type)</argsstring>
+        <name>to_string</name>
+        <param>
+          <type>Value</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/action_type.h" line="80" column="24" bodyfile="/home/cooper/test/avl_gui_new/include/action_type.h" bodystart="80" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_type_1ab1c9654f8cdb15952b8106169db53fb0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Value</type>
+        <definition>static Value ActionType::from_string</definition>
+        <argsstring>(QString type)</argsstring>
+        <name>from_string</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/action_type.h" line="113" column="18" bodyfile="/home/cooper/test/avl_gui_new/include/action_type.h" bodystart="113" bodyend="159"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>ActionType</label>
+        <link refid="class_action_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>ActionType</label>
+        <link refid="class_action_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/action_type.h" line="21" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/action_type.h" bodystart="20" bodyend="161"/>
+    <listofallmembers>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a0a860de4a959d76d41bc74e1b9d91158" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_DISABLE_BACK_SEAT_DRIVER</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a595063d2310f66b4ac244f8d36e1ceae" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_DISABLE_MAG_STREAM</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a5e2c581968f653daffa390187147f59f" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_DISABLE_SONAR</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a3c7dd2e0a2e893a28d0b25c081b8d57a" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_DISABLE_STROBE</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ac349c604134d8961c61b25fadf308088" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_EMERGENCY_STOP</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a7060f7c89b9176d9df8f40226186a459" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_ENABLE_BACK_SEAT_DRIVER</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18aadb5622dadc7a2dc13a50ddcd6547c4a" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_ENABLE_MAG_STREAM</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ae561cdb4686a534e74f30866048ddd22" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_ENABLE_SONAR</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a24929cae3a8a185b50f4b09a21539130" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_ENABLE_STROBE</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18af4500a0299f123ffdbb37f41c9f2ffa4" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_NO_ACTION</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18acc8b191c17246c9bb8ea6824caccf308" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_PING</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a2f10c7f576b60f2d512ab6110bfef4af" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_POWER_CYCLE</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a769166b99a79b8fa0d707bd0fe04c04b" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_RESET_SAFETY</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a932c2919acd49ec627f0ef718681bd3e" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_RESTART_ROS</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a387c747e69a47efe64de221dfa5136ab" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_SET_GEOFENCE</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18aa0632eb594a11605a0d169e3edd2f391" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_SET_MODE</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ace73566d8dac8bda212cb339668c2e97" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_START_LBL_PINGS</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ab46f8d6869d1653a11f066d096b8191e" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_START_OWTT_PINGS</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18aec04df6b3f67337b035a7b8137a363d3" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_START_SONAR_RECORDING</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18a10d771a7148dc5752111acbaf9f84671" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_STOP_ACOUSTIC_PINGS</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18af7526c1901d4fd58966fe153e3450aec" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_STOP_SONAR_RECORDING</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18ad51a852cf291a7544021be11db940050" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ACTION_TARE_PRESSURE</name></member>
+      <member refid="class_action_type_1a7f1158a8cefb09b1c954e703b002c6b8" prot="public" virt="non-virtual"><scope>ActionType</scope><name>ActionType</name></member>
+      <member refid="class_action_type_1a35d1c7cf726b923852ab0c743e701283" prot="public" virt="non-virtual"><scope>ActionType</scope><name>declare_qml</name></member>
+      <member refid="class_action_type_1ab1c9654f8cdb15952b8106169db53fb0" prot="public" virt="non-virtual"><scope>ActionType</scope><name>from_string</name></member>
+      <member refid="class_action_type_1a268991192edc82152b101609aaca9692" prot="public" virt="non-virtual"><scope>ActionType</scope><name>to_string</name></member>
+      <member refid="class_action_type_1a62dc6771f708dd2b27ff4c48f803da18" prot="public" virt="non-virtual"><scope>ActionType</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

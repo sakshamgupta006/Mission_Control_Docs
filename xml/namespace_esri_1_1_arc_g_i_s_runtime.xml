@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_esri_1_1_arc_g_i_s_runtime" kind="namespace" language="C++">
+    <compoundname>Esri::ArcGISRuntime</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/avl_map_display.h" line="42" column="1"/>
+  </compounddef>
+</doxygen>

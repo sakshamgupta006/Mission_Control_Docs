@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_mission" kind="class" language="C++" prot="public">
+    <compoundname>Mission</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mission_1aec0df452dfd471066262abe55e1e9864" prot="private" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="class_task" kindref="compound">Task</ref> * &gt;</type>
+        <definition>QVector&lt;Task*&gt; Mission::task_list</definition>
+        <argsstring></argsstring>
+        <name>task_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="135" column="13" bodyfile="/home/cooper/test/avl_gui_new/include/mission.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_mission_1a110cc1c549d362d5ffbeb4b842835ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mission::missionChanged</definition>
+        <argsstring>()</argsstring>
+        <name>missionChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="46" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mission_1ae0b1553ce804b1847c1a50e7d96f8a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Mission::Mission</definition>
+        <argsstring>(QObject *parent=nullptr)</argsstring>
+        <name>Mission</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="54" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1af0083d3f506e29945e18ecf500b8ca64" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Mission::~Mission</definition>
+        <argsstring>()</argsstring>
+        <name>~Mission</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="60" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1aef4b9c81e6ec12f01b23521b5c755cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Mission::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="69" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1a0bc83d72847818373ee6d4b5ae05ad5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mission::append</definition>
+        <argsstring>()</argsstring>
+        <name>append</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="75" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1a0ccb540445f576a0fb9a16df7a03c9ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mission::append</definition>
+        <argsstring>(Task *task)</argsstring>
+        <name>append</name>
+        <param>
+          <type><ref refid="class_task" kindref="compound">Task</ref> *</type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="77" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1a2ff61023d0528f6850abc5501669860b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_task" kindref="compound">Task</ref> *</type>
+        <definition>Task* Mission::get</definition>
+        <argsstring>(int index)</argsstring>
+        <name>get</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="86" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1ab14b861d70a41c61f82f57c4ed0d0811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVector&lt; <ref refid="class_task" kindref="compound">Task</ref> * &gt;</type>
+        <definition>QVector&lt;Task*&gt; Mission::get_all</definition>
+        <argsstring>()</argsstring>
+        <name>get_all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="93" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1ae339e827f3df700d1df4efd3b483a057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mission::remove</definition>
+        <argsstring>(int index)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="101" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1a8d4728fc0a73fd10b5451f88de29dc09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mission::move_up</definition>
+        <argsstring>(int index)</argsstring>
+        <name>move_up</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="109" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1a664c8d31ff359fe2d444980e5f93ebde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mission::move_down</definition>
+        <argsstring>(int index)</argsstring>
+        <name>move_down</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="117" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1a4a2fa663ad797127ce2957ba37288ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mission::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="123" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mission_1a146c1d59b7086d83b973d8340f61a89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classavl_1_1_packet" kindref="compound">avl::Packet</ref> &gt;</type>
+        <definition>std::vector&lt;avl::Packet&gt; Mission::get_task_packets</definition>
+        <argsstring>()</argsstring>
+        <name>get_task_packets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="130" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_mission_1a373dc8fee4c527a809026e95ab888cf8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mission::task_changed</definition>
+        <argsstring>()</argsstring>
+        <name>task_changed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="144" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Mission</label>
+        <link refid="class_mission"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Mission</label>
+        <link refid="class_mission"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/mission.h" line="36" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/mission.h" bodystart="35" bodyend="146"/>
+    <listofallmembers>
+      <member refid="class_mission_1a0bc83d72847818373ee6d4b5ae05ad5e" prot="public" virt="non-virtual"><scope>Mission</scope><name>append</name></member>
+      <member refid="class_mission_1a0ccb540445f576a0fb9a16df7a03c9ea" prot="public" virt="non-virtual"><scope>Mission</scope><name>append</name></member>
+      <member refid="class_mission_1a4a2fa663ad797127ce2957ba37288ad6" prot="public" virt="non-virtual"><scope>Mission</scope><name>clear</name></member>
+      <member refid="class_mission_1a2ff61023d0528f6850abc5501669860b" prot="public" virt="non-virtual"><scope>Mission</scope><name>get</name></member>
+      <member refid="class_mission_1ab14b861d70a41c61f82f57c4ed0d0811" prot="public" virt="non-virtual"><scope>Mission</scope><name>get_all</name></member>
+      <member refid="class_mission_1a146c1d59b7086d83b973d8340f61a89a" prot="public" virt="non-virtual"><scope>Mission</scope><name>get_task_packets</name></member>
+      <member refid="class_mission_1ae0b1553ce804b1847c1a50e7d96f8a2c" prot="public" virt="non-virtual"><scope>Mission</scope><name>Mission</name></member>
+      <member refid="class_mission_1a110cc1c549d362d5ffbeb4b842835ca3" prot="public" virt="non-virtual"><scope>Mission</scope><name>missionChanged</name></member>
+      <member refid="class_mission_1a664c8d31ff359fe2d444980e5f93ebde" prot="public" virt="non-virtual"><scope>Mission</scope><name>move_down</name></member>
+      <member refid="class_mission_1a8d4728fc0a73fd10b5451f88de29dc09" prot="public" virt="non-virtual"><scope>Mission</scope><name>move_up</name></member>
+      <member refid="class_mission_1ae339e827f3df700d1df4efd3b483a057" prot="public" virt="non-virtual"><scope>Mission</scope><name>remove</name></member>
+      <member refid="class_mission_1aef4b9c81e6ec12f01b23521b5c755cdd" prot="public" virt="non-virtual"><scope>Mission</scope><name>size</name></member>
+      <member refid="class_mission_1a373dc8fee4c527a809026e95ab888cf8" prot="private" virt="non-virtual"><scope>Mission</scope><name>task_changed</name></member>
+      <member refid="class_mission_1aec0df452dfd471066262abe55e1e9864" prot="private" virt="non-virtual"><scope>Mission</scope><name>task_list</name></member>
+      <member refid="class_mission_1af0083d3f506e29945e18ecf500b8ca64" prot="public" virt="virtual"><scope>Mission</scope><name>~Mission</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

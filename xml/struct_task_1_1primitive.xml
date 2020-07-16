@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_task_1_1primitive" kind="struct" language="C++" prot="public">
+    <compoundname>Task::primitive</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_task_1_1primitive_1a452691375d8c467d0677dc8405111906" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::primitive::roll</definition>
+        <argsstring></argsstring>
+        <name>roll</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="220" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1primitive_1a1c0a8b46ea0a991863621a3dcccf98d2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::primitive::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <initializer>= 13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="221" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1primitive_1a6498477634c1576b8ba2424d51c1aba1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::primitive::heading</definition>
+        <argsstring></argsstring>
+        <name>heading</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="222" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1primitive_1ae759f4d17395a132d9ce99bac462f491" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::primitive::ground_speed</definition>
+        <argsstring></argsstring>
+        <name>ground_speed</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="223" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1primitive_1aacf3594bced1e9503d2c028620b3d179" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::primitive::water_speed</definition>
+        <argsstring></argsstring>
+        <name>water_speed</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="224" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1primitive_1a5455334fa1ccbbc52ffba2a4c4fdc888" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::primitive::rpm</definition>
+        <argsstring></argsstring>
+        <name>rpm</name>
+        <initializer>= 2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="225" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1primitive_1a7b99502753b8f34ab48331d1590ed409" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::primitive::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="226" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1primitive_1a4dacfca07c74393eb9391860bdf0e853" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::primitive::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="227" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/task.h" line="217" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="216" bodyend="229"/>
+    <listofallmembers>
+      <member refid="struct_task_1_1primitive_1a7b99502753b8f34ab48331d1590ed409" prot="public" virt="non-virtual"><scope>Task::primitive</scope><name>depth</name></member>
+      <member refid="struct_task_1_1primitive_1ae759f4d17395a132d9ce99bac462f491" prot="public" virt="non-virtual"><scope>Task::primitive</scope><name>ground_speed</name></member>
+      <member refid="struct_task_1_1primitive_1a6498477634c1576b8ba2424d51c1aba1" prot="public" virt="non-virtual"><scope>Task::primitive</scope><name>heading</name></member>
+      <member refid="struct_task_1_1primitive_1a4dacfca07c74393eb9391860bdf0e853" prot="public" virt="non-virtual"><scope>Task::primitive</scope><name>height</name></member>
+      <member refid="struct_task_1_1primitive_1a1c0a8b46ea0a991863621a3dcccf98d2" prot="public" virt="non-virtual"><scope>Task::primitive</scope><name>pitch</name></member>
+      <member refid="struct_task_1_1primitive_1a452691375d8c467d0677dc8405111906" prot="public" virt="non-virtual"><scope>Task::primitive</scope><name>roll</name></member>
+      <member refid="struct_task_1_1primitive_1a5455334fa1ccbbc52ffba2a4c4fdc888" prot="public" virt="non-virtual"><scope>Task::primitive</scope><name>rpm</name></member>
+      <member refid="struct_task_1_1primitive_1aacf3594bced1e9503d2c028620b3d179" prot="public" virt="non-virtual"><scope>Task::primitive</scope><name>water_speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

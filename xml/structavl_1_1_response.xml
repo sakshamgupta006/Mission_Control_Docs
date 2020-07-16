@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structavl_1_1_response" kind="struct" language="C++" prot="public">
+    <compoundname>avl::Response</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structavl_1_1_response_1a59f928a999305a7b651957114ad12489" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t avl::Response::source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" line="37" column="14" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_response_1a328341f9fb6fcba98a5e1440014ff01f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool avl::Response::result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" line="38" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structavl_1_1_response_1a191b558318b13dafc2a767af00559ea0" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; avl::Response::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" line="39" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" line="36" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/protocol/response_packet.h" bodystart="35" bodyend="40"/>
+    <listofallmembers>
+      <member refid="structavl_1_1_response_1a191b558318b13dafc2a767af00559ea0" prot="public" virt="non-virtual"><scope>avl::Response</scope><name>data</name></member>
+      <member refid="structavl_1_1_response_1a328341f9fb6fcba98a5e1440014ff01f" prot="public" virt="non-virtual"><scope>avl::Response</scope><name>result</name></member>
+      <member refid="structavl_1_1_response_1a59f928a999305a7b651957114ad12489" prot="public" virt="non-virtual"><scope>avl::Response</scope><name>source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

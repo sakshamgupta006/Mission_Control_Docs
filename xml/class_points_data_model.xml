@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_points_data_model" kind="class" language="C++" prot="public">
+    <compoundname>PointsDataModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QAbstractTableModel</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_points_data_model_1ab7f3dc50c6a20ca497af2e05fc6fbdee" prot="public" static="no" mutable="no">
+        <type><ref refid="class_task" kindref="compound">Task</ref> *</type>
+        <definition>Task* PointsDataModel::task</definition>
+        <argsstring></argsstring>
+        <name>task</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="30" column="10" bodyfile="/home/cooper/test/avl_gui_new/include/points_data_model.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_points_data_model_1ad84f4bd08d12d9b0f12d2bb81a86036c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PointsDataModel::pointsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>pointsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="38" column="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_points_data_model_1aeb4e023467d9584dd334726edc66fb38" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PointsDataModel::PointsDataModel</definition>
+        <argsstring>(QObject *parent=nullptr)</argsstring>
+        <name>PointsDataModel</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="46" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1ada4f8cdbe021d69e318b966193f77af2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PointsDataModel::rowCount</definition>
+        <argsstring>(const QModelIndex &amp;=QModelIndex()) const override</argsstring>
+        <name>rowCount</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <defval>QModelIndex()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="52" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1af5ef15940e7658fb930ec1879f0334d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PointsDataModel::columnCount</definition>
+        <argsstring>(const QModelIndex &amp;=QModelIndex()) const override</argsstring>
+        <name>columnCount</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <defval>QModelIndex()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="58" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a43f0680a43d4a9ada94e5a1638e3a993" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant PointsDataModel::data</definition>
+        <argsstring>(const QModelIndex &amp;index, int role) const override</argsstring>
+        <name>data</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>role</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="66" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a1befa683ebff33459af3f291bf99adce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PointsDataModel::setData</definition>
+        <argsstring>(const QModelIndex &amp;index, const QVariant &amp;value, int role=Qt::EditRole) override</argsstring>
+        <name>setData</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>role</declname>
+          <defval>Qt::EditRole</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="76" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a8b64685bb5e10ea9288faef8da63755f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Qt::ItemFlags</type>
+        <definition>Qt::ItemFlags PointsDataModel::flags</definition>
+        <argsstring>(const QModelIndex &amp;index) const override</argsstring>
+        <name>flags</name>
+        <param>
+          <type>const QModelIndex &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="83" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1abf910bfb33452e59b1600a25f8bd0c5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QHash&lt; int, QByteArray &gt;</type>
+        <definition>virtual QHash&lt;int, QByteArray&gt; PointsDataModel::roleNames</definition>
+        <argsstring>() const override</argsstring>
+        <name>roleNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="89" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a390e716ab6ce1ebd0ce71b9718c602bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::set_task</definition>
+        <argsstring>(Task *task_ptr)</argsstring>
+        <name>set_task</name>
+        <param>
+          <type><ref refid="class_task" kindref="compound">Task</ref> *</type>
+          <declname>task_ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="96" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1abcc2cf35bb3424614c353921cdfea9d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::redraw</definition>
+        <argsstring>()</argsstring>
+        <name>redraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="102" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1ad2e03686e63c3b559d2648eac4bb7e1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::move_point_up</definition>
+        <argsstring>(const int row)</argsstring>
+        <name>move_point_up</name>
+        <param>
+          <type>const int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="109" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a8fb3d4d977c5193b7bd381df55cbc953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::move_point_down</definition>
+        <argsstring>(const int row)</argsstring>
+        <name>move_point_down</name>
+        <param>
+          <type>const int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="116" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1ac423fab2528d34ebc42009dba6fffe2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::delete_point</definition>
+        <argsstring>(const int row)</argsstring>
+        <name>delete_point</name>
+        <param>
+          <type>const int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="123" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a86fccc278028529412f02a8af9b4f20f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::clear_points</definition>
+        <argsstring>()</argsstring>
+        <name>clear_points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="129" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a8ae05e01dc7ca771e0f964c92424ac4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::edit_point</definition>
+        <argsstring>(const int row, const int column, const QVariant value)</argsstring>
+        <name>edit_point</name>
+        <param>
+          <type>const int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>const QVariant</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="138" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a2d4f960a600dc55dce655121ccd4908d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::reset_value</definition>
+        <argsstring>(const int row, const int column)</argsstring>
+        <name>reset_value</name>
+        <param>
+          <type>const int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="146" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a28c6a993a40681af5bf329d7d4cdb70f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::append_point</definition>
+        <argsstring>(double lat, double lon)</argsstring>
+        <name>append_point</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="154" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_points_data_model_1a26793fea05f1285ff2fc389370ffe93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void PointsDataModel::append_point</definition>
+        <argsstring>(double lat, double lon, ActionType::Value command)</argsstring>
+        <name>append_point</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>ActionType::Value</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="163" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>PointsDataModel</label>
+        <link refid="class_points_data_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QAbstractTableModel</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>Task::dive</label>
+        <link refid="struct_task_1_1dive"/>
+      </node>
+      <node id="4">
+        <label>QObject</label>
+      </node>
+      <node id="6">
+        <label>Task::loiter</label>
+        <link refid="struct_task_1_1loiter"/>
+      </node>
+      <node id="8">
+        <label>Task::line</label>
+        <link refid="struct_task_1_1line"/>
+      </node>
+      <node id="3">
+        <label>Task</label>
+        <link refid="class_task"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>wp</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>mainLoiter</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>mainDive</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>mainLine</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>prim</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>PointsDataModel</label>
+        <link refid="class_points_data_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>task</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Task::primitive</label>
+        <link refid="struct_task_1_1primitive"/>
+      </node>
+      <node id="5">
+        <label>Task::waypoint</label>
+        <link refid="struct_task_1_1waypoint"/>
+      </node>
+      <node id="2">
+        <label>QAbstractTableModel</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/points_data_model.h" line="23" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/points_data_model.h" bodystart="22" bodyend="165"/>
+    <listofallmembers>
+      <member refid="class_points_data_model_1a28c6a993a40681af5bf329d7d4cdb70f" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>append_point</name></member>
+      <member refid="class_points_data_model_1a26793fea05f1285ff2fc389370ffe93f" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>append_point</name></member>
+      <member refid="class_points_data_model_1a86fccc278028529412f02a8af9b4f20f" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>clear_points</name></member>
+      <member refid="class_points_data_model_1af5ef15940e7658fb930ec1879f0334d0" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>columnCount</name></member>
+      <member refid="class_points_data_model_1a43f0680a43d4a9ada94e5a1638e3a993" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>data</name></member>
+      <member refid="class_points_data_model_1ac423fab2528d34ebc42009dba6fffe2e" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>delete_point</name></member>
+      <member refid="class_points_data_model_1a8ae05e01dc7ca771e0f964c92424ac4a" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>edit_point</name></member>
+      <member refid="class_points_data_model_1a8b64685bb5e10ea9288faef8da63755f" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>flags</name></member>
+      <member refid="class_points_data_model_1a8fb3d4d977c5193b7bd381df55cbc953" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>move_point_down</name></member>
+      <member refid="class_points_data_model_1ad2e03686e63c3b559d2648eac4bb7e1c" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>move_point_up</name></member>
+      <member refid="class_points_data_model_1ad84f4bd08d12d9b0f12d2bb81a86036c" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>pointsChanged</name></member>
+      <member refid="class_points_data_model_1aeb4e023467d9584dd334726edc66fb38" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>PointsDataModel</name></member>
+      <member refid="class_points_data_model_1abcc2cf35bb3424614c353921cdfea9d8" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>redraw</name></member>
+      <member refid="class_points_data_model_1a2d4f960a600dc55dce655121ccd4908d" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>reset_value</name></member>
+      <member refid="class_points_data_model_1abf910bfb33452e59b1600a25f8bd0c5e" prot="public" virt="virtual"><scope>PointsDataModel</scope><name>roleNames</name></member>
+      <member refid="class_points_data_model_1ada4f8cdbe021d69e318b966193f77af2" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>rowCount</name></member>
+      <member refid="class_points_data_model_1a390e716ab6ce1ebd0ce71b9718c602bd" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>set_task</name></member>
+      <member refid="class_points_data_model_1a1befa683ebff33459af3f291bf99adce" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>setData</name></member>
+      <member refid="class_points_data_model_1ab7f3dc50c6a20ca497af2e05fc6fbdee" prot="public" virt="non-virtual"><scope>PointsDataModel</scope><name>task</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

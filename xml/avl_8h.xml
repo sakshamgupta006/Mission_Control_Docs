@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="avl_8h" kind="file" language="C++">
+    <compoundname>avl.h</compoundname>
+    <includes refid="response__packet_8h" local="yes">response_packet.h</includes>
+    <includes refid="heartbeat__packet_8h" local="yes">heartbeat_packet.h</includes>
+    <includes refid="device__packet_8h" local="yes">device_packet.h</includes>
+    <includes refid="command__packet_8h" local="yes">command_packet.h</includes>
+    <includes refid="action__packet_8h" local="yes">action_packet.h</includes>
+    <includes refid="passthrough__packet_8h" local="yes">passthrough_packet.h</includes>
+    <includedby refid="vehicle__connection_8h" local="yes">/home/cooper/test/avl_gui_new/include/vehicle_connection.h</includedby>
+    <includedby refid="vehicle__status_8h" local="no">/home/cooper/test/avl_gui_new/include/vehicle_status.h</includedby>
+    <includedby refid="task_8h" local="yes">/home/cooper/test/avl_gui_new/include/task.h</includedby>
+    <includedby refid="mission_8h" local="yes">/home/cooper/test/avl_gui_new/include/mission.h</includedby>
+    <includedby refid="param_8h" local="yes">/home/cooper/test/avl_gui_new/include/param.h</includedby>
+    <includedby refid="dynamic__parameter_8h" local="yes">/home/cooper/test/avl_gui_new/include/dynamic_parameter.h</includedby>
+    <includedby refid="geofence__data__model_8h" local="yes">/home/cooper/test/avl_gui_new/include/geofence_data_model.h</includedby>
+    <includedby refid="mission__action_8h" local="yes">/home/cooper/test/avl_gui_new/include/mission_action.h</includedby>
+    <includedby refid="param__data__model_8h" local="yes">/home/cooper/test/avl_gui_new/include/param_data_model.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/cooper/test/avl_gui_new/include/protocol/avl.h</label>
+        <link refid="avl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>parameter.h</label>
+        <link refid="parameter_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>cstdint</label>
+      </node>
+      <node id="15">
+        <label>cmath</label>
+      </node>
+      <node id="21">
+        <label>passthrough_packet.h</label>
+        <link refid="passthrough__packet_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>stdexcept</label>
+      </node>
+      <node id="11">
+        <label>vector.h</label>
+        <link refid="vector_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>parameter_list.h</label>
+        <link refid="parameter__list_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="9">
+        <label>util/byte.h</label>
+        <link refid="byte_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+      <node id="3">
+        <label>packet.h</label>
+        <link refid="packet_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>command_packet.h</label>
+        <link refid="command__packet_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>action_packet.h</label>
+        <link refid="action__packet_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>field.h</label>
+        <link refid="field_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>cstddef</label>
+      </node>
+      <node id="2">
+        <label>response_packet.h</label>
+        <link refid="response__packet_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>algorithm</label>
+      </node>
+      <node id="10">
+        <label>cstring</label>
+      </node>
+      <node id="16">
+        <label>device_packet.h</label>
+        <link refid="device__packet_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>heartbeat_packet.h</label>
+        <link refid="heartbeat__packet_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/cooper/test/avl_gui_new/include/vehicle.h</label>
+        <link refid="vehicle_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/cooper/test/avl_gui_new/include/protocol/avl.h</label>
+        <link refid="avl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/cooper/test/avl_gui_new/include/geofence.h</label>
+        <link refid="geofence_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/home/cooper/test/avl_gui_new/include/mission.h</label>
+        <link refid="mission_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/home/cooper/test/avl_gui_new/include/graphics.h</label>
+        <link refid="graphics_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/home/cooper/test/avl_gui_new/include/vehicle_manager.h</label>
+        <link refid="vehicle__manager_8h_source"/>
+      </node>
+      <node id="17">
+        <label>/home/cooper/test/avl_gui_new/include/mission_action.h</label>
+        <link refid="mission__action_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/home/cooper/test/avl_gui_new/include/vehicle_status.h</label>
+        <link refid="vehicle__status_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/cooper/test/avl_gui_new/include/vehicle_data_model.h</label>
+        <link refid="vehicle__data__model_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/home/cooper/test/avl_gui_new/include/geofence_data_model.h</label>
+        <link refid="geofence__data__model_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>/home/cooper/test/avl_gui_new/include/mission_data_model.h</label>
+        <link refid="mission__data__model_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/home/cooper/test/avl_gui_new/include/param.h</label>
+        <link refid="param_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/cooper/test/avl_gui_new/include/avl_map_display.h</label>
+        <link refid="avl__map__display_8h_source"/>
+      </node>
+      <node id="8">
+        <label>/home/cooper/test/avl_gui_new/include/param_data_model.h</label>
+        <link refid="param__data__model_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>/home/cooper/test/avl_gui_new/include/dynamic_parameter.h</label>
+        <link refid="dynamic__parameter_8h_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/cooper/test/avl_gui_new/include/vehicle_connection.h</label>
+        <link refid="vehicle__connection_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/home/cooper/test/avl_gui_new/include/task.h</label>
+        <link refid="task_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/home/cooper/test/avl_gui_new/include/points_data_model.h</label>
+        <link refid="points__data__model_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//==============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Autonomous<sp/>Vehicle<sp/>Library</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Description:<sp/>Includes<sp/>all<sp/>AVL<sp/>binary<sp/>packet<sp/>protocol<sp/>header<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//==============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>AVL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>AVL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Packet<sp/>classes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;response_packet.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;heartbeat_packet.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;device_packet.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;command_packet.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;action_packet.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;passthrough_packet.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>AVL_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/avl.h"/>
+  </compounddef>
+</doxygen>

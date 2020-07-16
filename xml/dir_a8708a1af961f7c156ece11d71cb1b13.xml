@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_a8708a1af961f7c156ece11d71cb1b13" kind="dir">
+    <compoundname>/home/cooper/test/avl_gui_new/include/protocol</compoundname>
+    <innerfile refid="action__packet_8h">action_packet.h</innerfile>
+    <innerfile refid="avl_8h">avl.h</innerfile>
+    <innerfile refid="command__packet_8h">command_packet.h</innerfile>
+    <innerfile refid="device__packet_8h">device_packet.h</innerfile>
+    <innerfile refid="field_8h">field.h</innerfile>
+    <innerfile refid="heartbeat__packet_8h">heartbeat_packet.h</innerfile>
+    <innerfile refid="packet_8h">packet.h</innerfile>
+    <innerfile refid="parameter_8h">parameter.h</innerfile>
+    <innerfile refid="parameter__list_8h">parameter_list.h</innerfile>
+    <innerfile refid="passthrough__packet_8h">passthrough_packet.h</innerfile>
+    <innerfile refid="response__packet_8h">response_packet.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/protocol/"/>
+  </compounddef>
+</doxygen>

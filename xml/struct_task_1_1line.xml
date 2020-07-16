@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_task_1_1line" kind="struct" language="C++" prot="public">
+    <compoundname>Task::line</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_task_1_1line_1abc44e38f10e4d963826ede64b83f8f62" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::line::start_lat</definition>
+        <argsstring></argsstring>
+        <name>start_lat</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="275" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1line_1a886b230f3e4145aef5c40e9dde4cc588" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::line::start_lon</definition>
+        <argsstring></argsstring>
+        <name>start_lon</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="276" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1line_1aa4b9f628a3f601cb072e00de4bffd900" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::line::end_lat</definition>
+        <argsstring></argsstring>
+        <name>end_lat</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="277" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1line_1aca6313af6f60a241b9b2503ab1215e5c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::line::end_lon</definition>
+        <argsstring></argsstring>
+        <name>end_lon</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="278" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1line_1a7d52966b0040582899be7eb4d7050ddc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::line::ground_speed</definition>
+        <argsstring></argsstring>
+        <name>ground_speed</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="279" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1line_1a5ef55b74c90d39814759e8e661f893c6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::line::water_speed</definition>
+        <argsstring></argsstring>
+        <name>water_speed</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="280" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1line_1a351ff113991aca47904d773dddb8e4cb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::line::rpm</definition>
+        <argsstring></argsstring>
+        <name>rpm</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="281" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1line_1a48d98713cecec99e39d3f60ef42fde58" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::line::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="282" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_task_1_1line_1aba52ca26c7a064838d28ad91c6dd4a48" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Task::line::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <initializer>= std::nan(&quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task.h" line="283" column="16" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cooper/test/avl_gui_new/include/task.h" line="274" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/task.h" bodystart="273" bodyend="284"/>
+    <listofallmembers>
+      <member refid="struct_task_1_1line_1a48d98713cecec99e39d3f60ef42fde58" prot="public" virt="non-virtual"><scope>Task::line</scope><name>depth</name></member>
+      <member refid="struct_task_1_1line_1aa4b9f628a3f601cb072e00de4bffd900" prot="public" virt="non-virtual"><scope>Task::line</scope><name>end_lat</name></member>
+      <member refid="struct_task_1_1line_1aca6313af6f60a241b9b2503ab1215e5c" prot="public" virt="non-virtual"><scope>Task::line</scope><name>end_lon</name></member>
+      <member refid="struct_task_1_1line_1a7d52966b0040582899be7eb4d7050ddc" prot="public" virt="non-virtual"><scope>Task::line</scope><name>ground_speed</name></member>
+      <member refid="struct_task_1_1line_1aba52ca26c7a064838d28ad91c6dd4a48" prot="public" virt="non-virtual"><scope>Task::line</scope><name>height</name></member>
+      <member refid="struct_task_1_1line_1a351ff113991aca47904d773dddb8e4cb" prot="public" virt="non-virtual"><scope>Task::line</scope><name>rpm</name></member>
+      <member refid="struct_task_1_1line_1abc44e38f10e4d963826ede64b83f8f62" prot="public" virt="non-virtual"><scope>Task::line</scope><name>start_lat</name></member>
+      <member refid="struct_task_1_1line_1a886b230f3e4145aef5c40e9dde4cc588" prot="public" virt="non-virtual"><scope>Task::line</scope><name>start_lon</name></member>
+      <member refid="struct_task_1_1line_1a5ef55b74c90d39814759e8e661f893c6" prot="public" virt="non-virtual"><scope>Task::line</scope><name>water_speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

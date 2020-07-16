@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_comms_channel" kind="class" language="C++" prot="public">
+    <compoundname>CommsChannel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_comms_channel_1ad4edb63da0e1fd958726e553f0d38608" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Value</name>
+        <enumvalue id="class_comms_channel_1ad4edb63da0e1fd958726e553f0d38608adc407529e28960a00c3b9ec0edd26ee1" prot="public">
+          <name>COMMS_RADIO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_comms_channel_1ad4edb63da0e1fd958726e553f0d38608a670ea72f76baba132d15f62fd87f3eb3" prot="public">
+          <name>COMMS_ACOUSTIC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_comms_channel_1ad4edb63da0e1fd958726e553f0d38608acca29a9d332f6f891ffa49d788b630ed" prot="public">
+          <name>COMMS_IRIDIUM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/comms_channel.h" line="29" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/comms_channel.h" bodystart="28" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_comms_channel_1a38e49397047905d6c4f6fa72708d6438" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CommsChannel::CommsChannel</definition>
+        <argsstring>()</argsstring>
+        <name>CommsChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/comms_channel.h" line="42" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/comms_channel.h" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_comms_channel_1af2cc31643f26a4454b02b1649892cd56" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CommsChannel::declare_qml</definition>
+        <argsstring>()</argsstring>
+        <name>declare_qml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/comms_channel.h" line="51" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/comms_channel.h" bodystart="51" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>CommsChannel</label>
+        <link refid="class_comms_channel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>CommsChannel</label>
+        <link refid="class_comms_channel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/comms_channel.h" line="21" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/comms_channel.h" bodystart="20" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_comms_channel_1ad4edb63da0e1fd958726e553f0d38608a670ea72f76baba132d15f62fd87f3eb3" prot="public" virt="non-virtual"><scope>CommsChannel</scope><name>COMMS_ACOUSTIC</name></member>
+      <member refid="class_comms_channel_1ad4edb63da0e1fd958726e553f0d38608acca29a9d332f6f891ffa49d788b630ed" prot="public" virt="non-virtual"><scope>CommsChannel</scope><name>COMMS_IRIDIUM</name></member>
+      <member refid="class_comms_channel_1ad4edb63da0e1fd958726e553f0d38608adc407529e28960a00c3b9ec0edd26ee1" prot="public" virt="non-virtual"><scope>CommsChannel</scope><name>COMMS_RADIO</name></member>
+      <member refid="class_comms_channel_1a38e49397047905d6c4f6fa72708d6438" prot="public" virt="non-virtual"><scope>CommsChannel</scope><name>CommsChannel</name></member>
+      <member refid="class_comms_channel_1af2cc31643f26a4454b02b1649892cd56" prot="public" virt="non-virtual"><scope>CommsChannel</scope><name>declare_qml</name></member>
+      <member refid="class_comms_channel_1ad4edb63da0e1fd958726e553f0d38608" prot="public" virt="non-virtual"><scope>CommsChannel</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

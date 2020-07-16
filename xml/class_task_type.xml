@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_task_type" kind="class" language="C++" prot="public">
+    <compoundname>TaskType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_task_type_1a45515fe75636e624eb586d25dd550a0d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Value</name>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0da92fcdeb1392f775c116b3343247ccc8b" prot="public">
+          <name>TASK_PRIMITIVE</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0dad0af6dd847bf9c40c1ffe5575be0f9d1" prot="public">
+          <name>TASK_WAYPOINT</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0dabf568b239994d3c2a002aa2077e960cf" prot="public">
+          <name>TASK_LINE</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0da574885c3660b1f02200e338812f99a58" prot="public">
+          <name>TASK_LOITER</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0da9b5f6208635b5ebd6a7df6499ff06c2b" prot="public">
+          <name>TASK_DIVE</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0da3517995b7d8398eb6d1e95b4b5cea4e6" prot="public">
+          <name>TASK_SURFACE</name>
+          <initializer>= 0x05</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0dac7ca2f115b5d4e00f9fe26cf5dd49f8d" prot="public">
+          <name>TASK_PASSTHROUGH</name>
+          <initializer>= 0x06</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0da34872bcb7068c7e12fcd2e1763d59bbd" prot="public">
+          <name>TASK_COMMAND</name>
+          <initializer>= 0x07</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0dad378570fabe0f6b802abd513e7bd0531" prot="public">
+          <name>TASK_PATH</name>
+          <initializer>= 0x08</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_task_type_1a45515fe75636e624eb586d25dd550a0da4682adc7f89ddde852f5e77b3b979827" prot="public">
+          <name>TASK_ZONE</name>
+          <initializer>= 0x09</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task_type.h" line="29" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/task_type.h" bodystart="28" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_task_type_1a7eec97bbd52532eb7052bde1209294f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TaskType::TaskType</definition>
+        <argsstring>()</argsstring>
+        <name>TaskType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task_type.h" line="51" column="5" bodyfile="/home/cooper/test/avl_gui_new/include/task_type.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_task_type_1a2c0113f42611555fb55e5587a3b75173" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TaskType::declare_qml</definition>
+        <argsstring>()</argsstring>
+        <name>declare_qml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task_type.h" line="60" column="17" bodyfile="/home/cooper/test/avl_gui_new/include/task_type.h" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_type_1adba5c058a35b38e2407347caca2550fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>static std::string TaskType::to_string</definition>
+        <argsstring>(Value type)</argsstring>
+        <name>to_string</name>
+        <param>
+          <type>Value</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task_type.h" line="70" column="24" bodyfile="/home/cooper/test/avl_gui_new/include/task_type.h" bodystart="70" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_task_type_1abdc345a362ac42c726a97eb70873d814" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Value</type>
+        <definition>static Value TaskType::from_string</definition>
+        <argsstring>(std::string type)</argsstring>
+        <name>from_string</name>
+        <param>
+          <type>std::string</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cooper/test/avl_gui_new/include/task_type.h" line="90" column="18" bodyfile="/home/cooper/test/avl_gui_new/include/task_type.h" bodystart="90" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>TaskType</label>
+        <link refid="class_task_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>TaskType</label>
+        <link refid="class_task_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cooper/test/avl_gui_new/include/task_type.h" line="21" column="1" bodyfile="/home/cooper/test/avl_gui_new/include/task_type.h" bodystart="20" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_task_type_1a2c0113f42611555fb55e5587a3b75173" prot="public" virt="non-virtual"><scope>TaskType</scope><name>declare_qml</name></member>
+      <member refid="class_task_type_1abdc345a362ac42c726a97eb70873d814" prot="public" virt="non-virtual"><scope>TaskType</scope><name>from_string</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0da34872bcb7068c7e12fcd2e1763d59bbd" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_COMMAND</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0da9b5f6208635b5ebd6a7df6499ff06c2b" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_DIVE</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0dabf568b239994d3c2a002aa2077e960cf" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_LINE</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0da574885c3660b1f02200e338812f99a58" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_LOITER</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0dac7ca2f115b5d4e00f9fe26cf5dd49f8d" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_PASSTHROUGH</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0dad378570fabe0f6b802abd513e7bd0531" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_PATH</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0da92fcdeb1392f775c116b3343247ccc8b" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_PRIMITIVE</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0da3517995b7d8398eb6d1e95b4b5cea4e6" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_SURFACE</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0dad0af6dd847bf9c40c1ffe5575be0f9d1" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_WAYPOINT</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0da4682adc7f89ddde852f5e77b3b979827" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TASK_ZONE</name></member>
+      <member refid="class_task_type_1a7eec97bbd52532eb7052bde1209294f9" prot="public" virt="non-virtual"><scope>TaskType</scope><name>TaskType</name></member>
+      <member refid="class_task_type_1adba5c058a35b38e2407347caca2550fd" prot="public" virt="non-virtual"><scope>TaskType</scope><name>to_string</name></member>
+      <member refid="class_task_type_1a45515fe75636e624eb586d25dd550a0d" prot="public" virt="non-virtual"><scope>TaskType</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
