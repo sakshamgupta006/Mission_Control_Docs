@@ -29,4 +29,28 @@ shown below:
 .. image:: images/vehicle_on_network.png
 
 To connect to the vehicle you can either select the vehicle from the drop down menu in Vehicle or select the vehicle from
-the sidebar.
+the sidebar as shown in the images below:
+
+.. image:: images/connecting_to_vehicle.png
+
+
+.. _RST_Vehicle_Status:
+
+Vehicle Status
+--------------
+To confirm that the vehicle is connected and sending its status back, you can navigate to the Status tab to monitor vehicles
+current status as shown in the image below:
+
+.. image:: images/status.png
+
+Once the vehicle is connected you can also see the current position of the vehicle on the map window.
+
+.. image:: images/vehicle_on_map.png
+
+
+If the status is not updating there is some connection problems or the vehicle is under water.
+
+.. _RST_Planning_a_Mission:
+
+Planning a Mission
+------------------
