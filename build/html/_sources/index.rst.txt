@@ -4,7 +4,7 @@
 
    The full license is in the file LICENSE, distributed with this software.
 
-.. image:: vt_marine_autonomy_logo.png
+.. image:: images/vt_marine_autonomy_logo.png
 
 Introduction
 ------------
@@ -54,5 +54,5 @@ for details.
 
 
 
-.. _AVL: https://ascl2.ece.vt.edu/avl/avl
+.. _AVL: https://ascl3.ece.vt.edu/avl/avl
 

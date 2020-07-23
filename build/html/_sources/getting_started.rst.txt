@@ -4,7 +4,18 @@
 
    The full license is in the file LICENSE, distributed with this software.
 
-.. image:: vt_marine_autonomy_logo.png
+.. image:: images/vt_marine_autonomy_logo.png
 
 Getting Started
 ===============
+
+Mission Control can be used with or without a vehicle running on the same network. To enable most of the functionalities 
+a vehicle should be running or simulated on the same network as the mission control application.
+
+.. _RST_Getting_Started_Connecting:
+
+Connecting to a Vehicle
+-----------------------
+After building and running the mission control you can see two windows on your screen:
+
+.. image:: images/initial_windows.png

@@ -4,7 +4,7 @@
 
    The full license is in the file LICENSE, distributed with this software.
 
-.. image:: vt_marine_autonomy_logo.png
+.. image:: images/vt_marine_autonomy_logo.png
 
 Offline Maps
 ============
@@ -19,7 +19,7 @@ To generate an offline map of a region navigate to `The TPK Show Website <https:
 Then sign-in with your ArcGIS credentials. Now you can search for a place in the search bar provided or can drag the
 map to the appropriate location.
 
-.. image:: generate_offline_map.png
+.. image:: images/generate_offline_map.png
 
 Here you can Create a TPK file by specifying the level of detail you want in the map. More levels means that the map
 will have better resolution as you try to zoom in from the current view. The current view of the map is the view you
@@ -35,7 +35,7 @@ The generated .tpk file can now be loaded in the Mission Control Software. To lo
 and select Load offline Maps (tpk) option, next select the downloaded tpk file. Now you have the offline map in the 
 map window which will provide all the functionalities of the previous map.
 
-.. image:: load_offline_map.png
+.. image:: images/load_offline_map.png
 
 
 

@@ -4,7 +4,7 @@
 
    The full license is in the file LICENSE, distributed with this software.
 
-.. image:: vt_marine_autonomy_logo.png
+.. image:: images/vt_marine_autonomy_logo.png
 
 Nautical Charts
 ===============

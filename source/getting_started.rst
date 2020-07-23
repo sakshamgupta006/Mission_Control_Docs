@@ -4,7 +4,29 @@
 
    The full license is in the file LICENSE, distributed with this software.
 
-.. image:: vt_marine_autonomy_logo.png
+.. image:: images/vt_marine_autonomy_logo.png
 
 Getting Started
 ===============
+
+Mission Control can be used with or without a vehicle running on the same network. To enable most of the functionalities 
+a vehicle should be running or simulated on the same network as the mission control application.
+
+.. _RST_Getting_Started_Connecting:
+
+Connecting to a Vehicle
+-----------------------
+After building and running the mission control you can see two windows on your screen:
+
+.. image:: images/initial_windows.png
+
+If no vehicle is running on the network you will not be able to see any vehciles on the map and vehicle detail windows.
+The mission control can still be used to plan missions.
+
+If any vehicle is running on the same network, it will automatically show up on the map and vehicle detail windows. As 
+shown below:
+
+.. image:: images/vehicle_on_network.png
+
+To connect to the vehicle you can either select the vehicle from the drop down menu in Vehicle or select the vehicle from
+the sidebar.

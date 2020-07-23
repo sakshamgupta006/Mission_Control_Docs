@@ -174,7 +174,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <img alt="_images/vt_marine_autonomy_logo.png" src="_images/vt_marine_autonomy_logo.png" />
+  <img alt="_images/vt_marine_autonomy_logo1.png" src="_images/vt_marine_autonomy_logo1.png" />
 <div class="section" id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
 <p>Mission Control can be built from source as well as installed as a dynamically
@@ -186,7 +186,7 @@ can be downloaded here. &lt;TODO INSERT LINK&gt;</p>
 <span id="rst-installation-development"></span><h2>For Development<a class="headerlink" href="#for-development" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="step-1-download-and-install-qt">
 <h3>Step:1 : Download and Install Qt<a class="headerlink" href="#step-1-download-and-install-qt" title="Permalink to this headline">¶</a></h3>
-<p>Please download any version of Qt &gt; 5.12 from here: <a class="reference external" href="https://www.qt.io/download-open-source">Qt Download Page</a>. Also install the
+<p>Please download any version of Qt &gt;= 5.15 from here: <a class="reference external" href="https://www.qt.io/download-open-source">Qt Download Page</a>. Also install the
 latest version of Qt Creator which will be bundled with the Qt installer.
 If you are using the online installer Qt will download a <strong>.run</strong> file on your system. To run open
 a terminal in the download file location and run:</p>
@@ -198,11 +198,12 @@ a terminal in the download file location and run:</p>
 <div class="section" id="step-2-download-and-setup-arcgis">
 <h3>Step:2 : Download and Setup ArcGIS<a class="headerlink" href="#step-2-download-and-setup-arcgis" title="Permalink to this headline">¶</a></h3>
 <p>To compile and effectively use the Mission Control we also need to setup ArcGIS.
-Download <a class="reference external" href="https://developers.arcgis.com/qt/latest/">ArcGIS 100.5</a>. You might need a
+Download <a class="reference external" href="https://developers.arcgis.com/qt/latest/">ArcGIS 100.8</a>. You might need a
 developer account to download the setup. Please create one <a class="reference external" href="https://developers.arcgis.com/sign-in/">here</a>.</p>
-<p>Once logged in, download ArcGIS 100.5 for your specific OS.
-Extract the tar.gz using the following command:</p>
-<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">tar</span> <span class="o">-</span><span class="n">xf</span> <span class="n">ArcGIS_Runtime_SDK_Qt_Linux64_100_5_0</span><span class="p">.</span><span class="n">tar</span><span class="p">.</span><span class="n">gz</span>
+<p>Once logged in, download ArcGIS 100.8 for your specific OS.</p>
+<p>Alternatively, the Linux ArcGIS 100.8 installation file can also be accessed on <a class="reference external" href="https://drive.google.com/file/d/1Q6pcjDDqZF8C8vNNpYaUyXXHClRzemuD/view?usp=sharing">G-Drive</a>.</p>
+<p>Extract the tar.gz using the following command:</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">tar</span> <span class="o">-</span><span class="n">xf</span> <span class="n">ArcGIS_Runtime_SDK_Qt_Linux64_100_8_0</span><span class="p">.</span><span class="n">tar</span><span class="p">.</span><span class="n">gz</span>
 </pre></div>
 </div>
 <p>from the extracted directory run:</p>
@@ -219,15 +220,16 @@ For the post installer select the following:</p>
 <div class="section" id="step-3-download-mission-control">
 <h3>Step:3 : Download Mission Control<a class="headerlink" href="#step-3-download-mission-control" title="Permalink to this headline">¶</a></h3>
 <p>You can clone the Mission Control Application using:</p>
-<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="nl">https</span><span class="p">:</span><span class="c1">//ascl2.ece.vt.edu/avl/avl_gui_new</span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="nl">https</span><span class="p">:</span><span class="c1">//ascl3.ece.vt.edu/avl/user-interface/avl_mission_control</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="setup-4-setup-mission-control-using-qt">
 <h3>Setup:4 : Setup Mission Control using Qt<a class="headerlink" href="#setup-4-setup-mission-control-using-qt" title="Permalink to this headline">¶</a></h3>
 <p>Open the QtCreator, From File, select Open a project, navigate to the cloned mission control
-folder and select the avl_gui_new.pro file. Configure the file with desktop setting in Qt.
-Build and Run.</p>
+folder and select the avl_mission_control.pro file. Configure the file with desktop setting in Qt.</p>
+<p>Build (Ctrl + B) and
+Run (Ctrl + R)</p>
 </div>
 </div>
 </div>
