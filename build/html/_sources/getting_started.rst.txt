@@ -54,3 +54,46 @@ If the status is not updating there is some connection problems or the vehicle i
 
 Planning a Mission
 ------------------
+To plan a mission navigate to the Planning Tab:
+
+.. image:: images/initial_mission.png
+
+To add a new action press the plus button in the mission menu:
+
+.. image:: images/adding_mission.png
+
+Now select the action type you want to in the mission from the drop-down menu of the recently added action:
+
+.. image:: images/type_action.png
+
+Once the type of the action has been selected you can edit the details of the action by pressing the actions index
+to reveal the parameters of the action:
+
+.. image:: images/action_parameters.png
+
+Similarly, commands can also be provided as an action in the mission queue.
+
+.. image:: images/command_action.png
+
+
+
+.. _RST_Sending_a_Mission:
+
+Uploading the Mission to the Vehicle
+------------------------------------
+The planned mission can be uploaded to the vehicle using the 'Send' button present at the bottom of the mission menu.
+
+.. image:: images/uploading_mission.png
+
+Once the mission is loaded on the vehicle successfully you will receive a confirmation message of the upload.
+
+
+.. _RST_Starting_a_Mission:
+
+Starting a Mission
+------------------
+Once the mission is successfully uploaded to the vehicle, 'START' command can be sent from the mission menu that triggers
+the vehicle to follow the mission uploaded by the user.
+
+.. image:: images/start_mission.png
+
